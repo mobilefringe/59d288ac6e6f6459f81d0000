@@ -132,10 +132,10 @@
         </div>
         
         <div class="menu_container hidden_phone">
-            <a href="/stores">directory</a>
-            <a href="/events">events</a>
-            <a href="/promotions">special offers</a>
-             <a href="/pages/fairfax-fairfax-corner-amenities">amenities</a>
+            <a href="/stores">Directory</a>
+            <a href="/promotions">Specials</a>
+            <a href="/events">Events</a>
+             <a href="/pages/fairfax-fairfax-corner-amenities">Information</a>
             <a href="/directions">directions</a>
         </div>
     </section>
