@@ -60,6 +60,7 @@
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
                         <img src="{{image_url}}"  class="{{gif_class}}"/>
                     </a>
+                    <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/jpeg/1478198391000/FairfaxCorner_HomePageBanner.jpg" class="" alt="">
                 </li>
             </script>
         </ul>
