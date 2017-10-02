@@ -119,7 +119,7 @@
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
             if(mobile_banners != undefined)
-            renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
+                renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
             renderFeatureItems('#feature_container','#feature_template', feature_items);
             var published_promos = [];
             $.each( promotions , function( key, val ){
