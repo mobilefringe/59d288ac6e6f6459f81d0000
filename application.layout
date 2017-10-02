@@ -165,10 +165,10 @@
                                 <a href="https://www.google.ca/maps/place/Fairfax+Corner/@38.8583658,-77.3565148,15z/data=!4m5!3m4!1s0x0:0xb1ea126b72e10a39!8m2!3d38.8583658!4d-77.3565148" target="_blank" style="color: #0065DB;">Open Maps! ></a>
                             </p>
                         </div>
-                        <div class="col-md-6 col-xs-6 footer_hours">
+                        <div class="col-md-6 col-xs-6 footer_hours text_center">
                             <div class="todays_hours"> Today's Hours</div>
                             <h4 class="site_map_heading text_center">10am-9pm</h4>
-                            <a href="/hours" target="_blank" class="text_center" >View all hours ></a>
+                            <a href="/hours" target="_blank" class="" >View all hours ></a>
                         </div>
                         
                     </div>
