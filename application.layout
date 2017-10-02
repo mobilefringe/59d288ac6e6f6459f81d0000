@@ -51,7 +51,7 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//yuba.mallmaverick.com/api/v4/yuba/all.json');
+        setEndPoint('//yubasutter.mallmaverick.com/api/v4/yubasutter/all.json');
     </script>
 </head>
 
