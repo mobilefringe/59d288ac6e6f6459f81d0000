@@ -89,4 +89,5 @@
 
 .main_logo{
     height: 38px;	width: 378px;	color: #FF001A;	font-family: Georgia;	font-size: 34px;	font-weight: bold;	line-height: 38px;	text-align: center;
+    text-transform: uppercase;
 }
