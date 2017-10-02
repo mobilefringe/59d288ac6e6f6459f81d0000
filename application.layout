@@ -154,7 +154,9 @@
                 <div class="col-md-5 right_border">
                     <div class="hidden_phone">
                         <h4 class="site_map_heading">Visit Us</h4>
-                        <div class="col-md-6 col-xs-6">
+                        <div class="col-md-6 col-xs-6" style="
+    padding: 0;
+">
                             <p class="site_map_desc">
                                 1215 Colusa Ave
                                 <br />  
