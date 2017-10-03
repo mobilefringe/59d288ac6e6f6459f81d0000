@@ -102,6 +102,14 @@
                 <!--    <a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
                 <!--</div>-->
                 <img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image" alt="main_logo">
+                 <p class="hours_home hidden_phone"><span class="hours_dot"></span> 
+                        Today's Hours:
+                        <span id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
+                            </script>
+                        </span>
+                    </p>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
             <div class="col-md-6 col-xs-6 text-center main_logo_container">
