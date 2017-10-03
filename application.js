@@ -524,7 +524,7 @@ function renderHomeHours(container, template, collection){
         } else {
             val.h = "";
             $("#open_today").text("Closed today");
-            $('.hours_dot').css("background", "#cd1629");
+            $('.hours_dot').css("background", "#FF001A");
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
