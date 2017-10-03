@@ -522,7 +522,7 @@ function renderHomeHours(container, template, collection){
             var close_time = moment(val.close_time).tz(getPropertyTimeZone());
             val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
         } else {
-            val.h = "Closed";
+            val.h = "";
             $("#open_today").text("Closed today");
             $('.hours_dot').css("background", "#cd1629");
         }
