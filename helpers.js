@@ -45,7 +45,9 @@ function init(e){
     $('.popup-close').click(function(){
         $('.hidden-popup-bg').hide()
         $('body').removeClass('no_scroll');
-    })
+    });
+    var d = new Date();
+    var n = d.getDay();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
