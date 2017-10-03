@@ -161,7 +161,7 @@
         <!--</div>-->
         <div class="site_map">
             <div class="row">
-                <div class="col-md-5 ">
+                <div class="col-md-4 ">
                     <div class="hidden_phone">
                         <h4 class="site_map_heading">Visit Us</h4>
                         <div class="col-md-6 col-xs-6" style="padding: 0;">
@@ -235,7 +235,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <h4 class="site_map_heading">© 2017 - Yuba Sutter Mall</h4>
                     <a href="//ethanconradprop.com/" target="_blank"><img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507067124000/mall-company-logo.png" class="footer_logo" alt=""></a>
                     <p class="rights_reserved">
