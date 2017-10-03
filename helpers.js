@@ -50,6 +50,7 @@ function init(e){
     var n = d.getDay();
     var today_hours = getTodaysHours();
     renderHomeHours('#home_hours_container', '#home_hours_template', today_hours)
+    renderHomeHours('#footer_hours_container', '#footer_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
         if(v.is_closed == true){
             var hours_day = new Date(v.holiday_date + "T05:00:00Z")
