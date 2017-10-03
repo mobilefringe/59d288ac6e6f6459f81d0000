@@ -178,8 +178,8 @@
                         <div class="col-md-6 col-xs-6 footer_hours text_center">
                             <div class="todays_hours"> Today's Hours</div>
                             <!--<h4 class="site_map_heading text_center">10am-9pm</h4>-->
-                            <span id="home_hours_container">
-                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                            <span id="footer_hours_container">
+                            <script id="footer_hours_template" type="x-tmpl-mustache/text">
                                 <span class=""site_map_heading text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span>
