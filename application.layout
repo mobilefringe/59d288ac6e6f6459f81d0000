@@ -133,7 +133,7 @@
             <!--</div>-->
         </div>
         
-        <div class="menu_container hidden_phone menu_header_content">
+        <div class="menu_container hidden_phone main_container menu_header_content">
             <a href="/stores">Directory</a>
             <a href="/promotions">Specials</a>
             <a href="/events">Events</a>
