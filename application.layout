@@ -180,7 +180,7 @@
                             <!--<h4 class="site_map_heading text_center">10am-9pm</h4>-->
                             <span id="footer_hours_container">
                             <script id="footer_hours_template" type="x-tmpl-mustache/text">
-                                <span class="hours_today site_map_heading text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</span>
+                                <div class="hours_today site_map_heading text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</div>
                             </script>
                         </span>
                             <a href="/hours" target="_blank" class="" ><u>View all hours</u></a>
