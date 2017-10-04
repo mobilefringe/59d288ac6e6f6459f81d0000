@@ -2,7 +2,7 @@
 
 <div class="content_container hidden_phone">
     <div class="flexslider">
-        <ul class="slides" id="home_banner">
+        <ul class="slides" id="banner_header">
             <script id="banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
