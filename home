@@ -87,7 +87,7 @@
         </script>
     </div>
     <div class="promotions">
-        <h3 class="promotion_heading visit_us_header">Up Coming Promotions & Events!</h3>
+        <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
         <hr/>
         <div class="home_promotions feature_row" id="promos_container">
@@ -125,7 +125,7 @@
         </div>
         <div class="clearfix"></div>
     </div>
-    <h2 class="promotion_heading text-center visit_us_header">Visit Us!</h2>
+    <h2 class="promotion_heading text-center">Visit Us!</h2>
     
     <div class="overlay" onclick="style.pointerEvents='none'"></div>
     <!--<iframe class="grayscale" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12427.474211459425!2d-77.3565148!3d38.8583658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ea126b72e10a39!2sFairfax+Corner!5e0!3m2!1sen!2sca!4v1477418923253" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>-->
