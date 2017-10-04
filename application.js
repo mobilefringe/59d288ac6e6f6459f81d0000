@@ -401,6 +401,9 @@ function renderStoreDetails(container, template, collection){
             val.phone_show = "display:none";
         }
         
+        if (val.total_published_jobs == null || val.total_published_jobs == undefined){
+            val.twitter_show = "display:inline-block";
+        }
         if (val.twitter != null && val.twitter.length > 0){
             val.twitter_show = "display:inline-block";
         } else {
