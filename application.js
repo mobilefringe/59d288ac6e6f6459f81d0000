@@ -402,7 +402,7 @@ function renderStoreDetails(container, template, collection){
         }
         
         if (val.total_published_jobs == null || val.total_published_jobs == undefined){
-            val.twitter_show = "display:inline-block";
+            val.total_published_jobs = 0;
         }
         if (val.twitter != null && val.twitter.length > 0){
             val.twitter_show = "display:inline-block";
