@@ -158,7 +158,29 @@
                     </ul>
                 </div>
             <a href="/pages/fairfax-fairfax-corner-amenities">Information</a>
+            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+                <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
+                    <ul class="dd_guest">
+                        <div class="triangle-up"></div>
+                        <div class="triangle-up-inside"></div>
+                        <li><a href="/stores">Military Programs</a></li>
+                        <li><a href="/contests">Contest</a></li>
+                       
+                       
+                    </ul>
+                </div>
             <a href="/directions">About Us</a>
+            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
+                <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
+                    <ul class="dd_guest">
+                        <div class="triangle-up"></div>
+                        <div class="triangle-up-inside"></div>
+                        <li><a href="/stores">Military Programs</a></li>
+                        <li><a href="/contests">Contest</a></li>
+                       
+                       
+                    </ul>
+                </div>
         </div>
     </section>
     <section class="yield">
