@@ -1,6 +1,6 @@
 <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 
-<div class="content_container hidden_phone">
+<div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
         <ul class="slides" id="banner_header">
             <script id="banner_header_template" type="x-tmpl-mustache/text">
