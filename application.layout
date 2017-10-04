@@ -145,7 +145,21 @@
             <a href="/stores">Directory</a>
             <a href="/promotions">Specials</a>
             <a href="/events">Events</a>
-            <a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>
+            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
+            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+                                <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
+                                    <ul class="dd_guest">
+                                        <div class="triangle-up"></div>
+                                        <div class="triangle-up-inside"></div>
+                                        <li><a href="/stores">STORE LIST</a></li>
+                                        <li><a href="/map">CENTRE MAP</a></li>
+                                        <li><a href="/centre_tour">CENTRE TOUR</a></li>
+                                        <li><a href="/new_stores">NEW STORES</a></li>
+                                        <li><a href="/promotions">PROMOTIONS</a></li>
+                                       
+                                       
+                                    </ul>
+                                </div>
             <a href="/pages/fairfax-fairfax-corner-amenities">Information</a>
             <a href="/directions">About Us</a>
         </div>
