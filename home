@@ -93,7 +93,7 @@
             <script id="promos_template" type="x-tmpl-mustache/text">
                 <div class="promotion_item wow animated flipInX animated text-center">
                     <a href="/promotions/{{slug}}">
-                        <img class="featured_promo_img" src="{{image_url}}" />
+                      <!--   <img class="featured_promo_img" src="{{image_url}}" />-->
                         <h3 class="promotion_header home_promos">{{name}}</h3>
                         <p class="promotion_dates">{{dates}}</p>
                     </a>
