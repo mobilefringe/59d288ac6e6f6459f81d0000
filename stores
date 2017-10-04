@@ -23,7 +23,7 @@
     </div>
    
 </div>
-<div class="content_container main_container position_relative">
+<div class="content_container main_container position_relative padding_top_40">
     <a href="#" class="locate_store hidden_phone">Locate store <i class="fa fa-search"></i></a>
     <div class="stores_table">
         <ul id="store_list_container_map">
