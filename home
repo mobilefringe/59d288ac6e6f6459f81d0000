@@ -78,6 +78,9 @@
                           <!--       <div class="view_button">View</div> -->
                            <!--  </figcaption>-->
                         </figure>
+                        <div class="hover_see_more_btn">
+                    <h5 class="hover_text">View Full Design </h5>
+                </div>
                     </a>
                 </div>
             </div>
