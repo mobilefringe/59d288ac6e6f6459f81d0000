@@ -157,7 +157,7 @@
                        
                     </ul>
                 </div>
-            <a href="/pages/fairfax-fairfax-corner-amenities">Information</a>
+            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
             <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
                     <ul class="dd_guest">
@@ -169,7 +169,7 @@
                        
                     </ul>
                 </div>
-            <a href="/directions">About Us</a>
+            <!--<a href="/directions">About Us</a>-->
             <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_stores dropdown-menu-hover">
                     <ul class="dd_guest">
