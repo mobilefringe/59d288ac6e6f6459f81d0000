@@ -142,6 +142,7 @@
         </div>
         
         <div class="menu_container hidden_phone main_container menu_header_content">
+            <ul class="stc_nav nav navbar-nav">
             <a href="/stores">Directory</a>
             <a href="/promotions">Specials</a>
             <a href="/events">Events</a>
