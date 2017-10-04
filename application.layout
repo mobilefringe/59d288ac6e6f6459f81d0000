@@ -149,7 +149,7 @@
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
              <li><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
-                    <ul class="dd_guest">
+                    <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
                         <div class="triangle-up-inside"></div>
                         <li><a href="/stores">Military Programs</a></li>
@@ -161,7 +161,7 @@
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
             <li> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
-                    <ul class="dd_guest">
+                    <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
                         <div class="triangle-up-inside"></div>
                         <li><a href="/stores">Gift Cards</a></li>
@@ -173,7 +173,7 @@
             <!--<a href="/directions">About Us</a>-->
             <li> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
-                    <ul class="dd_guest">
+                    <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
                         <div class="triangle-up-inside"></div>
                         <li><a href="/stores">Press</a></li>
