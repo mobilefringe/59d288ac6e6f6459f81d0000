@@ -102,7 +102,7 @@
             <div class="promotion_item wow animated flipInX animated text-center">
                 <a href="/promotions/{{slug}}">
                     <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507138170000/promo_placeholder.png" class="" alt="">
-                    <h3 class="promotion_header home_promos">{{name}}</h3>
+                    <h3 class="promotion_header home_promos">Save on Select Diamond Rings</h3>
                     <p class="promotion_dates">{{dates}}</p>
                 </a>
             </div>
