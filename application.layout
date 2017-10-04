@@ -143,11 +143,11 @@
         
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
-            <a href="/stores">Directory</a>
-            <a href="/promotions">Specials</a>
-            <a href="/events">Events</a>
+            <li> <a href="/stores">Directory</a></li>
+             <li><a href="/promotions">Specials</a></li>
+            <li> <a href="/events">Events</a></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
-            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+             <li><a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
                     <ul class="dd_guest">
                         <div class="triangle-up"></div>
@@ -157,9 +157,9 @@
                        
                        
                     </ul>
-                </div>
+                </div></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
-            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
+            <li> <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
                     <ul class="dd_guest">
                         <div class="triangle-up"></div>
@@ -169,9 +169,9 @@
                         <li><a href="/contests">Employment</a></li>
                         <li><a href="/contests">Leasing Info</a></li>
                     </ul>
-                </div>
+                </div></li>
             <!--<a href="/directions">About Us</a>-->
-            <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
+            <li> <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
                     <ul class="dd_guest">
                         <div class="triangle-up"></div>
@@ -181,7 +181,7 @@
                         <li><a href="/contests">Services</a></li>
                        
                     </ul>
-                </div>
+                </div></li>
             </ul>
         </div>
     </section>
