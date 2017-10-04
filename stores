@@ -17,7 +17,7 @@
         <div class="banner_header_title ">
             Directory
         </div>
-        <div class="banner_header_location ">
+        <div class="banner_header_location position_relative ">
             Home / Directory
         </div>
     </div>
