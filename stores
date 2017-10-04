@@ -13,11 +13,11 @@
         </ul>
         <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
     </div>
-    <div class="main_container">
+    <div class="main_container ">
         <div class="banner_header_title ">
             Directory
         </div>
-        <div class="banner_header_location position_relative ">
+        <div class="banner_header_location  ">
             Home / Directory
         </div>
     </div>
