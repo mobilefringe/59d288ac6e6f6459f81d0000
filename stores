@@ -16,10 +16,7 @@
     <div class="main_container">
         
     </div>
-    <div class="banner_header_title ">
-        Directory
-        
-    </div>
+   
 </div>
 <div class="content_container main_container position_relative">
     <a href="#" class="locate_store hidden_phone">Locate store <i class="fa fa-search"></i></a>
