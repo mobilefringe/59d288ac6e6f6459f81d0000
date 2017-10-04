@@ -400,8 +400,8 @@ function renderStoreDetails(container, template, collection){
         } else {
             val.phone_show = "display:none";
         }
-        if (val.total_published_jobs == null || val.total_published_jobs == undefined){
-            val.total_published_jobs = 0;
+        if (val.total_published_promos == null || val.total_published_promos == undefined){
+            val.total_published_promos = 0;
         }
         if (val.total_published_jobs == null || val.total_published_jobs == undefined){
             val.total_published_jobs = 0;
