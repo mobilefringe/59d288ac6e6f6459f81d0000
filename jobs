@@ -1,0 +1,83 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <ul class="slides" id="banner_header">
+            <script id="banner_header_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Employment
+        </div>
+        <div class="banner_header_location  ">
+            Home / Employment
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container">
+    <div class="promo_main_header">
+        JOBS
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="no_jobs" class="hidden_now">
+                <p>
+                    There are currently no job postings, please check back again later.
+                </p>
+            </div>
+            <div id="jobs_container">
+                <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-12">
+                            <h2 class="promo_list_name">{{name}}</h2>
+                            <p>
+                                <span class="promo_store">{{store_name}}</span>
+                                <span class="promo_store">{{job_type}}</span>
+                                <span class="promo_dates">{{published_on}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/jobs/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="col-md-4 hidden_phone">
+            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456330978000/Plaza2.png" alt="plaza">
+            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1456330970000/Plaza.png" alt="plaza 2">
+        </div> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var jobs = getJobsList().sortBy(function(o){ return o.name});
+            var published_jobs = [];
+            $.each( jobs , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_jobs.push(val)
+                } 
+            });
+            if(published_jobs.length > 0){
+                renderJobs('#jobs_container', '#jobs_template', jobs);
+            }
+            else{
+                $('#no_jobs').show()
+            }
+            show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
