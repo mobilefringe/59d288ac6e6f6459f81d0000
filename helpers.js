@@ -77,8 +77,8 @@ function init(e){
 }
 
 function show_content(){
-    $('.yield').fadeIn();
-    $(".modal-backdrop").remove();
+    // $('.yield').fadeIn();
+    // $(".modal-backdrop").remove();
 }
 
 
