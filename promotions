@@ -92,6 +92,7 @@
             else{
                 $('#no_promos').show();
                 $(".show_cats").hide();
+                $("#promos_container").hide();
             }
             show_content();
         }
