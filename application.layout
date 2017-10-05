@@ -51,8 +51,8 @@
     <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
     
     <script>
-        setEndPoint('//yubasutter.mallmaverick.com/api/v4/yubasutter/all.json');
-        // setEndPoint('//twinpines.mallmaverick.com/api/v4/twinpines/all.json');
+        // setEndPoint('//yubasutter.mallmaverick.com/api/v4/yubasutter/all.json');
+        setEndPoint('//twinpines.mallmaverick.com/api/v4/twinpines/all.json');
     </script>
 </head>
 
