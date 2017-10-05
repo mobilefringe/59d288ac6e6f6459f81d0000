@@ -20,7 +20,7 @@
         </div>
     </div>
 </div>
-<div class="store_list_head main_container">
+<div class="store_list_head main_container padding_top_40">
     
     <h5 class="text-center tap_here show_phone">
         <select id="option_selector" class="link_selector">
