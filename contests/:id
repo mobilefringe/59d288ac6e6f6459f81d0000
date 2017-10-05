@@ -1,4 +1,35 @@
-
+<div class="content_container main_container padding_top_40">
+    <!--<div class="promo_main_header">-->
+    <!--    EVENTS-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col-md-8">
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5 text-center">
+                            <img src="{{logo_url}}" alt="{{name}}" class="actual_width" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/events/{{slug}}">{{name}}</a></h2>
+                            <p>
+                                <span class="promo_dates">{{dates}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/events/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+            <div class="row promo_item cats_row promo_list_desc" id="no_promos">
+                No events available at this moment. Please check back later!
+            </div>
+        </div>
+        
+        <div class="col-md-4 hidden_phone">
+        </div> 
+    </div>
+</div>
 <div class="content_container main_container">
     <h4 class="promo_main_header">Contest</h4>
     <div class="row padding_20">
