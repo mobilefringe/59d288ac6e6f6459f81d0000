@@ -1,0 +1,96 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <ul class="slides" id="banner_header">
+            <script id="banner_header_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Directory
+        </div>
+        <div class="banner_header_location  ">
+            Home / Directory
+        </div>
+    </div>
+</div>
+
+
+<div class="content_container main_container">
+    <div class="promo_main_header">
+        SPECIALS
+        <select id="mobile_cat_list" class="show_phone  form-control">
+            <script id="category_template2" type="x-tmpl-mustache/text">
+                <option value="{{id}}">{{name}}</option>
+            </script>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5">
+                            <img src="{{image_url}}" alt="{{name}}" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/promotions/{{slug}}">{{name}}</a></h2>
+                            <p>
+                          
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        
+        <div class="col-md-4">
+            <p class="category_header">Categories</p>
+            <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
+            <div id="category_container" class="hidden_phone">
+                <script id="category_template" type="x-tmpl-mustache/text">
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            var categories = getStoreCategories();
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores()
+            var published_promos = [];
+            $.each( promotions , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_promos.push(val)
+                } 
+            });
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos);
+            }
+            else{
+                $('#no_promos').show()
+            }
+            show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
