@@ -1,0 +1,83 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <ul class="slides" id="banner_header">
+            <script id="banner_header_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Specials
+        </div>
+        <div class="banner_header_location  ">
+            Specials / Directory
+        </div>
+    </div>
+</div>
+
+<div class="content_container main_container">
+    <!--<div class="promo_main_header">-->
+    <!--    EVENTS-->
+    <!--</div>-->
+    <div class="row">
+        <div class="col-md-8">
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5 text-center">
+                            <img src="{{logo_url}}" alt="{{name}}" class="actual_width" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/events/{{slug}}">{{name}}</a></h2>
+                            <p>
+                                <span class="promo_dates">{{dates}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/events/{{slug}}">Read More</a>
+                        </div>
+                    </div>
+                </script>
+            </div>
+        </div>
+        
+        <div class="col-md-4 hidden_phone">
+        </div> 
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var events = getEventsList().sortBy(function(o){ return o.start_date });
+            var categories = getStoreCategories();
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores()
+            var published_events = [];
+            $.each( events , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_events.push(val)
+                } 
+            });
+            if(published_events.length > 0){
+                renderEvents("#promos_container","#promos_template", published_events);
+            }
+            else{
+                $('#no_promos').show()
+            }
+            show_content();    
+        }
+        
+		loadMallDataCached(renderAll); 
+    })
+</script>
