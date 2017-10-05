@@ -177,9 +177,9 @@
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
                         <div class="triangle-up-inside"></div>
-                        <li><a href="/stores">Press</a></li>
-                        <li><a href="/contests">History</a></li>
-                        <li><a href="/contests">Services</a></li>
+                        <li><a href="/pages/yubasutter-press">Press</a></li>
+                        <li><a href="/pages/yubasutter-history">History</a></li>
+                        <li><a href="/pages/yubasutter-services">Services</a></li>
                        
                     </ul>
                 </div></li>
