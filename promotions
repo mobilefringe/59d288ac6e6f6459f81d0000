@@ -63,8 +63,8 @@
             </div>
         </div>
     </div>
-    <div class="">
-        <div class="row promo_item cats_row promo_list_desc" id="no_promos">
+    <div class="row">
+        <div class=" promo_item cats_row promo_list_desc" id="no_promos">
                 No promotions available at this moment. Please check back later!
         </div>
     </div>
