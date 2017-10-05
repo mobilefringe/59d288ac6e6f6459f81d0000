@@ -90,7 +90,8 @@
                 renderPromotions("#promos_container","#promos_template", published_promos);
             }
             else{
-                $('#no_promos').show()
+                $('#no_promos').show();
+                $(".show_cats").hide();
             }
             show_content();
         }
