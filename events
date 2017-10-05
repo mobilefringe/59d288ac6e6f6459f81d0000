@@ -44,7 +44,7 @@
                     </div>
                 </script>
             </div>
-            <div class="promo_list_desc">
+            <div class="promo_list_desc" id="no_promo">
                 No events available at this moment. Please check back later!
             </div>
         </div>
