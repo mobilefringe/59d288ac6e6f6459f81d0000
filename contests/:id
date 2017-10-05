@@ -20,60 +20,140 @@
         </div>
     </div>
 </div>
-
-<div class="content_container main_container padding-top-40">
-    <!--<h4 class="promo_main_header">Contest</h4>-->
-    <div class="row padding_20">
-        <div class="col-md-12">
-            <div id="contest_container">
-                <script id="contest_template" type="x-tmpl-mustache/text">
-                    <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />
-                    <p class="promo_list_name">{{name}}</p>
-                    <div class="details_desc">{{{description}}}</div>
-                    <form id="contest_form">
-                        <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
-                        <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
-                        <input type="hidden" name="cm-name" id="cm-name" />
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="first_name">First Name *</label>  
-                                <input class="form-control" id="first_name" name="contest[first_name]" type="text" required />
-                            </div>
-                            <div class="col-md-6">
-                                <label for="last_name">Last Name *</label>  
-                                <input class="form-control" id="last_name" name="contest[last_name]" type="text" required />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <label for="email">Email *</label> 
-                                <input class="form-control" id="email" name="contest[email]" type="email" required />
-                            </div>
-                            <div class="col-md-6">
-                                <label for="phone_number">Phone Number</label>  
-                                <input class="form-control" id="phone_number" name="contest[phone]" type="text"  />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <label>
-                                    <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>
-                                </label>
-                                <label>
-                                    <input type="checkbox" id="add_to_newsletter" name="contest[newsletter]" /> Yes, subscribe me to your email list to receive promotions and events!
-                                </label>
-                                <button type="submit" class="newsletter_btn animated_btn" id="submit_btn">Submit</button>
-                                <p id="success_subscribe" class="hidden_now">Thank you for entering in the contest</p>
-                            </div>
-                        </div>
-                    </form>
-                </script>
+<div class="content_container main_container mobile_padding">
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="events_not_empty_section">
+                    <div class="" id="contest_container">
+                        <script id="contest_template" type="x-tmpl-mustache">
+                            <div class="promo-details">
+                                <p class="hidden_now" id="succes_msg">Thank you! Your entry has been received.</p>
+                                <div class="event-image">
+                                    <img class="contest banner" src="{{alt_photo_url}}">
+                                </div>
+                                <br>
+                                <div class="event-description">
+                                    {{{ rich_description }}}
+                                </div>
+                                <br>
+                            </div> 
+                            <form id="contest_form">
+                                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                                <input type="hidden" name="cm-name" id="cm-name" />
+                                <div class="row ">
+                                    <div class="col-md-4 margin_30">
+                                        <label for="first_name">First Name</label>  
+                                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="last_name">Last Name</label>  
+                                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
+                                    </div>
+                                    <div class="col-md-4 margin_30">
+                                        <label for="phone">Phone Number</label>  
+                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
+                                    </div>
+                                </div>
+                                <br class="hidden_phone">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <label for="postal_code">Postal Code</label>  
+                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="city">City</label>  
+                                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="email">Email</label> 
+                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label class="agree">
+                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
+                                            Yes, I would like to receive information about events and promotions from The CORE.
+                                        </label>
+                                        <br/><br/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
+                                        <br/><br/>
+                                        <button class="contest_btn animated_btn newsletter_btn" tabindex="9">Submit</button>
+                                        <br/><br/>
+                                        <br/><br/>
+                                    </div>
+                                </div>
+                            </form>
+                        </script>
+                    </div>
+                </div>
+                <div id="events_empty_section" style="display:none;">
+                    <p>Check back later for exciting contest details!</p>
+                </div>
             </div>
-            
-        </div>
-        
+        </div>  
     </div>
 </div>
+<!--<div class="content_container main_container padding-top-40">-->
+    <!--<h4 class="promo_main_header">Contest</h4>-->
+<!--    <div class="row padding_20">-->
+<!--        <div class="col-md-12">-->
+<!--            <div id="contest_container">-->
+<!--                <script id="contest_template" type="x-tmpl-mustache/text">-->
+<!--                    <img alt="contest image" class="details_image" src="{{alt_photo_url}}" />-->
+<!--                    <p class="promo_list_name">{{name}}</p>-->
+<!--                    <div class="details_desc">{{{description}}}</div>-->
+<!--                    <form id="contest_form">-->
+<!--                        <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>-->
+<!--                        <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />-->
+<!--                        <input type="hidden" name="cm-name" id="cm-name" />-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="first_name">First Name *</label>  -->
+<!--                                <input class="form-control" id="first_name" name="contest[first_name]" type="text" required />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="last_name">Last Name *</label>  -->
+<!--                                <input class="form-control" id="last_name" name="contest[last_name]" type="text" required />-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="email">Email *</label> -->
+<!--                                <input class="form-control" id="email" name="contest[email]" type="email" required />-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6">-->
+<!--                                <label for="phone_number">Phone Number</label>  -->
+<!--                                <input class="form-control" id="phone_number" name="contest[phone]" type="text"  />-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-12">-->
+<!--                                <label>-->
+<!--                                    <input type="checkbox" id="agree_terms" /> I agree with <a class="blue" href="#" target="_blank">Terms and Conditions</a>-->
+<!--                                </label>-->
+<!--                                <label>-->
+<!--                                    <input type="checkbox" id="add_to_newsletter" name="contest[newsletter]" /> Yes, subscribe me to your email list to receive promotions and events!-->
+<!--                                </label>-->
+<!--                                <button type="submit" class="newsletter_btn animated_btn" id="submit_btn">Submit</button>-->
+<!--                                <p id="success_subscribe" class="hidden_now">Thank you for entering in the contest</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </script>-->
+<!--            </div>-->
+            
+<!--        </div>-->
+        
+<!--    </div>-->
+<!--</div>-->
 <script>
     $(document).ready(function(e){
         init(e);
