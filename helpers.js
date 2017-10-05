@@ -23,8 +23,8 @@ $(window).load(function(e){
                 $('#hours_home').text(v.h)
             }
         }
-    })
-})
+    });
+});
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><img src="//codecloud.cdn.speedyrails.net/sites/590c90106e6f641052010000/image/gif/1493992574000/loading.gif" class="" alt=""></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
