@@ -64,7 +64,7 @@
         </div>
     </div>
     <div class="">
-        <div class=" promo_item cats_row promo_list_desc" id="no_promos">
+        <div class=" promo_item cats_row promo_list_desc hidden_now" id="no_promos">
                 No promotions available at this moment. Please check back later!
         </div>
         <br/><br/>
