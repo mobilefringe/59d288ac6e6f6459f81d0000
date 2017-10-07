@@ -16,7 +16,7 @@
             Directory
         </div>
         <div class="banner_header_location  ">
-            Home / Directory
+            Home / <span id="mm_title"></span>
         </div>
     </div>
 </div>
