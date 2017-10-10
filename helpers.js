@@ -25,9 +25,9 @@ $(window).load(function(e){
         }
     });
 });
-$(document).ready(function(){
+// $(document).ready(function(){
     
-})
+// })
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
