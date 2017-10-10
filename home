@@ -178,6 +178,6 @@
         loadMallData(renderAll); 
     });
     $(window).load(function(e){
-        show_content()/
+        show_content();
     })
 </script>
