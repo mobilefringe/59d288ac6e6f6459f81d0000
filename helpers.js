@@ -35,7 +35,17 @@ function init(e){
         $('body').removeClass('no_scroll');
         $('.mobile_menu_container').fadeOut();
     });
-    
+    $('.submenu_expander').click(function(e){
+		e.preventDefault()
+		if ($(this).hasClass('open') == false){
+        	$('.open').next().slideToggle();
+        	$('.open').find('img').toggle();
+        	$('.open').toggleClass('open')
+		}
+		$(this).next().slideToggle();
+		$(this).find('img').toggle();
+		$(this).toggleClass('open')
+	})
     $('#mobile_alpha_list').change(function(){
         window.location.href = "#" + $(this).val().toUpperCase();
     })
