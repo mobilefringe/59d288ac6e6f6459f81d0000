@@ -259,7 +259,7 @@
              <li class="nav_li"><a href="/promotions">Specials</a></li>
             <li class="nav_li"> <a href="/events">Events</a></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
-             <li class="dropdown"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+             <li class="dropdown"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent nav_li">Programs</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
@@ -271,7 +271,7 @@
                     </ul>
                 </div></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
-            <li class="dropdown"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
+            <li class="dropdown"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent nav_li">Information</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
@@ -283,7 +283,7 @@
                     </ul>
                 </div></li>
             <!--<a href="/directions">About Us</a>-->
-            <li class="dropdown"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
+            <li class="dropdown"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parentnav_li">About Us</a>
                 <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
