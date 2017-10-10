@@ -84,8 +84,11 @@
             var holiday_hours = getPropertyHolidayHours();
             renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
             renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours')
-            show_content();
+            // show_content();
         }
         loadMallDataCached(renderAll); 
-    })
+    });
+    $(window).load(function(e){
+        show_content();
+    });
 </script>
