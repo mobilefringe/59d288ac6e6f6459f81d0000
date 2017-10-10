@@ -203,7 +203,7 @@
             console.log(contest_details);
             renderContest("#contest_container", '#contest_template', contest_details)
 
-            show_content();
+            // show_content();
             
             $.validate();
             
