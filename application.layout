@@ -52,7 +52,7 @@
     
     <script>
         // setEndPoint('//yubasutter.mallmaverick.com/api/v4/yubasutter/all.json');
-        setEndPoint('//twinpines.mallmaverick.com/api/v4/twinpines/all.json');
+        setEndPoint('//fairfaxcorner.mallmaverick.com/api/v4/fairfaxcorner/all.json');
     </script>
 </head>
 
