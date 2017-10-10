@@ -201,7 +201,7 @@
                 $('#coming_soon_stores').hide();
             }
             
-            show_content();
+            // show_content();
             $.each(stores, function(i, val){
                 x = val.x_coordinate - 19;
                 y = val.y_coordinate - 58;
