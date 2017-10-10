@@ -176,5 +176,8 @@
             renderSitePopup();
         }
         loadMallData(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content
     })
 </script>
