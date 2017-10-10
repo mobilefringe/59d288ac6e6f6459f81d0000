@@ -75,9 +75,12 @@
             else{
                 $('#no_jobs').show()
             }
-            show_content();
+            // show_content();
         }
         
 		loadMallDataCached(renderAll); 
-    })
+    });
+    $(window).load(function(e){
+        show_content();
+    });
 </script>
