@@ -173,6 +173,7 @@
                 animation: "slide",
                 allowOneSlide: false,
             });
+            $(".flex-direction-nav").hide();
             renderSitePopup();
         }
         loadMallData(renderAll); 
