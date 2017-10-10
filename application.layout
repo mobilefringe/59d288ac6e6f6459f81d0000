@@ -205,7 +205,7 @@
                 </a>
             </div>
             <div class="col-md-3 col-xs-1 hidden_phone">
-                <p class="hidden_phone">Follow us on</p>
+                <p class="hidden_phone" style="padding-left: 60px;">Follow us on</p>
                 <div class="social_icons hidden_phone_inline pull-right">
                     <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
                     <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>
