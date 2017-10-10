@@ -26,7 +26,7 @@ $(window).load(function(e){
     });
 });
 $(document).ready(function(){
-    menu_header_769
+    
 })
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
