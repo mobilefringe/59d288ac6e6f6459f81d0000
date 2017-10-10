@@ -232,4 +232,7 @@
 
         loadMallDataCached(renderPageData);
     });
+    $(window).load(function(e){
+        show_content();
+    });
 </script>
