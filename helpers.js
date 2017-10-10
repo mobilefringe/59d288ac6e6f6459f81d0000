@@ -45,7 +45,7 @@ function init(e){
 		$(this).next().slideToggle();
 		$(this).find('img').toggle();
 		$(this).toggleClass('open')
-	})
+	});
     $('#mobile_alpha_list').change(function(){
         window.location.href = "#" + $(this).val().toUpperCase();
     })
