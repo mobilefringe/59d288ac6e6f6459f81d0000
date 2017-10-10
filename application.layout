@@ -185,8 +185,8 @@
                 <div class="hidden_phone_inline">
                     <p class="hours_home hidden_phone_inline"><span class="hours_dot"></span> 
                        <span id="open_today"> Open today:</span>
-                        <span id="home_hours_container">
-                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                        <span class="home_hours_container">
+                            <script class="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span>
