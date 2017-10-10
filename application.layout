@@ -255,7 +255,7 @@
         </div>
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
-            <li> <a href="/stores">Directory</a></li>
+            <li class="nav_li"> <a href="/stores">Directory</a></li>
              <li><a href="/promotions">Specials</a></li>
             <li> <a href="/events">Events</a></li>
             <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
