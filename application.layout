@@ -118,7 +118,7 @@
                     <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="main_logo " alt="main_logo">-->
                 </a>
             </div>
-            <div class="col-md-3 col-xs-3">
+            <div class="col-md-3 col-xs-3 hidden_phone">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
                     <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
