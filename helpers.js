@@ -28,6 +28,7 @@ $(window).load(function(e){
 // $(document).ready(function(){
     
 // })
+$('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
