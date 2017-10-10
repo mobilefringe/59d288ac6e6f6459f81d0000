@@ -247,14 +247,7 @@
                  
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
-            <div class="col-md-5 col-xs-11 text-center main_logo_container">
-                <a href="/" class="main_logo">
-                 <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image class_phone" alt="main_logo">-->
-                 Yuba Sutter Mall
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="main_logo " alt="main_logo">-->
-                </a>
-            </div>
-            <div class="col-md-3 col-xs-3 hidden_phone_inline">
+            <div class="col-md-3 col-xs-3 hidden_now">
                 <p class="hidden_phone_inline">Follow us on</p>
                 <div class="social_icons hidden_phone_inline">
                     <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
@@ -266,15 +259,6 @@
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
-            <!--<div class="col-md-4 col-xs-4 text-right position_relative">-->
-            <!--    <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455901042000/icon_search.png" class="search_btn " alt="search">-->
-            <!--    <input type="text" placeholder="Search" id="site_search" class="site_search search_field hidden_phone" />-->
-            <!--    <div class="search_results_container">-->
-            <!--        <div class="site_search_results" id="search_results_stores"></div>-->
-            <!--        <div class="site_search_results" id="search_results_events"></div>-->
-            <!--        <div class="site_search_results" id="search_results_promotions"></div>-->
-            <!--    </div>-->
-            <!--</div>-->
         </div>
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
