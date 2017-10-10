@@ -240,7 +240,7 @@
                  
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
-            <div class="col-md-3 col-xs-6 ">
+            <div class="col-md-3 col-xs-6 pull-right">
                 <p class="hidden_phone">Follow us on</p>
                 <div class="social_icons hidden_phone">
                     <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
