@@ -214,7 +214,7 @@
     				height: 850,
     			},
     			map: {
-    				// position: 'center'
+    				position: 'center'
     			}
     		});
         }
