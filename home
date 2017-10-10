@@ -150,7 +150,7 @@
         function renderAll(){
             var banners = getBanners();
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
-            var feature_items = getFeatureList().splice(0, size);
+            var feature_items = getFeatureList().splice(0, 2);
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
             renderBanner('#banner_template','#home_banner',banners);
             if(mobile_banners != undefined)
