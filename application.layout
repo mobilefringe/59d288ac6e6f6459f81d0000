@@ -240,35 +240,35 @@
             <!--    </div>-->
             <!--</div>-->
         </div>
-        <div class="row header mobile_margin main_container menu_header_content hidden_now menu_header_769">
-            <div class="col-md-4 col-xs-6">
+        <!--<div class="row header mobile_margin main_container menu_header_content hidden_now menu_header_769">-->
+        <!--    <div class="col-md-4 col-xs-6">-->
                 <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo">-->
-                <div class="hidden_phone_inline">
-                    <p class="hours_home hidden_phone_inline"><span class="hours_dot"></span> 
-                       <span id="open_today"> Open today:</span>
-                        <span class="home_hours_container">
-                            <script class="home_hours_template" type="x-tmpl-mustache/text">
-                                <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
-                            </script>
-                        </span>
-                    </p>
-                </div>
+        <!--        <div class="hidden_phone_inline">-->
+        <!--            <p class="hours_home hidden_phone_inline"><span class="hours_dot"></span> -->
+        <!--               <span id="open_today"> Open today:</span>-->
+        <!--                <span class="home_hours_container">-->
+        <!--                    <script class="home_hours_template" type="x-tmpl-mustache/text">-->
+        <!--                        <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>-->
+        <!--                    </script>-->
+        <!--                </span>-->
+        <!--            </p>-->
+        <!--        </div>-->
                  
                 <!--<img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">-->
-            </div>
-            <div class="col-md-3 col-xs-6 ">
-                <div class="social_icons hidden_phone pull-right">
-                    <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>
-                    <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>
-                    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>
-                    <a class="social_yt" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>
-                    <a class="social_gp" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>
+        <!--    </div>-->
+        <!--    <div class="col-md-3 col-xs-6 ">-->
+        <!--        <div class="social_icons hidden_phone pull-right">-->
+        <!--            <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>-->
+        <!--            <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>-->
+        <!--            <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
+        <!--            <a class="social_yt" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
+        <!--            <a class="social_gp" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
                     <!--<a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
-                </div>
-                <p class="hidden_phone pull-right">Follow us on</p>
+        <!--        </div>-->
+        <!--        <p class="hidden_phone pull-right">Follow us on</p>-->
                 
-            </div>
-        </div>
+        <!--    </div>-->
+        <!--</div>-->
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
             <li class="nav_li"> <a href="/stores">Directory</a></li>
