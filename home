@@ -74,7 +74,8 @@
                 <!--  <p class="feature_title">{{name}}</p> -->
                 <div class="feature_item wow animated flipInX animated">
                     <a href="{{url}}">
-                        <figure style="background-image:url('http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507136980000/fan-bingbing-photo-wallpaper_2560x1600_82923.png')">  <!-- <figure style="background-image:url('{{image_url}}')">-->
+                       <!--  <figure style="background-image:url('http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507136980000/fan-bingbing-photo-wallpaper_2560x1600_82923.png')"> -->
+                        <figure style="background-image:url('{{image_url}}')">
                          <!--    <figcaption>-->
                           <!--       <div class="view_button">View</div> -->
                            <!--  </figcaption>-->
