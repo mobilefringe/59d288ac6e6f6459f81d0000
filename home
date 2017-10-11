@@ -34,16 +34,16 @@
 
 <div class="show_phone mobile_banner">
     <div class="flexslider">
-        <!--<ul class="slides" id="mobile_banner">-->
-        <!--    <script id="mobile_banner_template" type="x-tmpl-mustache/text">-->
-        <!--        <li>-->
-        <!--            <a class="banner_image_li" href="{{url}}" >-->
-        <!--                <img src="{{image_url}}" alt="banner"/>-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--    </script>-->
-        <!--</ul> -->
-        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507646813000/mobile_bg_2x.png" class="" alt="">
+        <ul class="slides" id="mobile_banner">
+            <script id="mobile_banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" >
+                        <img src="{{image_url}}" alt="banner"/>
+                    </a>
+                </li>
+            </script>
+        </ul> 
+        <!--<img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507646813000/mobile_bg_2x.png" class="" alt="">-->
     </div>
     <div class="menu_links">
         <a href="/stores">VIEW DIRECTORY</a>
@@ -55,16 +55,16 @@
 
 <div class="content_container hidden_phone">
     <div class="flexslider">
-        <!--<ul class="slides" id="home_banner">-->
-        <!--    <script id="banner_template" type="x-tmpl-mustache/text">-->
-        <!--        <li>-->
-        <!--            <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >-->
-        <!--                <img src="{{image_url}}"  class="{{gif_class}}"/>-->
-        <!--            </a>-->
-        <!--        </li>-->
-        <!--    </script>-->
-        <!--</ul>-->
-        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+        <ul class="slides" id="home_banner">
+            <script id="banner_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <!--<img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
     </div>
 </div>
 <div class="content_container main_container hidden_phone">
