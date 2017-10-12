@@ -113,6 +113,7 @@ function show_cat_stores(){
         });
         // $(".col-md-8").addClass("one_column");
         console.log($("#store_list_container").height());
+        $("#store_list_container").show();
         if($("#store_list_container").height() == 0){
             $("#store_list_container").hide();
             
