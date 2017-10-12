@@ -112,7 +112,7 @@ function show_cat_stores(){
             }
         });
         // $(".col-md-8").addClass("one_column");
-        console.log( $(".col-md-8 .col-md-6").children.is(":visible"))
+        console.log( $(".col-md-8 .col-md-6").children.is(":visible"));
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
