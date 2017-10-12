@@ -120,12 +120,11 @@ function show_cat_stores(){
         else{
              $("#store_list_container").show();
         }
+        $(".store_col_1").show();
         if(!$(".store_col_1").children().is(":visible")){
             $(".store_col_1").hide();
         }
-        else{
-            $(".store_col_1").show();
-        }
+        
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
