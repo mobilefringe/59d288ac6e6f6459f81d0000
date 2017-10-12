@@ -187,7 +187,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507819329000/yb_logo.png" class="logo_image hidden_phone_inline" alt="main_logo">
                     <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo">-->
                 </div>
-                <div class="hours_home hidden_phone_inline col-xs-8">
+                <div class="hours_home hidden_phone_inline col-xs-9" style="padding=0;">
                     <!--<p class=" hidden_phone_inline">-->
                        <div class="row"><span class="hours_dot"></span> <span id="open_today"> Open today:</span></div>
                         <div class="row"><span class="home_hours_container">
