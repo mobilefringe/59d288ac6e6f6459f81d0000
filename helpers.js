@@ -112,16 +112,17 @@ function show_cat_stores(){
             }
         });
         // $(".col-md-8").addClass("one_column");
-        $("#store_list_container").show();
-        console.log($("#store_list_container").children().is(":visible"));
-        if(!$("#store_list_container").children().is(":visible")){
-            $("#store_list_container").hide();
+        // $("#store_list_container").show();
+        //  console.log($("#store_list_container").children().is(":visible"));
+        // console.log($("#store_list_container").children().is(":visible"));
+        // if(!$("#store_list_container").children().is(":visible")){
+        //     $("#store_list_container").hide();
             
-        }
-        $(".store_col_1").show();
-        if(!$(".store_col_1").children().is(":visible")){
-            $(".store_col_1").hide();
-        }
+        // }
+        // $(".store_col_1").show();
+        // if(!$(".store_col_1").children().is(":visible")){
+        //     $(".store_col_1").hide();
+        // }
         
         e.preventDefault();
     });
