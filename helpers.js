@@ -136,7 +136,6 @@ function show_cat_stores(){
            } 
         });
         $('#cat_name_header').hide();
-        
         $('#cat_store_container').children().hide();
         e.preventDefault();
     });
