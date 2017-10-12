@@ -184,7 +184,7 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             renderStoreList('#cat_store_container','#cat_store_template', stores,"#", "Z" );
-            
+            $('#cat_store_container').children().hide();
             if(!$("#numbered_store_list_container").is(":visible")){
                 $(".numbers_exist").html("");
                 $(".numbers_exist").css("display","none!important");
