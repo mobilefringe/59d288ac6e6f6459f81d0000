@@ -249,7 +249,7 @@ function renderPromoDetails(container, template, collection){
                 val.phone_show = "display:none";
                 val.show = "display:none";
             }
-            if(store_image.indexOf('missing.png') > 0){
+            if(val.store_image.indexOf('missing.png') > 0){
                 val.store_image = site_json.default_image;
             }
         } else {
