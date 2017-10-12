@@ -200,7 +200,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             console.log(slug);
-            var contest_details = getContestBySlug(slug).0;
+            var contest_details = getContestBySlug(slug)[0];
             console.log(contest_details);
             renderContest("#contest_container", '#contest_template', contest_details)
 
