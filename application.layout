@@ -183,7 +183,7 @@
                 <!--    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
                 <!--    <a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
                 <!--</div>-->
-                <div class="col-xs-6"><img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo"></div>
+                <div class="col-xs-3"><img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo"></div>
                 <div class="hours_home hidden_phone_inline col-xs-6">
                     <!--<p class=" hidden_phone_inline">-->
                        <div class="row"><span class="hours_dot"></span> <span id="open_today"> Open today:</span></div>
