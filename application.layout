@@ -185,15 +185,15 @@
                 <!--</div>-->
                 <img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo">
                 <p class="hours_home hidden_phone_inline"><span class="hours_dot"></span> 
-                   <span id="open_today"> Open today:</span>
+                   <div class="row"><span id="open_today"> Open today:</span>
+                </div>
                     <span class="home_hours_container">
                         <script class="home_hours_template" type="x-tmpl-mustache/text">
                             <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                         </script>
                     </span>
                 </p>
-                <div class="row">
-                </div>
+                
                 <div class="row"><div class="hidden_phone_inline">
                     
                 </div>
