@@ -32,7 +32,7 @@ $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</d
 function init(e){
     $('<div class="modal-backdrop custom_backdrop"><div class="loader">Loading...</div></div>').appendTo(document.body);
     $('.open_menu').click(function(e){
-        $('body').addClass('no_scroll');
+        // $('body').addClass('no_scroll');
         $('.mobile_menu_container').fadeIn();
     });
     $('#close_menu').click(function(e){
