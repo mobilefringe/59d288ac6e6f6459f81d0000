@@ -250,6 +250,7 @@ function renderPromoDetails(container, template, collection){
                 val.show = "display:none";
             }
             if(store_image.indexOf('missing.png') > 0){
+                val.store_image = site_json.default_image;
             }
         } else {
             val.store_name = site_json.mall_name;
