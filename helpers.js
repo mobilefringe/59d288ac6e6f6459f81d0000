@@ -117,6 +117,9 @@ function show_cat_stores(){
             $("#store_list_container").hide();
             
         }
+        else{
+             $("#store_list_container").show();
+        }
         if(!$(".store_col_1").children().is(":visible")){
             $(".store_col_1").hide();
         }
