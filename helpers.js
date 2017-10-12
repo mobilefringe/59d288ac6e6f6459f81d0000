@@ -117,7 +117,9 @@ function show_cat_stores(){
             $("#store_list_container").hide();
             
         }
-        console.log( $(".store_col_1").children().is(":visible"));//children
+        if(!$(".store_col_1").children().is(":visible")){
+            $(".store_col_1").hide();
+        }
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
