@@ -119,7 +119,6 @@ function show_cat_stores(){
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
         rows.show();
-        if($('.store_initial.numbers_exist').is(":visible"))
         $.each($('.store_initial'), function(i, val){
            if ($(val).text().length > 0){
                $(val).show();
