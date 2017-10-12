@@ -183,7 +183,7 @@
             renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
-            renderStoreList('#cat_storet_container','#cat_storet_template', stores,"#", "#" );
+            renderStoreList('#cat_storet_container','#cat_store_template', stores,"#", "#" );
             
             if(!$("#numbered_store_list_container").is(":visible")){
                 $(".numbers_exist").html("");
