@@ -79,7 +79,7 @@
                                             <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
                                             Yes, I would like to receive information about events and promotions from The CORE.
                                         </label>
-                                        <br/>
+                                        
                                     </div>
                                 </div>
                                 <div class="row">
