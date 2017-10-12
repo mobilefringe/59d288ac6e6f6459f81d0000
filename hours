@@ -21,18 +21,18 @@
         </div>
     </div>
 </div>
-<div class="store_list_head main_container padding_top_40 ">
+<!--<div class="store_list_head main_container padding_top_40 ">-->
     
-    <h5 class="text-center tap_here show_phone">
-        <select id="option_selector" class="link_selector">
-            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>
-            <option value="/hours">Hours</option>
-            <option value="/tourist_info">Tourist Info</option>
-            <option value="/news">News</option>
-            <option value="//prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>
-        </select>
-    </h5>
-</div>
+<!--    <h5 class="text-center tap_here show_phone">-->
+<!--        <select id="option_selector" class="link_selector">-->
+<!--            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
+<!--            <option value="/hours">Hours</option>-->
+<!--            <option value="/tourist_info">Tourist Info</option>-->
+<!--            <option value="/news">News</option>-->
+<!--            <option value="//prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>-->
+<!--        </select>-->
+<!--    </h5>-->
+<!--</div>-->
 <div class="margin_20"></div>
 <div class="content_container main_container mobile_padding">
     <div class="margin_25_across">
