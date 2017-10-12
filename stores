@@ -178,6 +178,7 @@
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             if(!$("#numbered_store_list_container").is(":visible")){
                 $(".numbers_exist").html("");
+                $(".numbers_exist").css("display","none!important");
             }
             var categories = getStoreCategories();
             var category_list = [];
