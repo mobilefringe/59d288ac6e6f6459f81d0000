@@ -111,7 +111,7 @@ function show_cat_stores(){
                 $(val).show();
             }
         });
-        
+        $(".col-md-8").addClass("one_column");
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
