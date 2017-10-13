@@ -86,7 +86,7 @@
                                     <div class="col-md-12">
                                         <a class="contest_link" href="/pages/core-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
                                         <br/><br/>
-                                        // <button class=" store_header_btns" tabindex="9">Submit</button>
+                                       <!-- <button class=" store_header_btns" tabindex="9">Submit</button>-->
                                         <input type="button" class=" store_header_btns" tabindex="9">Submit</input>
                                         <br/><br/>
                                         <br/><br/>
