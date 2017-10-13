@@ -170,7 +170,7 @@
                 }
             });
             if(published_promos.length > 0){
-                renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
+                renderPromotions("#promo_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             // show_content();
             
