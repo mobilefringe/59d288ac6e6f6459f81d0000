@@ -96,7 +96,7 @@
         <h3 class="promotion_heading">Up Coming Promotions & Events!</h3>
         <p class="exclusive_deals">don’t miss our exclusive deals</p>
         <hr/>
-        <div class="home_promotions feature_row" id="promos_container">
+        <div class="home_promotions feature_row" id="promo_container">
             <!--<script id="promos_template" type="x-tmpl-mustache/text">-->
             <!--    <div class="promotion_item wow animated flipInX animated text-center">-->
             <!--        <a href="/promotions/{{slug}}">-->
