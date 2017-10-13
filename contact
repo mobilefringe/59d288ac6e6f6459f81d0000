@@ -26,7 +26,7 @@
     <h4 class="promo_main_header show_phone">Contact Us</h3>
     <div class="contact_container">
         <div class="row">
-            <div class="col-md-8 contact_contents">
+            <div class="col-md-12 contact_contents">
                 <div class="overlay2" onclick="style.pointerEvents='none'"></div>
                 <!--<iframe class="direction_map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12427.474211459425!2d-77.3565148!3d38.8583658!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1ea126b72e10a39!2sFairfax+Corner!5e0!3m2!1sen!2sca!4v1477418923253" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>-->
                 <iframe  class=" visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.378678236456!2d-121.63442908429614!3d39.1433679400122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8084acabb901865b%3A0xcc9ec91ebddc6b1c!2sYuba+Sutter+Mall!5e0!3m2!1sen!2sca!4v1506981114166"  width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
