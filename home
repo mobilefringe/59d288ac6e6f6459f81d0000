@@ -75,9 +75,6 @@
     <div class="feature_row" id="feature_container">
        <!-- <script id="feature_template" type="x-tmpl-mustache/text">-->
             <div class="feature_item_container"  id="feature_0">
-                
-                
-                <div class="feature_item wow animated flipInX animated" id="feature_1"></div>
             </div>
             <div class="hidden_phone social_box text-center" id="social_fb">
                 <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
