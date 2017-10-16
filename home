@@ -84,6 +84,11 @@
                     <span id="latest_fb_date"></span>    
                 </p>
             </div>
+            <div class="feature_item_container"  id="feature_1">
+                
+                
+                <div class="feature_item wow animated flipInX animated" id="feature_1"></div>
+            </div>
        <!-- </script>-->
     </div>
     <div class="promotions">
