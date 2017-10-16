@@ -81,7 +81,7 @@
                 <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                 <p>
                     <a  class="social_link_blank" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />
-                    <span id="latest_fb_date"></span>    
+                    <!--<span id="latest_fb_date"></span>    -->
                 </p>
             </div>
             </div>
