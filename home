@@ -76,12 +76,12 @@
        <!-- <script id="feature_template" type="x-tmpl-mustache/text">-->
             <div class="feature_item_container">
                 <div class="feature_item wow animated flipInX animated" id="feature_item_0">
-                    // <a href="{{url}}">
-                    //     <figure style="background-image:url('{{image_url}}')"></figure>
-                    //     <div class="hover_see_more_btn">
-                    //         <h5 class="hover_text">{{name}} </h5>
-                    //     </div>
-                    // </a>
+                    <!--// <a href="{{url}}">-->
+                    <!--//     <figure style="background-image:url('{{image_url}}')"></figure>-->
+                    <!--//     <div class="hover_see_more_btn">-->
+                    <!--//         <h5 class="hover_text">{{name}} </h5>-->
+                    <!--//     </div>-->
+                    <!--// </a>-->
                 </div>
             </div>
             <div class="hidden_phone social_box text-center" id="social_fb">
