@@ -76,7 +76,7 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item_container">
                 <!--  <p class="feature_title">{{name}}</p> -->
-                <div class="feature_item wow animated flipInX animated" id="feature>
+                <div class="feature_item wow animated flipInX animated" id="feature_item_0">
                     <a href="{{url}}">
                     <figure style="background-image:url('{{image_url}}')">
                          <!--    <figcaption>-->
