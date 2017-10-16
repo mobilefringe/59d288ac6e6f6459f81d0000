@@ -75,7 +75,7 @@
     <div class="feature_row" id="feature_container">
        <!-- <script id="feature_template" type="x-tmpl-mustache/text">-->
             <div class="feature_item_container"  id="feature_0"></div>
-            <div>
+            <div class="feature_item_container ">
                 
             </div><div class="feature_item wow animated flipInX animated">
             <div class="hidden_phone social_box text-center " id="social_fb">
