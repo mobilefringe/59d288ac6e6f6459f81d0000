@@ -44,19 +44,23 @@ function renderMobileBanner(mobile_banner_template, mobile_banner, images){
 }
 
 function renderFeatureItems(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    Mustache.parse(template_html); 
-    $.each( collection , function( key, val ) {
-        if(val.url == "" || val.url === null){
-           val.css = "style=cursor:default;";
-           val.noLink = "return false";
-        }
-        var repo_rendered = Mustache.render(template_html,val);
-        item_rendered.push(repo_rendered);
-    });
-    $(container).html(item_rendered.join(''));
+    // var item_list = [];
+    // var item_rendered = [];
+    // var template_html = $(template).html();
+    // Mustache.parse(template_html); 
+    // $.each( collection , function( key, val ) {
+    //     if(val.url == "" || val.url === null){
+    //       val.css = "style=cursor:default;";
+    //       val.noLink = "return false";
+    //     }
+    //     var repo_rendered = Mustache.render(template_html,val);
+    //     item_rendered.push(repo_rendered);
+    // });
+    // $(container).html(item_rendered.join(''));
+    var items = getFeatureList();
+    $.each(items, function(i, val){
+        $('#feature_' + i).html('<a href="'+ val.url +'"><img src="'+ val.image_url+'" class="hoverer" alt="' +val.name+ '"><h5 class="center_h">'+ val.name +'</h5></a>')
+    })
 }
 
 function renderPromotions(container, template, collection){
