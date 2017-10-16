@@ -116,7 +116,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/pages/yubasutter-military-program">Military Program</a></li>
+                        <!--<li><a href="/pages/yubasutter-military-program">Military Program</a></li>-->
                         <li><a href="/contests/yubasutter-contest-test--2--2">Contest</a></li>
 					</ul>
                 </li>
@@ -273,7 +273,7 @@
                     <ul class="dd_guest dropdown_list">
                         <div class="triangle-up"></div>
                         <div class="triangle-up-inside"></div>
-                        <li><a href="/pages/yubasutter-military-program">Military Program</a></li>
+                        <!--<li><a href="/pages/yubasutter-military-program">Military Program</a></li>-->
                         <li><a href="/contests/yubasutter-contest-test--2">Contest</a></li>
                        
                        
@@ -386,7 +386,7 @@
                             <ul>
                                 <li><a href="/jobs">Employment</a></li>
                                 <li><a href="/contact">Leasing Info</a></li>
-                                <li><a href="/contact">Military Discount</a></li>
+                                <!--<li><a href="/contact">Military Discount</a></li>-->
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/directions">Directions</a></li>
                                 <li><a href="#">Tenant Login</a></li>
