@@ -57,6 +57,7 @@ function renderFeatureItems(container, template, collection){
     //     item_rendered.push(repo_rendered);
     // });
     // $(container).html(item_rendered.join(''));
+    console.log("hello")
     var items = getFeatureList();
     $.each(items, function(i, val){
         $('#feature_' + i).html('<a href="'+ val.url +'"><figure style="background-image:url('+ val.image_url+')"></figure> <div class="hover_see_more_btn"><h5 class="hover_text">'+ val.name +'</h5></div></a>');
