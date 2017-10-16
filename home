@@ -74,8 +74,8 @@
 <div class="content_container main_container hidden_phone padding_bottom_50">
     <div class="feature_row" id="feature_container">
        <!-- <script id="feature_template" type="x-tmpl-mustache/text">-->
-            <div class="feature_item_container">
-                <div class="feature_item wow animated flipInX animated" id="feature_0">
+            <div class="feature_item_container"  id="feature_0">
+                <div class="feature_item wow animated flipInX animated">
                     <!--// <a href="{{url}}">-->
                     <!--//     <figure style="background-image:url('{{image_url}}')"></figure>-->
                     <!--//     <div class="hover_see_more_btn">-->
