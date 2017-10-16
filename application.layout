@@ -141,6 +141,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
+                        <li><a href="/pages/yubasutter-press">Press</a></li>
 						<li><a href="/pages/yubasutter-press">Press</a></li>
                         <li><a href="/pages/yubasutter-history">History</a></li>
                         <li><a href="/pages/yubasutter-services">Services</a></li>
