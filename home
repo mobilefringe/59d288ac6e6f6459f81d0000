@@ -80,7 +80,7 @@
                 <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="fb_feed_icon" alt="facebook post">
                 <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                 <p>
-                    <a  class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook</a> <br />
+                    <a  class="social_link_blank" href="//www.facebook.com/yubasuttermall/" target="_blank">Facebook</a> <br />
                     <span id="latest_fb_date"></span>    
                 </p>
             </div>
