@@ -153,6 +153,7 @@
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            loadSocialFeeds(render_social);
             var banners = getBanners();
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
             var feature_items = getFeatureList().splice(0, 3);
