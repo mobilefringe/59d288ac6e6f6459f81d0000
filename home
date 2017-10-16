@@ -77,7 +77,7 @@
             <div class="feature_item_container"  id="feature_0"></div>
             <div class="feature_item_container ">
                 
-            </div><div class="">
+            </div>
             <div class="hidden_phone social_box text-center " id="social_fb">
                 <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507240209000/fbc@2x.png" class="" alt="facebook post">
                 <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
