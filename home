@@ -77,7 +77,7 @@
             <div class="feature_item_container"  id="feature_0"></div>
             <div class="feature_item_container ">
                 <div class="hidden_phone social_box text-center feature_item wow animated flipInX animated" id="social_fb">
-                <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="" alt="facebook post">
+                <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="fb_feed_icon" alt="facebook post">
                 <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                 <p>
                     <a  class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook</a> <br />
