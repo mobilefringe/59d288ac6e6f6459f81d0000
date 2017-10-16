@@ -76,10 +76,9 @@
         <script id="feature_template" type="x-tmpl-mustache/text">
             <div class="feature_item_container">
                 <!--  <p class="feature_title">{{name}}</p> -->
-                <div class="feature_item wow animated flipInX animated">
+                <div class="feature_item wow animated flipInX animated" id="feature>
                     <a href="{{url}}">
-                       <!--  <figure style="background-image:url('http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507136980000/fan-bingbing-photo-wallpaper_2560x1600_82923.png')"> -->
-                        <figure style="background-image:url('{{image_url}}')">
+                    <figure style="background-image:url('{{image_url}}')">
                          <!--    <figcaption>-->
                           <!--       <div class="view_button">View</div> -->
                            <!--  </figcaption>-->
@@ -94,7 +93,7 @@
                     <img src="//codecloud.cdn.speedyrails.net/sites/57f7f01f6e6f647835890000/image/png/1463434709000/facebook_post.png" class="" alt="facebook post">
                     <a href="#" id="latest_fb_link" target="_blank"><p id="latest_fb" class="latest_post"></p></a>
                     <p>
-                        <a  class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook/ halifaxshoppingcentre</a> <br />
+                        <a  class="social_link_blank" href="//www.facebook.com/halifaxshoppingcentre/" target="_blank">Facebook</a> <br />
                         <span id="latest_fb_date"></span>    
                     </p>
                 </div>
