@@ -184,7 +184,7 @@
                 <!--    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
                 <!--    <a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
                 <!--</div>-->
-                <div class="col-xs-3" style="padding:0;">
+                <div class="col-xs-3 col-md-2" style="padding:0;">
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507819329000/yb_logo.png" class="logo_image hidden_phone_inline" alt="main_logo">
                     <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image hidden_phone_inline" alt="main_logo">-->
                 </div>
