@@ -177,7 +177,7 @@
             <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/jpeg/1456781961000/icon_close.jpg" class="close_search " alt="search">
         </div>
         <div class="row header mobile_margin main_container menu_header_content">
-            <div class="col-md-4 col-sm-4 col-xs-1 logo_hour_container">
+            <div class="col-md-6 col-sm-6 col-xs-1 logo_hour_container">
                 <!--<p class="hidden_phone">Follow us on</p>-->
                 <!--<div class="social_icons hidden_phone">-->
                 <!--    <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>-->
@@ -206,7 +206,8 @@
                  
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
-            <div class="col-md-5 col-sm-5 col-xs-11 text-center main_logo_container">
+            <div class="text-center main_logo_container">
+            <!--col-md-6 col-sm-5 col-xs-11 -->
                 <a href="/" class="main_logo">
                  <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image class_phone" alt="main_logo">-->
                  Yuba Sutter Mall
