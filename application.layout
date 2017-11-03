@@ -215,7 +215,7 @@
                 </a>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-1 hidden_phone social_icons_container">
-                <p class="hidden_phone" style="padding-right: 10px;text-align: right;">Follow us on</p>
+                <p class="hidden_phone" style="text-align: right;">Follow us on</p>
                 <div class="social_icons hidden_phone_inline pull-right">
                     <a class="social_fb" href="https://www.facebook.com/yubasuttermall/" target="_blank"></a>
                     <a class="social_twitter" href="http:/twitter.com/YubaSutter" target="_blank"></a>
