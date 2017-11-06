@@ -267,47 +267,60 @@
         <!--</div>-->
         <div class="menu_container hidden_phone main_container menu_header_content">
             <ul class="stc_nav nav navbar-nav">
-            <li class="nav_li"> <a href="/stores">Directory</a></li>
-             <li class="nav_li"><a href="/promotions">Specials</a></li>
-            <li class="nav_li"> <a href="/events">Events</a></li>
-            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
-             <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
-                <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
-                    <ul class="dd_guest dropdown_list">
-                        <div class="triangle-up"></div>
-                        <div class="triangle-up-inside"></div>
-                        <!--<li><a href="/pages/yubasutter-military-program">Military Program</a></li>-->
-                        <li><a href="/contests/yubasutter-contest-test--2">Contest</a></li>
-                       
-                       
-                    </ul>
-                </div></li>
-            <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
-            <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
-                <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
-                    <ul class="dd_guest dropdown_list">
-                        <div class="triangle-up"></div>
-                        <div class="triangle-up-inside"></div>
-                        <li><a href="/pages/yubasutter-gift-cards">Gift Cards</a></li>
-                        <li><a href="/hours">Centre Hours</a></li>
-                        <li><a href="/jobs">Employment</a></li>
-                        <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
-                    </ul>
-                </div></li>
-            <!--<a href="/directions">About Us</a>-->
-            <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
-                <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
-                    <ul class="dd_guest dropdown_list">
-                        <div class="triangle-up"></div>
-                        <div class="triangle-up-inside"></div>
-                        <li><a href="/contact">Contact Us</a></li>
-                        <li><a href="/pages/yubasutter-press">Press</a></li>
-                        <li><a href="/pages/yubasutter-history">History</a></li>
-                        <li><a href="/pages/yubasutter-services">Services</a></li>
-                       
-                    </ul>
-                </div>
-            </li>
+                <li class="nav_li"> <a href="/stores">Directory</a></li>
+                 <li class="nav_li"><a href="/promotions">Specials</a></li>
+                <li class="nav_li"> <a href="/events">Events</a></li>
+                <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
+                 <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
+                    <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
+                        <ul class="dd_guest dropdown_list">
+                            <div class="triangle-up"></div>
+                            <div class="triangle-up-inside"></div>
+                            <!--<li><a href="/pages/yubasutter-military-program">Military Program</a></li>-->
+                            <li><a href="/contests/yubasutter-contest-test--2">Contest</a></li>
+                           
+                           
+                        </ul>
+                    </div></li>
+                <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
+                <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
+                    <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
+                        <ul class="dd_guest dropdown_list">
+                            <div class="triangle-up"></div>
+                            <div class="triangle-up-inside"></div>
+                            <li><a href="/pages/yubasutter-gift-cards">Gift Cards</a></li>
+                            <li><a href="/hours">Centre Hours</a></li>
+                            <li><a href="/jobs">Employment</a></li>
+                            <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
+                        </ul>
+                    </div></li>
+                <!--<a href="/directions">About Us</a>-->
+                <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
+                    <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
+                        <ul class="dd_guest dropdown_list">
+                            <div class="triangle-up"></div>
+                            <div class="triangle-up-inside"></div>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/pages/yubasutter-press">Press</a></li>
+                            <li><a href="/pages/yubasutter-history">History</a></li>
+                            <li><a href="/pages/yubasutter-services">Services</a></li>
+                           
+                        </ul>
+                    </div>
+                </li>
+                <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Leasing</a>
+                    <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
+                        <ul class="dd_guest dropdown_list">
+                            <div class="triangle-up"></div>
+                            <div class="triangle-up-inside"></div>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/pages/yubasutter-press">Press</a></li>
+                            <li><a href="/pages/yubasutter-history">History</a></li>
+                            <li><a href="/pages/yubasutter-services">Services</a></li>
+                           
+                        </ul>
+                    </div>
+                </li>
             </ul>
         </div>
     </section>
