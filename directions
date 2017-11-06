@@ -33,6 +33,9 @@
                 <div id="" class="promo_list_desc">
                     <h4>Get Directions</h4>
                     Enter Your Starting address and click Go
+                    <div class="col-md-6">
+                        
+                    </div>
                     <label for="starting_address">Starting Address</label>  
                     <input class="form-control" id="starting_address" type="text" required data-validation="required"/>
                 </div>
