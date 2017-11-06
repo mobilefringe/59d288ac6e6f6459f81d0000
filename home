@@ -92,7 +92,9 @@
                         <!--<h5 class="hover_text"> </h5>-->
                         
                     </div>
-                        
+                    <p class="social_link_blank">
+                            <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />  
+                        </p> 
                 <!--</a>-->
             </div>
             </div>
