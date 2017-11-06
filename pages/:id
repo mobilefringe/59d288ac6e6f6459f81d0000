@@ -33,7 +33,6 @@
     <div class="direction_container padding_top_20">
         <div class="row">
             <div class="col-md-12">
-                <div class="overlay2" onclick="style.pointerEvents='none'"></div>
                 <div id="mm_page_content" class="promo_list_desc"></div>
             </div>
             
