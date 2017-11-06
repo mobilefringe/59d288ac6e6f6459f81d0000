@@ -83,7 +83,7 @@
                 <!--    <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />-->
                     <!--<span id="latest_fb_date"></span>    -->
                 <!--</p>-->
-                <a href=" val.url ">
+                <a href="#">
                     <img src= "val.image_url">
                     <div class="hover_see_more_btn">
                     <h5 class="hover_text"> val.name </h5>
