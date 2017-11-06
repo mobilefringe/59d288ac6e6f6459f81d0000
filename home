@@ -91,8 +91,7 @@
                         <p id="latest_fb" class=" latest_post "></p>
                         <!--<h5 class="hover_text"> </h5>-->
                         <p class="social_link_blank">
-                            <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />
-                            <span id="latest_fb_date"></span>    
+                            <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />  
                         </p>
                     </div>
                         
