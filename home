@@ -83,16 +83,20 @@
                 <!--    <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />-->
                     <!--<span id="latest_fb_date"></span>    -->
                 <!--</p>-->
-                <a href="">
+                <!--<a href="">-->
                     <img src= "//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1509988905000/17316F.png">
                     
                     <div class="hover_see_more_btn">
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="fb_feed_icon" alt="facebook post">
                         <p id="latest_fb" class=" latest_post "></p>
                         <!--<h5 class="hover_text"> </h5>-->
+                        <p class="social_link_blank">
+                            <a  class="" href="//www.facebook.com/yubasuttermall/" target="_blank">@yubasuttermall</a> <br />
+                            <span id="latest_fb_date"></span>    
+                        </p>
                     </div>
                         
-                </a>
+                <!--</a>-->
             </div>
             </div>
             <!--<div class="feature_item wow animated flipInX animated"><a href="'+ val.url +'"><img src='+ val.image_url+')"> <div class="hover_see_more_btn"><h5 class="hover_text">'+ val.name +'</h5></div></a></div>-->
