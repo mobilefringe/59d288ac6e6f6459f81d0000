@@ -86,7 +86,7 @@
                 <a href="#">
                     <img src= "//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1509988905000/17316F.png">
                     <div class="hover_see_more_btn">
-                        <!--<h5 class="hover_text"> </h5>-->
+                        <h5 class="hover_text"> </h5>
                     </div>
                         
                 </a>
