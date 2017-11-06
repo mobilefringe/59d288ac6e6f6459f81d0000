@@ -34,10 +34,10 @@
                     <h4>Get Directions</h4>
                     Enter Your Starting address and click Go
                     <div class="col-md-6">
-                        
-                    </div>
-                    <label for="starting_address">Starting Address</label>  
+                        <label for="starting_address">Starting Address</label>  
                     <input class="form-control" id="starting_address" type="text" required data-validation="required"/>
+                    </div>
+                    
                 </div>
             </div>
             <div class="col-md-4 hidden_phone">
