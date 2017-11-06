@@ -34,7 +34,7 @@
                     <h4>Get Directions</h4>
                     Enter Your Starting address and click Go
                     <label for="first_name">First Name</label>  
-                    <input class="form-control" id="starting_address" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                    <input class="form-control" id="starting_address" type="text" required data-validation="required" tabindex="1"/>
                 </div>
             </div>
             <div class="col-md-4 hidden_phone">
