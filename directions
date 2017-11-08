@@ -45,7 +45,7 @@
                     </div>
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                        <label for="starting_address">Starting Address</label>  
+                            <label for="starting_address">Starting Address</label>  
                             <input class="form-control" id="starting_address" type="text" required data-validation="required"  tabindex="1"/>
                         </div>
                         <div class="col-md-6 col-sm-6">
