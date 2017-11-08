@@ -12,6 +12,8 @@
         position: absolute;
         bottom: 0;
     }
+    @media (min-width: 768px) {
+    }
 </style>
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
