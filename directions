@@ -102,4 +102,15 @@
         }); 
         show_content();
     }
+    function getDirections() {
+			starting = document.getElementById('starting').value;
+			if(starting.length) {
+				window.open(
+					'http://maps.google.com/maps?f=d&hl=en&saddr='+escape(starting)+'&daddr=1215%20Colusa%20Avenue%20Yuba%20City%2C%20CA&ie=UTF8',
+					'google_directions',
+					'height=600,width=800,menubar=no,resizable=yes,scrollbars=no,status=no,titlebar=no'
+				);
+			}
+		}
+
 </script>
