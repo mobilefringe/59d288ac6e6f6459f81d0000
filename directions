@@ -100,7 +100,7 @@
                 $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
             }
         }); 
-        function getDirections() {
+        $(".get_direction_btn").click(function (){
 			starting = document.getElementById('starting').value;
 			if(starting.length) {
 				window.open(
@@ -109,7 +109,7 @@
 					'height=600,width=800,menubar=no,resizable=yes,scrollbars=no,status=no,titlebar=no'
 				);
 			}
-		}
+		});
 
         show_content();
     }
