@@ -17,7 +17,7 @@
         .store_header_btns{
             width:125px;
             position: relative;
-            bottom: 0;
+            bottom: intitial;
         }
     }
 </style>
