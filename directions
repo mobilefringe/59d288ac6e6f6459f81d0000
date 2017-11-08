@@ -12,7 +12,7 @@
         position: absolute;
         bottom: 0;
     }
-    @media (min-width: 768px) {
+    @media(max-width: 768px){
     
         .store_header_btns{
             width:125px;
