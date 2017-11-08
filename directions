@@ -1,3 +1,9 @@
+<style>
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+</style>
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
         <!--<ul class="slides" id="banner_header">-->
