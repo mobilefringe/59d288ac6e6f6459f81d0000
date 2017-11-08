@@ -35,7 +35,7 @@
                     <p>Enter Your Starting address and click Go</p>
                     
                     <div class="row">
-                        
+                        <label for="starting_address">Starting Address</label>  
                     </div>
                     <div class="row"></div>
                     <div class="col-md-6 col-sm-6">
