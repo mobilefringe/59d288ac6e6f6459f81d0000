@@ -67,7 +67,7 @@
                             <input class="form-control" id="starting_address" type="text" required data-validation="required"  tabindex="1"/>
                         </div>
                         <div class="col-md-6 col-sm-6 input_div" style="position: initial;">
-                            <button class=" store_header_btns" tabindex="2">Go</button>
+                            <button class="get_direction_btn store_header_btns" tabindex="2">Go</button>
                         </div>
                     </div>
                     
@@ -100,6 +100,17 @@
                 $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
             }
         }); 
+        function getDirections() {
+			starting = document.getElementById('starting').value;
+			if(starting.length) {
+				window.open(
+					'http://maps.google.com/maps?f=d&hl=en&saddr='+escape(starting)+'&daddr=1215%20Colusa%20Avenue%20Yuba%20City%2C%20CA&ie=UTF8',
+					'google_directions',
+					'height=600,width=800,menubar=no,resizable=yes,scrollbars=no,status=no,titlebar=no'
+				);
+			}
+		}
+
         show_content();
     }
 </script>
