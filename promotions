@@ -24,9 +24,9 @@
 
 
 <div class="content_container main_container padding_bottom_50">
-    <div class="promo_main_header">
-        <!--SPECIALS-->
-        <select id="mobile_cat_list" class="show_phone  form-control">
+    <div class="promo_main_header show_phone">
+        SPECIALS
+        <select id="mobile_cat_list" class="  form-control">
             <script id="category_template2" type="x-tmpl-mustache/text">
                 <option value="{{id}}">{{name}}</option>
             </script>
