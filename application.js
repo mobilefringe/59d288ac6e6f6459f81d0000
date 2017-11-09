@@ -81,7 +81,10 @@ function renderPromotions(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
-            val.cat_list = store_details.categories.join(',');
+            if(store_details.categories !=null && store_details.categories!== undefined){
+                val.cat_list = store_details.categories.join(',');
+            }
+            
         } else {
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
