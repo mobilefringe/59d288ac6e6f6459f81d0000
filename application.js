@@ -473,7 +473,7 @@ function renderJobDetails(container, template, collection){
                 val.show = "display:none";
             }
             if (store_details.phone != null && store_details.phone.length > 0){
-                val.phone_show = "display:inline";
+                val.phone_show = "display:inline-block";
                 val.phone = store_details.phone
             } else {
                 val.phone_show = "display:none";
