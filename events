@@ -77,7 +77,7 @@
             if(published_events.length > 0){
                 renderEvents("#promos_container","#promos_template", published_events);
                 if(published_events.length > 1) {
-                    
+                    $(".show_hr").show();
                 }
             }
             else{
