@@ -43,6 +43,7 @@
                             <a class="read_more" href="/events/{{slug}}">Read More</a>
                         </div>
                     </div>
+                    <hr/>
                 </script>
             </div>
             <div class="row promo_item cats_row promo_list_desc hidden_now" id="no_promos">
