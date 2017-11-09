@@ -49,6 +49,7 @@
                             <a class="read_more" href="/promotions/{{slug}}">Read More</a>
                         </div>
                     </div>
+                    <hr/>
                 </script>
             </div>
             
