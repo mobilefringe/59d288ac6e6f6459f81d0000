@@ -23,9 +23,9 @@
 </div>
 
 <div class="content_container main_container padding_top_40 padding_bottom_50">
-    <!--<div class="promo_main_header">-->
-    <!--    EVENTS-->
-    <!--</div>-->
+    <div class="promo_main_header">
+        EVENTS
+    </div>
     <div class="row">
         <div class="col-md-8">
             <div id="promos_container">
