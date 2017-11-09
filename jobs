@@ -73,6 +73,9 @@
             });
             if(published_jobs.length > 0){
                 renderJobs('#jobs_container', '#jobs_template', jobs);
+                if(published_events.length > 1) {
+                    $(".show_hr").show();
+                }
             }
             else{
                 $('#no_jobs').show()
