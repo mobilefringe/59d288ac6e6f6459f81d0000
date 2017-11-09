@@ -1,3 +1,12 @@
+<style>
+    table {
+        width:100%;
+    }
+    td{
+        text-align:center;
+    }
+</style>
+
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
         <!--<ul class="slides" id="banner_header">-->
