@@ -93,6 +93,9 @@
             });
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
+                if(published_promos.length > 1) {
+                    $(".show_hr").show();
+                }
             }
             else{
                 $('#no_promos').show();
