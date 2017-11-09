@@ -84,6 +84,9 @@ function renderPromotions(container, template, collection){
             if(store_details.categories !=null && store_details.categories!== undefined){
                 val.cat_list = store_details.categories.join(',');
             }
+            if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
+                val.promo_image_url_abs = store_details.store_front_url_abs;
+            }
         } else {
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
