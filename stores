@@ -1,3 +1,40 @@
+<style>
+    #zoom_image{
+		width:2000px;
+		height: 1000px;
+		min-width:2000px;
+		min-height: 1000px;
+	}
+	
+    .zoom_container .landmarks{
+    	position:absolute;
+    	z-index:10;	
+    	top:0px;
+    	left:0px;
+    	font-family: Helvetica, Arial, Verdana;
+    	font-size:12px;
+    	color: #ffffff;
+    }	
+    .zoom_container .landmarks .item {
+    	position:absolute;		
+    	text-align:center;		
+    	display: none;
+    }	
+    .zoom_container .landmarks .lable div {
+    	width: 100px;
+    	padding: 4px;	
+    }	
+    .zoom_container .landmarks .mark .text{
+    	background-color:#000000;
+    	padding:2px 6px;
+    	min-width: 75px;	
+    }
+    .truncate {
+      width: 100%;
+      white-space: normal;
+    }
+</style>
+
 <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 
 <div class="content_container hidden_phone position_relative">
