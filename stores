@@ -7,7 +7,7 @@
 	}
 	#zoom_container_directory{
 	    height:700px;
-	    /*width:600px!important;*/
+	    width:600px!important;
 	}
     .zoom_container .landmarks{
     	position:absolute;
