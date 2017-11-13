@@ -33,9 +33,13 @@
         </ul>
     </div>
     <div class="map_container">
-        <div id="map" class="hidden_phone">
-            <img alt="map" id="map_image" src="">
-        </div>
+        <!--<div id="map" class="hidden_phone">-->
+        <!--    <img alt="map" id="map_image" src="">-->
+        <!--</div>-->
+        <div class="zoom_container" id="zoom_container_directory">
+    			    <img alt="Centre Map" id="zoom_image" src=""/>
+				    <div class="landmarks" data-show-at-zoom="0" data-allow-drag="true">
+				</div>
     </div>
     <h2 class="stores_main_heading">Directory</h2>
     <p class="store_main_desc">explore • enjoy • shop</p>
