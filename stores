@@ -5,7 +5,9 @@
 		min-width:2000px;
 		min-height: 1000px;
 	}
-	
+	#zoom_container_directory{
+	    height:700px;
+	}
     .zoom_container .landmarks{
     	position:absolute;
     	z-index:10;	
