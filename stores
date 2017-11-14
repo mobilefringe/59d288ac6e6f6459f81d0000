@@ -16,7 +16,7 @@
 	}
 	#zoom_container_directory{
 	    height:700px;
-	    min-width:600px;//!important;
+	    min-width:100%;//!important;
 	}
     .zoom_container .landmarks{
     	position:absolute;
