@@ -83,7 +83,7 @@
         </ul>
     </div>
     <div class="map_container">
-        <div id="map" class="hidden_phone">
+        <div id="map" class="hidden_phone map">
             <!--<img alt="map" id="map_image" src="">-->
             <div class="zoom_container" id="zoom_container_directory">
     			    <img alt="Centre Map" id="zoom_image" src=""/>
