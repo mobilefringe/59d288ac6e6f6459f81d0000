@@ -322,6 +322,15 @@
             });
         }
         
+
+    		// Focus on new landmark
+    		$('#zoom_image').smoothZoom('focusTo',{
+    			x: x_coordinate,
+    			y: y_coordinate,
+    			zoom: 120,
+    			speed: 5
+    		});
+    	}
         
 		loadMallDataCached(renderAll); 
     });
