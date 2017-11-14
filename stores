@@ -361,6 +361,6 @@
 			y: y_coordinate,
 			zoom: 120,
 			speed: 5
-		});
+		});console.log("zooming to spot");
 	}
 </script>
