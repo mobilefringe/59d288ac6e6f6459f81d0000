@@ -288,8 +288,8 @@
     		
     		$("#zoom_image").attr("src", getPNGMapURL());
     		$('#zoom_image').smoothZoom({
-    		    width: "3000px",
-                height: "2200px",
+    		    width: "3000",
+                height: "2200",
     		    initial_ZOOM: 0,
     			zoom_MIN: 0,
     			zoom_MAX: 250,
