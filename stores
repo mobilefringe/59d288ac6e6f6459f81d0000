@@ -13,6 +13,8 @@
 		height: 2200px;
 		min-width:3000px;
 		min-height: 2200px;
+		    max-width: none;
+		
 	}
 	#zoom_container_directory{
 	    height:700px;
