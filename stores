@@ -10,9 +10,9 @@
     }
     #zoom_image{
 		width:3000px;
-		height: 620px;//2200px;
+		height: 2200px;
 		min-width:3000px;
-		min-height: 620px;//2200px;
+		min-height: 2200px;
 		max-width: none;
 		
 	}
