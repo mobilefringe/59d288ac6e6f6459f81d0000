@@ -1,6 +1,6 @@
 <style>
     #map {
-            max-width: 100%;
+        max-width: 100%;
         max-height: 586px;
         position: relative;
         top: 0;
