@@ -328,6 +328,7 @@
     $(window).load(function(e){
         show_content();
         $(window).resize();
+        $("#zoom_image").click()l
     });
     
     function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name){
