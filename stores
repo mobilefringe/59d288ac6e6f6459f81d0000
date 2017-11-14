@@ -9,8 +9,8 @@
         overflow: hidden;
     }
     #zoom_image{
-		width:3000px;
-		height: 2200px;
+		width:865px;//3000px;
+		height: 625px;//2200px;
 		min-width:865px;//3000px;
 		min-height: 625px;//2200px;
 		max-width: none;
