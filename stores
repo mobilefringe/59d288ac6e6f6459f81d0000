@@ -10,7 +10,7 @@
     }
     #zoom_image{
 		width:3000px;
-		height: 2200px;
+		height: 620px;//2200px;
 		min-width:3000px;
 		min-height: 2200px;
 		max-width: none;
@@ -328,7 +328,7 @@
     $(window).load(function(e){
         show_content();
         $(window).resize();
-        $("#zoom_image").click()l
+        $("#zoom_image").click();
     });
     
     function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name){
