@@ -304,6 +304,7 @@
     		});
     
             $('.map_pin_a').click(function(e){
+                console.log("in map_pin_a")
                 e.preventDefault();
                 var store_x_coordinate = $(this).attr('store_x_coordinate');
         		var store_y_coordinate = $(this).attr('store_y_coordinate');
