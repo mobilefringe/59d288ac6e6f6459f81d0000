@@ -320,6 +320,9 @@
                 
                 add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name);
             });
+            setTimeout(function() {
+                show_content();
+            }, 500);
         }
         function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name){
             console.log("Adding landmark at",store_x_coordinate, store_y_coordinate, "for",pin_id, store_name);
