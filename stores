@@ -9,10 +9,12 @@
         overflow: hidden;
     }
     #zoom_image{
-		width:3000px;
+		width:100%;
 		height: 2200px;
-		min-width:3000px;
-		min-height: 2200px;
+		/*width:3000px;*/
+		/*height: 2200px;*/
+		/*min-width:3000px;*/
+		/*min-height: 2200px;*/
 		max-width: none;
 		
 	}
