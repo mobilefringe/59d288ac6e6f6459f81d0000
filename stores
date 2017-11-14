@@ -47,7 +47,7 @@
     }
     .map{max-width:100%;max-height:586px;position:relative;top:0;left:0;border-radius:4px;overflow:hidden}
 </style>
-
+<link href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1432640222000/smoothzoom.css" rel="stylesheet">
 <script src="//codecloud.cdn.speedyrails.net/sites/5438407c6e6f64462d020000/92b82a88144a6207ab1a5e8e0f63d3d1/craftmap.js"></script>
 
 <div class="content_container hidden_phone position_relative">
