@@ -1,5 +1,5 @@
 <style>
-    #map {
+    #map2 {
         max-width: 100%;
         /*max-height: 586px;*/
         position: relative;
