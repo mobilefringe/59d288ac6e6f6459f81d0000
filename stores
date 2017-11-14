@@ -311,7 +311,7 @@
     });
     $(window).load(function(e){
         show_content();
-        $(window).resize();
+        // $(window).resize();
     });
     
     function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name){
