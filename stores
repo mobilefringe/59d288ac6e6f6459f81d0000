@@ -320,7 +320,7 @@
             });
         }
         function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name){
-            console.log("Adding landmark for",store_x_coordinate, store_y_coordinate, pin_id, store_name);
+            console.log("Adding landmark at",store_x_coordinate, store_y_coordinate, pin_id, store_name);
     		var name = store_name;
     		var x_coordinate = store_x_coordinate;
     		var y_coordinate = store_y_coordinate;
