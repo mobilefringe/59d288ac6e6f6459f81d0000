@@ -120,7 +120,6 @@
                                         <br/><br/>
                                         <br/><br/>
                                     </div>
-                                    
                                     <div id="success_subscribe_popup" class="hidden_now">
                                         <div class="alert alert-success fade in" style="margin-top:18px;">
                                             <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
