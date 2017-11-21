@@ -96,7 +96,7 @@
                 
                 var store_details = getStoreDetailsBySlug(val.store_header_btn);
                 if(store_details.categories !== null && store_details.categories !== undefined){
-                    $.each(val.categories, function(key, value){
+                    $.each(store_details.categories, function(key, value){
                         
                         var is_inArray =$.inArray(value,sorted_cat_ids);
                         // console.log(value, category_of_stores, is_inArray);
