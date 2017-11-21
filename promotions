@@ -108,7 +108,7 @@
             });
             console.log(sorted_cat_ids);
             var categories = $.grep(getStoreCategories(), function( n, i ) {
-                      return ( n !== 5 && i > 4 );
+                      return ( $.inArray(n.id,sorted_cat_ids); );
                     });
             
             renderGeneral('#category_container', '#category_template', categories);
