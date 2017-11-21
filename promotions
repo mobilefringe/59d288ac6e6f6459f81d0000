@@ -106,7 +106,6 @@
                     // console.log(val.name,val.categories);
                 }
             });
-            console.log(sorted_cat_ids);
             var categories = $.grep(getStoreCategories(), function( n, i ) {
                 return ( $.inArray(parseInt(n.id),sorted_cat_ids) > -1 );
             });
