@@ -199,7 +199,6 @@
                 <li class="nav_li"> <a href="/stores">Directory</a></li>
                  <li class="nav_li"><a href="/promotions">Specials</a></li>
                 <li class="nav_li"> <a href="/events">Events</a></li>
-                <!--<a href="/pages/fairfax-fairfax-corner-amenities">Programs</a>-->
                  <li class="dropdown nav_li"><a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Programs</a>
                     <div class="dropdown-menu invisible_dropdown_div dd_programs dropdown-menu-hover">
                         <ul class="dd_guest dropdown_list">
@@ -210,8 +209,8 @@
                             <li><a href="/kids_club">Kids Club</a></li>
                             <li><a href="/vip_program">VIP Program</a></li>
                         </ul>
-                    </div></li>
-                <!--<a href="/pages/fairfax-fairfax-corner-amenities">Information</a>-->
+                    </div>
+                </li>
                 <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
                     <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
                         <ul class="dd_guest dropdown_list">
@@ -222,8 +221,8 @@
                             <li><a href="/jobs">Employment</a></li>
                             <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
                         </ul>
-                    </div></li>
-                <!--<a href="/directions">About Us</a>-->
+                    </div>
+                </li>
                 <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
                     <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
                         <ul class="dd_guest dropdown_list">
@@ -233,7 +232,6 @@
                             <li><a href="/pages/yubasutter-press">Press</a></li>
                             <li><a href="/pages/yubasutter-history">History</a></li>
                             <li><a href="/pages/yubasutter-services">Services</a></li>
-                           
                         </ul>
                     </div>
                 </li>
@@ -245,23 +243,18 @@
                             <li><a href="/pages/yubasutter-popup">Popup</a></li>
                             <li><a href="/pages/yubasutter-front-flash-specialty">Front Flash Specialty</a></li>
                             <li><a href="/pages/yubasutter-long-term">Long Term</a></li>
-                           
                         </ul>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
+    
     <section class="yield">
         {{yield}}
     </section>
     
     <section class="content_container main_container">
-        <!--<div class="newsletter_container text-center">-->
-        <!--    <h2 class="heading">SIGN UP TO RECEIVE OUR UPDATES</h2>-->
-        <!--    <p class="newsletter_desc">Special Offers <br class="show_phone" /><span>•</span> New Store Openings <br class="show_phone" /><span>•</span> Exclusive Events</p>-->
-        <!--    <a href="/newsletter" class="newsletter_btn animated_btn">Subscribe</a>-->
-        <!--</div>-->
         <div class="site_map">
             <div class="row">
                 <div class="col-md-4 col-xs-12 bottom_border">
@@ -280,7 +273,6 @@
                         </div>
                         <div class="col-md-7 col-xs-7 footer_hours text_center" style="padding: 0;">
                             <div class="todays_hours"> Today's Hours</div>
-                            <!--<h4 class="site_map_heading text_center">10am-9pm</h4>-->
                             <span id="footer_hours_container">
                             <script id="footer_hours_template" type="x-tmpl-mustache/text">
                                 <div class="hours_today site_map_desc text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</div>
@@ -302,15 +294,6 @@
                             <a href="http:/twitter.com/YubaSutter" target="_blank">
                                 <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507058552000/icon_twitter.png" class="" alt="Twitter">
                             </a>
-                            <!--<a href="https://www.instagram.com/yubasuttermall/" target="_blank">-->
-                            <!--    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507058545000/icon_insta.png" class="" alt="Instagram">-->
-                            <!--</a>-->
-                            <!--<a href="#" target="_blank">-->
-                            <!--    <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507058537000/icon_yt.png" class="" alt="newsletter sign up">-->
-                            <!--</a>-->
-                            <!-- <a href="#" target="_blank">-->
-                            <!--    <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1507058440000/icon_gplus.png" class="" alt="newsletter sign up">-->
-                            <!--</a>-->
                             <div class="clearfix"></div>
                         </div>
                     </div>
@@ -336,8 +319,6 @@
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/directions">Directions</a></li>
                                 <li><a href="#">Tenant Login</a></li>
-                                <!--<li><a href="/pages/fairfax-terms-of-website-use" target="_blank">Terms of Use</a></li>-->
-                                <!--<li><a href="/pages/fairfax-privacy-policy" target="_blank">Privacy Policy</a></li>-->
                             </ul>
                         </div>
                     </div>
