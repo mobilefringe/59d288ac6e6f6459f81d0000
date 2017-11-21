@@ -165,6 +165,7 @@ function show_cat_stores(){
         $('#cat_name_header').css('display', 'block');
         $.each($("#promos_template .cats_row"), function(i, val){
             var cat_array = val.getAttribute('data-cat').split(',');
+            console.log(cat_array);
             if ($.inArray(cat_id, cat_array) >= 0){
                 $(val).show();
             }
