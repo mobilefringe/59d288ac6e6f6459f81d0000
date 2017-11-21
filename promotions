@@ -94,7 +94,7 @@
                     published_promos.push(val)
                 } 
                 
-                var store_details = getStoreDetailsBySlug(slug);
+                var store_details = getStoreDetailsBySlug(val.store_header_btn);
                 if(val.categories !== null && val.categories !== undefined){
                     $.each(val.categories, function(key, value){
                         
