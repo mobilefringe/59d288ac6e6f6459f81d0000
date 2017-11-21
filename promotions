@@ -109,7 +109,7 @@
             console.log(sorted_cat_ids);
             var categories = $.grep(getStoreCategories(), function( n, i ) {
                       return ( $.inArray(n.id,sorted_cat_ids) > -1 );
-                    });
+            });
             
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
