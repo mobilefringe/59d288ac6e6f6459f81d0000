@@ -50,7 +50,7 @@
                             <a class="read_more" href="/promotions/{{slug}}">Read More</a>
                         </div>
                         <div class="col-md-12">
-                        <hr class="show_hr hidden_now"/>
+                        <hr class="show_hr hidden_now" style="margin-top: 30px;"/>
                         </div>
                     </div>
                     
