@@ -21,9 +21,6 @@
     @media(max-width: 768px){
     
         .store_header_btns{
-            width:125px;
-            position: relative;
-            bottom: initial;
             margin:0px;
         }
     }
