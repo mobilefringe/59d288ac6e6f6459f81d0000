@@ -375,6 +375,9 @@ function submit_contest(data) {
         success: function(data) {
             $("#success_subscribe_popup").fadeIn();
             $('#contest_form').trigger('reset');
+        },
+        error: function(data){
+            $("#error_subscribe_popup").fadeIn();
         }
     });
     $('#submit_btn').prop( "disabled", false );
