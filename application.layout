@@ -177,13 +177,11 @@
                 
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
+            
             <div class="text-center main_logo_container">
-            <!--col-md-6 col-sm-5 col-xs-11 -->
                 <a href="/" class="main_logo">
-                 <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="logo_image class_phone" alt="main_logo">-->
-                 <!--Yuba Sutter Mall-->
-                 <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1510240440000/Yuba Sutter Mall@2x.png" class="" alt="">
-                    <!--<img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/png/1478625207000/Fairfax Corner Logo White.png" class="main_logo " alt="main_logo">-->
+                    <!--Yuba Sutter Mall-->
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1510240440000/Yuba Sutter Mall@2x.png" class="" alt="">
                 </a>
             </div>
             <div class="col-md-6 col-sm-6 col-xs-1 hidden_phone social_icons_container">
