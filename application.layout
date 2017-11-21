@@ -157,13 +157,6 @@
         <!--</div>-->
         <div class="row header mobile_margin main_container menu_header_content">
             <div class="col-md-6 col-sm-6 col-xs-1 logo_hour_container">
-                <!--<p class="hidden_phone">Follow us on</p>-->
-                <!--<div class="social_icons hidden_phone">-->
-                <!--    <a class="social_fb" href="https://www.facebook.com/FairfaxCornerVA/" target="_blank"></a>-->
-                <!--    <a class="social_twitter" href="https://twitter.com/FairfaxCornerVA" target="_blank"></a>-->
-                <!--    <a class="social_insta" href="https://www.instagram.com/fairfaxcornerva/" target="_blank"></a>-->
-                <!--    <a class="social_newsletter" href="/newsletter" target="_blank"></a>-->
-                <!--</div>-->
                 <div class="col-xs-3 col-md-3 col-lg-2" style="padding:0; width: 80px;">
                     <a href="/">
                         <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507819329000/yb_logo.png" class="logo_image hidden_phone_inline" alt="main_logo"> 
