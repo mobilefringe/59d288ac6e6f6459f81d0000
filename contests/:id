@@ -237,7 +237,7 @@
 
             // show_content();
             
-            $.validate();
+            // $.validate();
             
             $('#contest_form').submit(function(e){
                 e.preventDefault();
