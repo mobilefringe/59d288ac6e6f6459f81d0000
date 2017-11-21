@@ -94,7 +94,7 @@
                     published_promos.push(val)
                 }
                 
-                var store_details = getStoreDetailsBySluggetStoreDetailsByID(val.promotionable_id);
+                var store_details = getStoreDetailsByID(val.promotionable_id);
                 if(store_details.categories !== null && store_details.categories !== undefined){
                     $.each(store_details.categories, function(key, value){
                         
