@@ -171,7 +171,8 @@
                             <script class="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
-                        </span></div>
+                        </span>
+                    </div>
                 </div>
                 
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
