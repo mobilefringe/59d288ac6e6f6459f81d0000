@@ -138,7 +138,6 @@ function show_cat_stores(){
                 $(val).show();
             }
         });
-        console.log(cat_id);
         e.preventDefault();
     });
     $('.show_all_stores').click(function(e){
