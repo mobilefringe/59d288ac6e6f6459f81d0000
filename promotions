@@ -109,7 +109,7 @@
             console.log(sorted_cat_ids);
             var categories = $.grep(getStoreCategories(), function( n, i ) {
                 console.log(n.id);
-                return ( $.inArray(n.id.toInteger(),sorted_cat_ids) > -1 );
+                return ( $.inArray(parseInt(n.id),sorted_cat_ids) > -1 );
             });
             console.log(categories);
             renderGeneral('#category_container', '#category_template', categories);
