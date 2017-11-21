@@ -18,7 +18,7 @@
         margin: auto;
     }
     .store_header_btns{
-            margin:0px;
+        margin:0px;
     }
     @media(max-width: 768px){
     
