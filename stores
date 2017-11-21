@@ -310,7 +310,7 @@
     });
     $(window).load(function(e){
         show_content();
-        $(window).resize();
+        $("#zoom_image").resize();
         // $("#zoom_image").click();
     });
     
