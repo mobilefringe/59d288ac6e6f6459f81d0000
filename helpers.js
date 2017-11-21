@@ -160,7 +160,6 @@ function show_cat_stores(){
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
         rows.hide();
-        // $('.store_initial').hide();
         $('#cat_name_header').text($(this).text());
         $('#cat_name_header').css('display', 'block');
         $.each($("#promos_container .cats_row"), function(i, val){
