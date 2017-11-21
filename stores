@@ -304,7 +304,7 @@
                 add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name);
             });
         }
-        show_content();
+        
         loadMallDataCached(renderAll); 
     });
     $(window).load(function(e){
