@@ -1,6 +1,6 @@
 <style>
     .event-image{
-        
+        text-align:center;
     }
 </style>
 <div class="content_container hidden_phone position_relative">
