@@ -101,7 +101,6 @@
                 $('#no_promos').show();
                 $(".show_cats").hide();
             }
-            show_cat_stores();
             // show_content();
         }
         
