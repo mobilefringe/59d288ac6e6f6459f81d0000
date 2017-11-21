@@ -91,6 +91,7 @@
                                         <br/><br/>
                                     </div>
                                 </div>
+                                <p class="hidden_now" id="succes_msg">Thank you! Your entry has been received.</p>
                             </form>
                         </script>
                     </div>
