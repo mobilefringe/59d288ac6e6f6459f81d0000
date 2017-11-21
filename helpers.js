@@ -155,7 +155,24 @@ function show_cat_stores(){
         $('#cat_store_container').children().hide();
         e.preventDefault();
     });
-    
+    $('.show_cat_promos')('.show_cat_stores').click(function(e){
+        var cat_id = $(this).attr('data-id');
+        $('.active_cat').removeClass('active_cat');
+        $(this).addClass('active_cat');
+        var rows = $('.cats_row');
+        rows.hide();
+        $('.store_initial').hide();
+        $('#cat_name_header').text($(this).text());
+        $('#cat_name_header').css('display', 'block');
+        $.each($("#cat_store_container .cats_row"), function(i, val){
+            var cat_array = val.getAttribute('data-cat').split(',');
+            if ($.inArray(cat_id, cat_array) >= 0){
+                $(val).show();
+            }
+        });
+        console.log(cat_id);
+        e.preventDefault();
+    });
 }
 
 function show_pin(param){
