@@ -93,6 +93,19 @@
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
                     published_promos.push(val)
                 } 
+                if(val.categories !== null && val.categories !== undefined){
+                    $.each(val.categories, function(key, value){
+                        
+                        var is_inArray =$.inArray(value,category_of_stores);
+                        // console.log(value, category_of_stores, is_inArray);
+                        if(is_inArray == -1){
+                            sorted_cat_ids.push(value);
+                        }
+                    });
+                    
+                    // category_of_stores =  val.categories.concat(category_of_stores);//$.merge( val.categories, category_of_stores);
+                    // console.log(val.name,val.categories);
+                }
             });
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
