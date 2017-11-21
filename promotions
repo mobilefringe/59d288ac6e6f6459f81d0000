@@ -93,7 +93,7 @@
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
                     published_promos.push(val)
                 } 
-                
+                console.log(Val);
                 var store_details = getStoreDetailsBySlug(val.store_header_btn);
                 if(store_details.categories !== null && store_details.categories !== undefined){
                     $.each(store_details.categories, function(key, value){
