@@ -1,6 +1,7 @@
 <style>
     .event-image{
         text-align:center;
+        position:relative;
     }
     .event-image img {
          max-height: 100%;  
