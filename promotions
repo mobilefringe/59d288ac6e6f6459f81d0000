@@ -92,8 +92,7 @@
                 webDate = moment(val.show_on_web_date)
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
                     published_promos.push(val)
-                } 
-                console.log(val);
+                }
                 if (val.promotionable_type == "Store") {
                     var store_details = getStoreDetailsByID(val.promotionable_id);
                     val.store_detail_btn = store_details.slug ;
