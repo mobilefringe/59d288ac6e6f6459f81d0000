@@ -93,18 +93,7 @@
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
                     published_promos.push(val)
                 }
-                if (val.promotionable_type == "Store") {
-                    var store_details = getStoreDetailsByID(val.promotionable_id);
-                    val.store_detail_btn = store_details.slug ;
-                    val.store_name = store_details.name;
-                    val.image_url = store_details.store_front_url_abs;
-                    if(store_details.categories !=null && store_details.categories!== undefined){
-                        val.cat_list = store_details.categories.join(',');
-                    }
-                    if(val.promo_image_url_abs.indexOf('missing.png') > 0){ 
-                        val.promo_image_url_abs = store_details.store_front_url_abs;
-                    }
-                }
+                
                 var store_details = getStoreDetailsBySluggetStoreDetailsByID(val.promotionable_id);
                 if(store_details.categories !== null && store_details.categories !== undefined){
                     $.each(store_details.categories, function(key, value){
