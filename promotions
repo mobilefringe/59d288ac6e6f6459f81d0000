@@ -49,6 +49,7 @@
                             <div class="promo_list_desc">{{description_short}}</div>
                             <a class="read_more" href="/promotions/{{slug}}">Read More</a>
                         </div>
+                        <hr class="show_hr hidden_now"/>
                     </div>
                     
                 </script>
