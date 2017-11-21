@@ -255,7 +255,7 @@
                 $('.contest_btn').prop('disabled', true);
                 // submit_contest(slug);
                 submit_contest($(this).serialize());
-                // $('html, body').animate({scrollTop : 0},800);
+                $('html, body').animate({scrollBottom : 0},800);
             });
         }
         
