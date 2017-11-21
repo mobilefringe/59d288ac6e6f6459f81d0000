@@ -86,6 +86,7 @@
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
             $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             var published_promos = [];
+            var sorted_cat_ids = [];
             $.each( promotions , function( key, val ){
                 var today = moment();
                 webDate = moment(val.show_on_web_date)
