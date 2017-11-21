@@ -160,7 +160,7 @@ function show_cat_stores(){
         $(this).addClass('active_cat');
         var rows = $('.cats_row');
         rows.hide();
-        $('#cat_name_header').html($(this).text() + "<hr/>");
+        $('#cat_name_header').text($(this).text());
         $('#cat_name_header').css('display', 'block');
         $.each($("#promos_container .cats_row"), function(i, val){
             var cat_array = val.getAttribute('data-cat').split(',');
