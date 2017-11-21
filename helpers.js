@@ -373,7 +373,8 @@ function submit_contest(data) {
         type: "POST",
         data: data,
         success: function(data) {
-            $("#success_subscribe").fadeIn();
+            $("#success_subscribe_popup").fadeIn();
+            
             $('#contest_form').trigger('reset');
         }
     });
