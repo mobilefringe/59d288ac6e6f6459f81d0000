@@ -163,7 +163,7 @@ function show_cat_stores(){
         // $('.store_initial').hide();
         $('#cat_name_header').text($(this).text());
         $('#cat_name_header').css('display', 'block');
-        $.each($("#promos_template .cats_row"), function(i, val){
+        $.each($("#promos_container .cats_row"), function(i, val){
             var cat_array = val.getAttribute('data-cat').split(',');
             console.log(cat_array);
             if ($.inArray(cat_id, cat_array) >= 0){
