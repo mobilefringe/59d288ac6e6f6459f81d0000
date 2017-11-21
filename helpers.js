@@ -155,7 +155,7 @@ function show_cat_stores(){
         $('#cat_store_container').children().hide();
         e.preventDefault();
     });
-    $('.show_cat_promos')('.show_cat_stores').click(function(e){
+    $('.show_cat_promos').click(function(e){
         var cat_id = $(this).attr('data-id');
         $('.active_cat').removeClass('active_cat');
         $(this).addClass('active_cat');
