@@ -96,7 +96,7 @@
                 if(val.categories !== null && val.categories !== undefined){
                     $.each(val.categories, function(key, value){
                         
-                        var is_inArray =$.inArray(value,category_of_stores);
+                        var is_inArray =$.inArray(value,sorted_cat_ids);
                         // console.log(value, category_of_stores, is_inArray);
                         if(is_inArray == -1){
                             sorted_cat_ids.push(value);
