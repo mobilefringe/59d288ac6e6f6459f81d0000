@@ -101,6 +101,7 @@
             });
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
+                renderStoreList('#cat_store_container','#cat_store_template', published_promos );
                 if(published_promos.length > 1) {
                     $(".show_hr").show();
                 }
