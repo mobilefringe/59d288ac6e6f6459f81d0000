@@ -272,8 +272,8 @@
         }
         
         loadMallDataCached(renderAll); 
-    // });
-    // $(window).load(function(e){
+    });
+    $(window).load(function(e){
         
         $(window).resize();
         $("#zoom_image").click();
