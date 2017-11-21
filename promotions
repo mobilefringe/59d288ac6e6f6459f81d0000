@@ -90,7 +90,6 @@
                 if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
                     published_promos.push(val)
                 } 
-                console.log(val);
             });
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
