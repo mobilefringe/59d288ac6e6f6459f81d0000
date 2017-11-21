@@ -53,7 +53,13 @@
                     <hr class="show_hr hidden_now"/>
                 </script>
             </div>
-            
+            <div id="cat_store_container">
+                <script id="cat_store_template" type="x-tmpl-mustache/text">
+                    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                    </div>
+                </script>
+            </div>
         </div>
         
         <div class="col-md-4 show_cats" style="margin-top: 20px;">
