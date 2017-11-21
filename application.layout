@@ -163,14 +163,14 @@
                     </a>
                 </div>
                 <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">
-                    <!--<p class=" hidden_phone_inline">-->
-                       <div class="row"><span class="hours_dot"></span> <span id="open_today"> Open today:</span></div>
+                    <div class="row">
+                        <span class="hours_dot"></span> <span id="open_today"> Open today:</span>
+                    </div>
                         <div class="row"><span class="home_hours_container">
                             <script class="home_hours_template" type="x-tmpl-mustache/text">
                                 <span class="hours_today" id="hours_home">{%raw%}{{h}}{%endraw%}</span>
                             </script>
                         </span></div>
-                    <!--</p>-->
                 </div>
                 
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
