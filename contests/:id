@@ -17,6 +17,8 @@
         right: 0;  
         margin: auto;
     }
+    
+    
 </style>
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
