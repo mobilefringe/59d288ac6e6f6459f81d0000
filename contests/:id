@@ -17,12 +17,12 @@
         right: 0;  
         margin: auto;
     }
-    
-    @media(max-width: 768px){
-    
-        .store_header_btns{
+     .store_header_btns{
             margin:0px;
         }
+    @media(max-width: 768px){
+    
+       
     }
 </style>
 <div class="content_container hidden_phone position_relative">
