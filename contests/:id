@@ -17,9 +17,9 @@
         right: 0;  
         margin: auto;
     }
-     .store_header_btns{
+    .store_header_btns{
             margin:0px;
-        }
+    }
     @media(max-width: 768px){
     
        
