@@ -67,7 +67,7 @@
                             <input class="form-control" id="starting_address" type="text" required data-validation="required"  tabindex="1"/>
                         </div>
                         <div class="col-md-6 col-sm-6 input_div" style="position: initial;">
-                            <button class="get_direction_btn store_header_btns" tabindex="2">Go</button>
+                            <button class="get_direction_btn store_header_btns" tabindex="2" style="margin-left:0">Go</button>
                         </div>
                     </div>
                     
