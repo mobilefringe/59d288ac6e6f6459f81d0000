@@ -3,6 +3,9 @@
         .col-md-7{
             padding-top:30px;
         }
+        .padding_top_40{
+            padding-top:0;
+        }
     }
 </style>
 
