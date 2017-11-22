@@ -6,7 +6,7 @@
         .padding_top_40{
             padding-top:0;
         }
-        ..hours_container span {
+        .hours_container span {
             font-size:16px;
         }
     }
