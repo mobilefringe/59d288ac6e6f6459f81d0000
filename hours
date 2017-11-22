@@ -3,10 +3,6 @@
         .hours_heading{
             height:300px;
         }
-        #map{
-           width:auto;
-           height:325px;
-        }
     }
 </style>
 
