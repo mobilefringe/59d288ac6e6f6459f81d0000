@@ -1,6 +1,6 @@
 <style>
     @media(max-width: 768px){
-        .hours_heading{
+        .col-md-7{
             padding-top:30px;
         }
     }
