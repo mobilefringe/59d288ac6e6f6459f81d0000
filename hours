@@ -1,3 +1,16 @@
+<style>
+    @media(max-width: 768px){
+        .demo1{
+            height:300px;
+        }
+        #map{
+           width:auto;
+           height:325px;
+        }
+    }
+</style>
+
+
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
         <ul class="slides" id="banner_header">
