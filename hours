@@ -1,7 +1,7 @@
 <style>
     @media(max-width: 768px){
         .hours_heading{
-            height:300px;
+            padding-top:300px;
         }
     }
 </style>
