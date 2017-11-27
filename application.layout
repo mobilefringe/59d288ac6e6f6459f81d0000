@@ -174,7 +174,7 @@
                         </span>
                     </div>
                     <div class="row">
-                        <a  href="/hours"><span id="view_hours"> View all hours</span></a>
+                        <a  href="/hours"><span id="view_hours" style="padding-left: 7px"> View all hours</span></a>
                     </div>
                 </div>
                 
