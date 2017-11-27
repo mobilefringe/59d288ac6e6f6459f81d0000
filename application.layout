@@ -174,7 +174,7 @@
                         </span>
                     </div>
                     <div class="row">
-                        <span class=""></span> <span id="open_today"> Open today:</span>
+                        <span id="view_hours"> View all hours</span>
                     </div>
                 </div>
                 
