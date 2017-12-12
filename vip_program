@@ -133,14 +133,7 @@
                                         <label for="postal_code">Postal Code</label>  
                                         <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
                                     </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <label for="postal_code">Postal Code</label>  
-                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <label for="city">City</label>  
-                                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
-                                    </div>
+                                    
                                     <div class="col-md-4 col-sm-6 margin_30">
                                         <label for="phone">Phone Number</label>  
                                         <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
