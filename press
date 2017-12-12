@@ -56,8 +56,8 @@
     })
     
     function renderPage(){
-        var pathArray = window.location.pathname.split( '/' );
-        var slug = pathArray[pathArray.length-1];
+        // var pathArray = window.location.pathname.split( '/' );
+        // var slug = pathArray[pathArray.length-1];
         var blog_detail = getPostDetailsBySlug(slug);
        
         renderPostDetailTemplate('#post_container', '#post_template', blog_detail);
