@@ -186,13 +186,13 @@
         prefix = get_prefix();
         $.validate();
             
-            $('#contest_form').submit(function(e){
-                e.preventDefault();
-                $('.contest_btn').prop('disabled', true);
-                // submit_contest(slug);
-                submit_contest($(this).serialize());
-                // $('html, body').animate({scrollBottom : 0},800);
-            });
+        $('#contest_form').submit(function(e){
+            e.preventDefault();
+            $('.contest_btn').prop('disabled', true);
+            // submit_contest(slug);
+            submit_contest($(this).serialize());
+            // $('html, body').animate({scrollBottom : 0},800);
+        });
     };
     $(window).load(function(e){
         show_content();
