@@ -76,7 +76,7 @@
                                         	<option value="AK">AK</option>
                                         	<option value="AZ">AZ</option>
                                         	<option value="AR">AR</option>
-                                        	<option value="CA">CA</option>
+                                        	<option value="CA" selected>CA</option>
                                         	<option value="CO">CO</option>
                                         	<option value="CT">CT</option>
                                         	<option value="DE">DE</option>
