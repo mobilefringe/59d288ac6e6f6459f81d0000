@@ -185,7 +185,8 @@
         
         prefix = get_prefix();
         $.validate();
-            
+         var contest_details = getContestBySlug(slug); 
+         var property = getPropertyDetails ();
         $('#contest_form').submit(function(e){
             
             e.preventDefault();
