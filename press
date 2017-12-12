@@ -35,16 +35,34 @@
         <div class="row">
             <div class="col-md-12" id="post_container">
                 <script id="post_template" type="x-tmpl-mustache">
-                    <h2 class="blogpost_detail_title">{{ title }}</h2>
-                  
-                    <p class="blogpost_date">{{ published_on }} {{#author}}+ {{ author }}{{/author}}</p>
-                    <div class="blog_img_section">
-                        <img class="blogpost_detail_img" src="{{image_url}}" />
+                    <div class="row hidden-xs">
+                        <div class="col-xs-5 blogpost_img">
+                           <img src="{{ image_url }}" />
+                           <div class="margin_20"></div>
+                        </div>
+                        <div class="col-xs-7 blogpost_txt">
+                            <h2 class="blogpost_title">
+                                <a href='/posts/{{slug}}'>{{ title }}</a>
+                            </h2>
+                            <div class="blogpost_content">
+                                <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span> <span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                                <p class="blogpost_discription">{{ description_short }}</p>
+                                <a href='/posts/{{slug}}' class="readmore">Read More</a>
+                            </div>
+                            <div class="margin_20"></div>
+                        </div>
                     </div>
-                    <div class="blog_detail_description" style="float:left">
-                    {{{ html_body }}}
+                    <div class="row visible-xs">
+                        <h2 class="blogpost_title">
+                            <a href='/posts/{{slug}}'>{{ title }}</a>
+                        </h2>
+                        <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span><span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                        <img src="{{ image_url }}" />
+                        <p class="blogpost_discription">{{ description_short }}</p>
+                        <a href='/posts/{{slug}}' class="readmore">Read More</a>
                     </div>
                 </script>
+                
             </div>
         </div>
     </div>
