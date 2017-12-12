@@ -33,7 +33,7 @@
                            <img src="{{ image_url }}" />
                            <div class="margin_20"></div>
                         </div>
-                        <div class="col-xs-7 blogpost_txt">
+                        <div class="col-xs-9 blogpost_txt">
                             <h2 class="blogpost_title">
                                 <a href='/posts/{{slug}}'>{{ title }}</a>
                             </h2>
