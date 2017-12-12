@@ -272,7 +272,7 @@
         }
         
         loadMallDataCached(renderAll); 
-        show_content();
+        // show_content();
     });
     $(window).load(function(e){
         $("#zoom_image").attr("src", getPNGMapURL());
