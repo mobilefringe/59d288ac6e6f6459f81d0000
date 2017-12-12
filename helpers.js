@@ -388,6 +388,7 @@ function submit_contest(data) {
     var host = propertyDetails.mm_host;
     var email = $("#email").val();
     var name = $("#first_name").val() + " " + $("#last_name").val();
+    console.log(data);
     $.ajax({
         url: host+"/newsletter_no_captcha",
         type: "POST",
