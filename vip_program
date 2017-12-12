@@ -70,7 +70,7 @@
                                         <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
                                     </div>
                                     <div class="col-md-4 col-sm-6">
-                                        <label for="postal_code" class="form-control">State</label>  
+                                        <label for="postal_code">State</label>  
                                         <select name="state">
                                         	<option value="AL">AL</option>
                                         	<option value="AK">AK</option>
