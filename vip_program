@@ -189,7 +189,7 @@
          var property = getPropertyDetails ();
          $('#contest_form').val();
          $('#contest_form').val();
-        $('#contest_form').submit(function(e){
+        $('#contest_id').submit(function(e){
             
             e.preventDefault();
             $('.contest_btn').prop('disabled', true);
