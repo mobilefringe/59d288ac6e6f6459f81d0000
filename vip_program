@@ -1,0 +1,70 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <ul class="slides" id="banner_header">
+            <script id="banner_header_template" type="x-tmpl-mustache/text">
+                <li>
+                    <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" >
+                        <img src="{{image_url}}"  class="{{gif_class}}"/>
+                    </a>
+                </li>
+            </script>
+        </ul>
+        <img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title " id="mm_title">
+            Directory
+        </div>
+        <div class="banner_header_location  ">
+            Home / <span id="mm_title_location"></span>
+        </div>
+    </div>
+</div>
+<!--<div class="content_container show_phone">-->
+<!--    <div class="main_container position_relative">-->
+<!--        <div class="stores_main_heading " id="mm_title_phone">-->
+            
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<div class="content_container main_container padding_bottom_50">
+    <h4 class="promo_main_header  show_phone" id="mm_title_phone"></h4>
+    <div class="direction_container padding_top_20">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mm_page_content" class="promo_list_desc"></div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix+"/pages/yubasutter-kids-club.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_title').html(data.title);
+            $('#mm_title_phone').html(data.title);
+            $('#mm_title_location').html(data.title);
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+            }
+        }); 
+        // show_content();
+    };
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
