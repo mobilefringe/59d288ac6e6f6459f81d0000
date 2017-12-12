@@ -187,7 +187,7 @@
         $.validate();
          var contest_details = getContestBySlug(slug); 
          var property = getPropertyDetails ();
-         $('#contest_id').val();
+         $('#contest_id').val(contest_details.id);
          $('#property_id').val(property.id);
         $('#contest_form').submit(function(e){
             
