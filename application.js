@@ -740,3 +740,15 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+function renderPostDetailTemplate(container, template, blog_detail){
+    var item_list = [];
+    var blog_template_html = $(template).html();
+    Mustache.parse(blog_template_html);   // optional, speeds up future uses
+    var date_blog = moment(blog_detail.publish_date).format("MMM DD YYYY");
+    blog_detail.published_on = date_blog;
+   
+    var blog_rendered = Mustache.render(blog_template_html, blog_detail);
+    item_list.push(blog_rendered);
+    $(container).html(item_list.join(''));
+}
