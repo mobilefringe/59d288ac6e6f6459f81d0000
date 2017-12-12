@@ -78,7 +78,7 @@
         // var slug = pathArray[pathArray.length-1];
         var blog_detail = getBlogDataBySlug('yubasutter-press').posts;
         console.log(blog_detail);
-        renderPostDetailTemplate('#post_container', '#post_template', blog_detail);
+        renderPosts('#post_container', '#post_template', blog_detail);
         show_content();
     };
     $(window).load(function(e){
