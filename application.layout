@@ -162,7 +162,7 @@
                         <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507819329000/yb_logo.png" class="logo_image hidden_phone_inline" alt="main_logo"> 
                     </a>
                 </div>
-                <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;">
+                <div class="hours_home hidden_phone_inline col-xs-9" style="padding:0;margin-top: 15px;">
                     <div class="row">
                         <span class="hours_dot"></span> <span id="open_today"> Open today:</span>
                     </div>
