@@ -100,6 +100,7 @@ function show_content(){
     var d = new Date();
     var n = d.getDay();
     var today_hours = getTodaysHours();
+    console.log(today_hours)
     renderHomeHours('.home_hours_container', '.home_hours_template', today_hours)
     renderHomeHours('#footer_hours_container', '#footer_hours_template', today_hours)
     $.each( getPropertyHours(), function(i,v){
