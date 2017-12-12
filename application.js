@@ -741,14 +741,32 @@ function renderHours(container, template, collection, type){
     $(container).html(item_rendered.join(''));
 }
 
-function renderPostDetailTemplate(container, template, blog_detail){
+function renderPosts(container, template, collection){
     var item_list = [];
-    var blog_template_html = $(template).html();
-    Mustache.parse(blog_template_html);   // optional, speeds up future uses
-    var date_blog = moment(blog_detail.publish_date).format("MMM DD YYYY");
-    blog_detail.published_on = date_blog;
-   
-    var blog_rendered = Mustache.render(blog_template_html, blog_detail);
-    item_list.push(blog_rendered);
-    $(container).html(item_list.join(''));
+    var item_rendered = [];
+    var template_html = $(template).html();
+    var counter = 1;
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    $.each( collection , function( key, val ) {
+        if (val.image_url.indexOf('missing.png') > -1) {
+            val.post_image = "//codecloud.cdn.speedyrails.net/sites/586e72336e6f6456f1180000/image/png/1483644872000/Londonderry_Final Logo.png";
+        } else {
+            val.post_image = val.image_url;
+        }
+        if(val.body.length > 100){
+            val.description_short = val.body.substring(0,100) + "...";
+        }
+        else{
+            val.description_short = val.body;
+        }
+        val.description_short = val.description_short.replace("&amp;", "&");
+        var date_blog = new Date(val.publish_date);
+        val.published_on = get_month(date_blog.getMonth()) + " " + date_blog.getDate() + ", " + date_blog.getFullYear();
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+        counter = counter+1;
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
 }
