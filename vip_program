@@ -41,135 +41,135 @@
         </div>
         <div class="row padding_top_20">
             <form id="contest_form">
-                                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
-                                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
-                                <input type="hidden" name="cm-name" id="cm-name" />
-                                <div class="row ">
-                                    <div class="col-md-4 col-sm-6 margin_30">
-                                        <label for="first_name">First Name</label>  
-                                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 margin_30">
-                                        <label for="last_name">Last Name</label>  
-                                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <label for="email">Email</label> 
-                                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
-                                    </div>
-                                    
-                                </div>
-                                <br class="hidden_phone">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 margin_30">
-                                        <label for="address">Address</label>  
-                                        <input class="form-control" id="address" name="contest[address]" type="text" required data-validation="required" tabindex="3"/>    
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <label for="city">City</label>  
-                                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
-                                    </div>
-                                    <div class="col-md-4 col-sm-6">
-                                        <label for="postal_code">State</label>  
-                                        <select name="contest[city]" class="form-control">
-                                        	<option value="AL">AL</option>
-                                        	<option value="AK">AK</option>
-                                        	<option value="AZ">AZ</option>
-                                        	<option value="AR">AR</option>
-                                        	<option value="CA" selected>CA</option>
-                                        	<option value="CO">CO</option>
-                                        	<option value="CT">CT</option>
-                                        	<option value="DE">DE</option>
-                                        	<option value="DC">DC</option>
-                                        	<option value="FL">FL</option>
-                                        	<option value="GA">GA</option>
-                                        	<option value="HI">HI</option>
-                                        	<option value="ID">ID</option>
-                                        	<option value="IL">IL</option>
-                                        	<option value="IN">IN</option>
-                                        	<option value="IA">IA</option>
-                                        	<option value="KS">KS</option>
-                                        	<option value="KY">KY</option>
-                                        	<option value="LA">LA</option>
-                                        	<option value="ME">ME</option>
-                                        	<option value="MD">MD</option>
-                                        	<option value="MA">MA</option>
-                                        	<option value="MI">MI</option>
-                                        	<option value="MN">MN</option>
-                                        	<option value="MS">MS</option>
-                                        	<option value="MO">MO</option>
-                                        	<option value="MT">MT</option>
-                                        	<option value="NE">NE</option>
-                                        	<option value="NV">NV</option>
-                                        	<option value="NH">NH</option>
-                                        	<option value="NJ">NJ</option>
-                                        	<option value="NM">NM</option>
-                                        	<option value="NY">NY</option>
-                                        	<option value="NC">NC</option>
-                                        	<option value="ND">ND</option>
-                                        	<option value="OH">OH</option>
-                                        	<option value="OK">OK</option>
-                                        	<option value="OR">OR</option>
-                                        	<option value="PA">PA</option>
-                                        	<option value="RI">RI</option>
-                                        	<option value="SC">SC</option>
-                                        	<option value="SD">SD</option>
-                                        	<option value="TN">TN</option>
-                                        	<option value="TX">TX</option>
-                                        	<option value="UT">UT</option>
-                                        	<option value="VT">VT</option>
-                                        	<option value="VA">VA</option>
-                                        	<option value="WA">WA</option>
-                                        	<option value="WV">WV</option>
-                                        	<option value="WI">WI</option>
-                                        	<option value="WY">WY</option>
-                                        </select>
-                                    </div>
-                                    
-                                </div>
-                                <br class="hidden_phone">
-                                <div class="row">
-                                    <div class="col-md-4 col-sm-6 margin_30">
-                                        <label for="postal_code">Postal Code</label>  
-                                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
-                                    </div>
-                                    <div class="col-md-4 col-sm-6 margin_30">
-                                        <label for="phone">Phone Number</label>  
-                                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
-                                    </div>
-                                </div>
-                                <br>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label class="agree">
-                                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
-                                            Yes, I would like to receive information about events and promotions from Yuba Sutter Mall.
-                                        </label>
-                                        
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
-                                        <br/><br/>
-                                        <button class=" store_header_btns" tabindex="9">Submit</button>
-                                        <br/><br/>
-                                    </div>
-                                    <div id="success_subscribe_popup" class="hidden_now">
-                                        <div class="alert alert-success fade in" style="margin-top:18px;">
-                                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                                            <strong>Success!</strong> Thank you, your entry has been received.
-                                        </div>
-                                    </div>
-                                    <div id="error_subscribe_popup" class="hidden_now">
-                                        <div class="alert alert-error fade in" style="margin-top:12px;">
-                                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
-                                        </div>
-                                    </div>
-                                    <br/><br/>
-                                </div>
-                            </form>
+                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                <input type="hidden" name="cm-name" id="cm-name" />
+                <div class="row ">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="first_name">First Name</label>  
+                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="last_name">Last Name</label>  
+                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="email">Email</label> 
+                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
+                    </div>
+                    
+                </div>
+                <br class="hidden_phone">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="address">Address</label>  
+                        <input class="form-control" id="address" name="contest[address]" type="text" required data-validation="required" tabindex="3"/>    
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="city">City</label>  
+                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="postal_code">State</label>  
+                        <select name="contest[city]" class="form-control">
+                        	<option value="AL">AL</option>
+                        	<option value="AK">AK</option>
+                        	<option value="AZ">AZ</option>
+                        	<option value="AR">AR</option>
+                        	<option value="CA" selected>CA</option>
+                        	<option value="CO">CO</option>
+                        	<option value="CT">CT</option>
+                        	<option value="DE">DE</option>
+                        	<option value="DC">DC</option>
+                        	<option value="FL">FL</option>
+                        	<option value="GA">GA</option>
+                        	<option value="HI">HI</option>
+                        	<option value="ID">ID</option>
+                        	<option value="IL">IL</option>
+                        	<option value="IN">IN</option>
+                        	<option value="IA">IA</option>
+                        	<option value="KS">KS</option>
+                        	<option value="KY">KY</option>
+                        	<option value="LA">LA</option>
+                        	<option value="ME">ME</option>
+                        	<option value="MD">MD</option>
+                        	<option value="MA">MA</option>
+                        	<option value="MI">MI</option>
+                        	<option value="MN">MN</option>
+                        	<option value="MS">MS</option>
+                        	<option value="MO">MO</option>
+                        	<option value="MT">MT</option>
+                        	<option value="NE">NE</option>
+                        	<option value="NV">NV</option>
+                        	<option value="NH">NH</option>
+                        	<option value="NJ">NJ</option>
+                        	<option value="NM">NM</option>
+                        	<option value="NY">NY</option>
+                        	<option value="NC">NC</option>
+                        	<option value="ND">ND</option>
+                        	<option value="OH">OH</option>
+                        	<option value="OK">OK</option>
+                        	<option value="OR">OR</option>
+                        	<option value="PA">PA</option>
+                        	<option value="RI">RI</option>
+                        	<option value="SC">SC</option>
+                        	<option value="SD">SD</option>
+                        	<option value="TN">TN</option>
+                        	<option value="TX">TX</option>
+                        	<option value="UT">UT</option>
+                        	<option value="VT">VT</option>
+                        	<option value="VA">VA</option>
+                        	<option value="WA">WA</option>
+                        	<option value="WV">WV</option>
+                        	<option value="WI">WI</option>
+                        	<option value="WY">WY</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <br class="hidden_phone">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="postal_code">Postal Code</label>  
+                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="4"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="phone">Phone Number</label>  
+                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="3"/>    
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="agree">
+                            <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="7"/> 
+                            Yes, I would like to receive information about events and promotions from Yuba Sutter Mall.
+                        </label>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.
+                        <br/><br/>
+                        <button class=" store_header_btns" tabindex="9">Submit</button>
+                        <br/><br/>
+                    </div>
+                    <div id="success_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-success fade in" style="margin-top:18px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Success!</strong> Thank you, your entry has been received.
+                        </div>
+                    </div>
+                    <div id="error_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-error fade in" style="margin-top:12px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
+                        </div>
+                    </div>
+                    <br/><br/>
+                </div>
+            </form>
         </div>
     </div>
 </div>
