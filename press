@@ -58,21 +58,10 @@
     function renderPage(){
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-        
-        prefix = get_prefix();
-        $('#top_banner').addClass(slug)
-        var pages_json = prefix+"/pages/" + slug + ".json"
-        $.getJSON(pages_json).done(function(data) {
-            $('#mm_title').html(data.title);
-            $('#mm_title_phone').html(data.title);
-            $('#mm_title_location').html(data.title);
-            $('#mm_page_content').html(data.body);
-        }).fail(function(jqXHR) {
-            if (jqXHR.status == 404) {
-                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
-            }
-        }); 
-        // show_content();
+        var blog_detail = getPostDetailsBySlug(slug);
+       
+        renderPostDetailTemplate('#post_container', '#post_template', blog_detail);
+        show_content();
     };
     $(window).load(function(e){
         show_content();
