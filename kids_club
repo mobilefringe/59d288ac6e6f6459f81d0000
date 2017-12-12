@@ -14,7 +14,7 @@
     </div>
     <div class="main_container position_relative">
         <div class="banner_header_title " id="mm_title">
-            Directory
+            Kids Club
         </div>
         <div class="banner_header_location  ">
             Home / <span id="mm_title_location"></span>
