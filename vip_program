@@ -185,7 +185,7 @@
         
         prefix = get_prefix();
         $.validate();
-         var contest_details = getContestBySlug(slug); 
+         var contest_details = getContestBySlug('yubasutter-vip-program'); 
          var property = getPropertyDetails ();
          $('#contest_id').val(contest_details.id);
          $('#property_id').val(property.id);
