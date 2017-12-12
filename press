@@ -58,7 +58,7 @@
     function renderPage(){
         // var pathArray = window.location.pathname.split( '/' );
         // var slug = pathArray[pathArray.length-1];
-        var blog_detail = getPostDetailsBySlug('');
+        var blog_detail = getPostDetailsBySlug('yubasutter-press');
        
         renderPostDetailTemplate('#post_container', '#post_template', blog_detail);
         show_content();
