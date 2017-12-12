@@ -68,7 +68,7 @@
                                         <label for="city">City</label>  
                                         <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
                                     </div>
-                                    <div class="col-md-4">
+                                    <div class="col-md-4 col-sm-6">
                                         <label for="email">Email</label> 
                                         <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="6"/>
                                     </div>
