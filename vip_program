@@ -41,7 +41,7 @@
         </div>
         <div class="row padding_top_20">
             <form id="contest_form">
-                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                <!--<input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>-->
                 <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
                 <input type="hidden" name="cm-name" id="cm-name" />
                 <div class="row ">
