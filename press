@@ -54,6 +54,7 @@
                         <p class="blogpost_discription">{{ description_short }}</p>
                         <a href='/posts/{{slug}}' class="readmore">Read More</a>
                     </div>
+                    <hr/>
                 </script>
                 
             </div>
