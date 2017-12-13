@@ -97,7 +97,7 @@ function init(e){
     console.log(navbar);
     window.onscroll = function() {
         if (window.pageYOffset >= sticky_offset) {
-            navbar.add("sticky")
+            navbar.addClass("sticky")
         } else {
             navbar.remove("sticky");
         }
