@@ -261,7 +261,7 @@
     <section class="yield">
         {{yield}}
     </section>
-    <hr/>
+    
     <section class="content_container main_container">
         <div class="site_map">
             <div class="row">
