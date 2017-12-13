@@ -103,7 +103,7 @@ function init(e){
 
     var navbar = $("navbar");
     var sticky = navbar.offsetTop;
-   }
+    
 }
 
 function show_content(){
