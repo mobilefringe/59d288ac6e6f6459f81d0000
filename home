@@ -223,6 +223,7 @@
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
         loadMallData(renderAll); 
+        show_content();
     });
     $(window).load(function(e){
         show_content();
