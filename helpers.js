@@ -125,7 +125,7 @@ function show_content(){
     });
     
     var sticky_offset = 100;
-    var navbar = $(".menu_header_content");
+    var navbar = $(".menu_container");
     console.log(navbar);
     window.onscroll = function() {
         if (window.pageYOffset >= sticky_offset) {
