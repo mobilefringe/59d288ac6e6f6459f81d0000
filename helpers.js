@@ -24,7 +24,7 @@ $(window).load(function(e){
 //             }
 //         }
 //     });
-var sticky_offset = 100;
+    var sticky_offset = 100;
     var navbar = $("#naviagation_bar");
     console.log(navbar);
     window.onscroll = function() {
