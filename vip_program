@@ -152,7 +152,7 @@
                     <div class="col-md-12" style="float: none;">
                         <a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="10">Click here</a> to view the rules and regulations.
                         <br/><br/>
-                        <button class=" store_header_btns" tabindex="9">Submit</button>
+                        <button class=" store_header_btns" tabindex="11">Submit</button>
                         <br/><br/>
                     </div>
                     <div id="success_subscribe_popup" class="hidden_now">
