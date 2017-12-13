@@ -123,8 +123,6 @@ function show_content(){
             }
         }
     });
-    
-    
 }
 
 
