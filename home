@@ -225,7 +225,7 @@
         loadMallData(renderAll); 
         show_content();
     });
-    $(window).load(function(e){
-        show_content();
-    });
+    // $(window).load(function(e){
+    //     show_content();
+    // });
 </script>
