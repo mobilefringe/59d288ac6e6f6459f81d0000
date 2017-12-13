@@ -143,7 +143,7 @@
                     <div class="col-md-12">
                         <label class="agree">
                             <input id="newsletter_signup" type="checkbox" name="contest[newsletter]" tabindex="9"/> 
-                            Yes, I would like to receive information about events and promotions from Yuba Sutter Mall.
+                            I agree to receive electronic messages from Yuba Sutter Mall.
                         </label>
                         
                     </div>
