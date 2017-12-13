@@ -1,4 +1,4 @@
-// $(window).load(function(e){
+$(window).load(function(e){
 //     var d = new Date();
 //     var n = d.getDay();
 //     var today_hours = getTodaysHours();
