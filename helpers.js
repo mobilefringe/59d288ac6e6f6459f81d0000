@@ -95,10 +95,10 @@ function init(e){
     var sticky_offset = 100;
     window.onscroll = function() {
         if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
     };
 
     var navbar = $("navbar");
