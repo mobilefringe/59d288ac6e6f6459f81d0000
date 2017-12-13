@@ -97,14 +97,7 @@ function init(e){
 
     var navbar = $("navbar");
     var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
+   }
 }
 
 function show_content(){
