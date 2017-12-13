@@ -123,6 +123,7 @@ function show_content(){
             }
         }
     });
+    
     var sticky_offset = 100;
     var navbar = $(".menu_header_content");
     
