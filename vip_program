@@ -71,7 +71,7 @@
                     </div>
                     <div class="col-md-4 col-sm-6">
                         <label for="postal_code">State</label>  
-                        <select name="contest[city]" class="form-control" tabindex="6">
+                        <select name="contest[postal_code]" class="form-control" tabindex="6">
                         	<option value="AL">AL</option>
                         	<option value="AK">AK</option>
                         	<option value="AZ">AZ</option>
