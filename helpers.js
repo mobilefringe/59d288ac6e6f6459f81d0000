@@ -92,7 +92,7 @@ function init(e){
     var current_year = moment().year();
     $("#current_year").text(current_year);
     
-    
+    var sticky_offset = 100;
 }
 
 function show_content(){
