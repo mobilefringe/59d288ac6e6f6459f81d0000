@@ -93,7 +93,7 @@ function init(e){
     $("#current_year").text(current_year);
     
     var sticky_offset = 100;
-    var navbar = $("navbar");
+    var navbar = $(".menu_header_content");
     
     window.onscroll = function() {
         if (window.pageYOffset >= sticky_offset) {
