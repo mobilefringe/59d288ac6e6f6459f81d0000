@@ -99,7 +99,7 @@ function init(e){
         if (window.pageYOffset >= sticky_offset) {
             navbar.addClass("sticky")
         } else {
-            navbar.remove("sticky");
+            navbar.removeClass("sticky");
         }
     };
 }
