@@ -163,7 +163,7 @@
     }
 </style>
 <script>
-    $(window).load(function(e){
+    $(document).ready(function(e){
         init(e);
         function renderAll(){
             loadSocialFeeds(render_social);
@@ -223,9 +223,8 @@
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
         loadMallData(renderAll); 
+    });
+    $(window).load(function(e){
         show_content();
     });
-    // $(window).load(function(e){
-    //     show_content();
-    // });
 </script>
