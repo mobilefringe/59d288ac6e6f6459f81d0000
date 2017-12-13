@@ -187,6 +187,7 @@
         $.validate();
          var contest_details = getContestBySlug('yubasutter-vip-program'); 
          var property = getPropertyDetails ();
+         console.log(contest_details, property)
          $('#contest_id').val(contest_details.id);
          $('#property_id').val(property.id);
         $('#contest_form').submit(function(e){
