@@ -92,6 +92,16 @@ function init(e){
     var current_year = moment().year();
     $("#current_year").text(current_year);
     
+    var sticky_offset = 100;
+    var navbar = $("#naviagation_bar");
+    console.log(navbar);
+    window.onscroll = function() {
+        if (window.pageYOffset >= sticky_offset) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    };
 }
 
 function show_content(){
