@@ -163,7 +163,7 @@
     }
 </style>
 <script>
-    $(document).ready(function(e){
+    $(window).load(function(e){
         init(e);
         function renderAll(){
             loadSocialFeeds(render_social);
