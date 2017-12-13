@@ -200,7 +200,7 @@
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
         </div>
-
+        <hr/>
         <div class="menu_container hidden_phone main_container menu_header_content" style="padding-bottom:5px;">
             <ul class="stc_nav nav navbar-nav">
                 <li class="nav_li"> <a href="/stores">Directory</a></li>
