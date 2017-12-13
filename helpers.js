@@ -95,7 +95,7 @@ function init(e){
     var sticky_offset = 100;
     window.onscroll = function() {myFunction()};
 
-    var navbar = document.getElementById("navbar");
+    var navbar = $("navbar");
     var sticky = navbar.offsetTop;
     
     function myFunction() {
