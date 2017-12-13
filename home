@@ -224,5 +224,9 @@
     });
     $(window).load(function(e){
         show_content();
+        $('.flexslider').flexslider({
+                animation: "slide",
+                allowOneSlide: false,
+            });
     });
 </script>
