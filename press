@@ -1,6 +1,6 @@
 <style>
     .col-md-12 {
-        
+        padding: 0 15px;
     }
 </style>
 <div class="content_container hidden_phone position_relative">
