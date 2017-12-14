@@ -40,7 +40,7 @@
                             <div class="blogpost_content">
                                 <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span> <span class="regular">|</span>{{/author}} {{ published_on }}</p>
                                 <p class="blogpost_discription">{{ description_short }}</p>
-                                <a href='/posts/{{slug}}' class="readmore">Read More</a>
+                                // <a href='/posts/{{slug}}' class="readmore">Read More</a>
                             </div>
                             <div class="margin_20"></div>
                         </div>
