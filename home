@@ -158,9 +158,9 @@
             }
             // show_content();
             $('.flexslider').flexslider({
-            animation: "slide",
-            allowOneSlide: false,
-        });
+                animation: "slide",
+                allowOneSlide: false,
+            });
             
             $(".flex-direction-nav").hide();
             renderSitePopup();
