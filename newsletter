@@ -1,3 +1,17 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="http://assets.codecloudapp.com/sites/59d288ac6e6f6459f81d0000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title " id="mm_title">
+            Kids Club
+        </div>
+        <div class="banner_header_location  ">
+            Home / Kids Club
+        </div>
+    </div>
+</div>
 <div class="content_container main_container">
     <h4 class="promo_main_header">Newsletter</h4>
     <form action="//mobilefringe.createsend.com/t/d/s/bkhoy/" method="post" id="newsletter_form">
