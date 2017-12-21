@@ -36,17 +36,25 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <label class="newsletter_label">
-                            <input id="newsletter_agree" type="checkbox" />
-                            I agree to receive newsletters from Fairfax Corner
-                        </label>
-                        <br />
-                        <button type="submit" class="animated_btn main_btn">Subscribe</button>
-                        <p class="hidden_now" id="success_subscribe">
-                            Thank you for subscribing!
-                        </p>
+                    <div class="col-md-12" style="float: none;">
+                        <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
+                        <br/><br/>
+                        <button class=" store_header_btns" tabindex="9">Submit</button>
+                        <br/><br/>
                     </div>
+                    <div id="success_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-success fade in" style="margin-top:18px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Success!</strong> Thank you, your entry has been received.
+                        </div>
+                    </div>
+                    <div id="error_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-error fade in" style="margin-top:12px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
+                        </div>
+                    </div>
+                    <br/><br/>
                 </div>
             </div>
         </div>
