@@ -157,10 +157,10 @@
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
             // show_content();
-            $('.flexslider').flexslider({
-                animation: "slide",
-                allowOneSlide: false,
-            });
+            // $('.flexslider').flexslider({
+            //     animation: "slide",
+            //     allowOneSlide: false,
+            // });
             
             $(".flex-direction-nav").hide();
             renderSitePopup();
