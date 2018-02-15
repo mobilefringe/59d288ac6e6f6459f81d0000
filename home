@@ -162,7 +162,7 @@
             }
             else {
                 $(".promotions").hide();
-                $("..visit_us_header").css("margin-top","0px");
+                $(".visit_us_header").css("margin-top","0px");
             }
             // show_content();
             // $('.flexslider').flexslider({
