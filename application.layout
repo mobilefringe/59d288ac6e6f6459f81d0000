@@ -264,8 +264,8 @@
         {{yield}}
     </section>
     
-    <section class="content_container main_container border_top border_bottom" >
-        <div class="site_map">
+    <section class="border_top border_bottom" >
+        <div class="site_map content_container main_container ">
             <div class="row">
                 <div class="col-md-4 col-xs-12 bottom_border">
                     <div class="hidden_phone">
