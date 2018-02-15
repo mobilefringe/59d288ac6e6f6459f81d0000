@@ -190,8 +190,8 @@
             $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
             
             // console.log(latest_fb_post);
-            if(latest_fb_post.text.length > 80){
-                $('#latest_fb').text(latest_fb_post.text.substr(0,80) + "...")
+            if(latest_fb_post.text.length > 70){
+                $('#latest_fb').text(latest_fb_post.text.substr(0,70) + "...")
             }
             else{
                 $('#latest_fb').text(latest_fb_post.text)
