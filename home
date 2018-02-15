@@ -160,6 +160,9 @@
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos.reverse().slice(0,3));
             }
+            else {
+                $(".promotions").hide();
+            }
             // show_content();
             // $('.flexslider').flexslider({
             //     animation: "slide",
