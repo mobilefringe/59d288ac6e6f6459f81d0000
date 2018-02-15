@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-4 hidden_phone padding_top_40">
             <a href="/stores"></a><img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/jpeg/1518713247913/Feature box directory.jpg" alt="plaza">
-            <img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/jpeg/1518713254333/Feature box Events.jpg" alt="plaza 2">
+            <a href="/events"></a><img style="margin-bottom:20px;" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/jpeg/1518713254333/Feature box Events.jpg" alt="plaza 2">
         </div> 
     </div>
 </div>
