@@ -550,9 +550,9 @@ function renderHomeHours(container, template, collection){
             val.h = open_time.format("h:mmA") + " - " + close_time.format("h:mmA");
         } else {
             val.h = "";
-            $("#open_today").text("Closed today");
+            $("#open_today").text("Closed Today");
             $('.hours').css("background", "#FF001A");
-            $("#todays_hours").text("Closed today");
+            $("#todays_hours").text("Closed Today");
         }
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
