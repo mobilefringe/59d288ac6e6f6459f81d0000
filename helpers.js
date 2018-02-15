@@ -129,7 +129,8 @@ function show_content(){
                 v.open_time = convert_hour(open_time);
                 v.close_time = convert_hour(close_time);
                 v.h = v.open_time+ " - " + v.close_time;
-                $('#hours_home').text(v.h)
+                $('#hours_home').text(v.h);
+                $('#hours_home_footer').text(v.h);
             }
         }
     });
