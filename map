@@ -14,7 +14,7 @@
 		min-width:3000px;
 		min-height: 2200px;
 		max-width: none;
-		
+		backface-visibility: initial!important;
 	}
 	#zoom_container_directory{
 	    /*height:700px;*/
