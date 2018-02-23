@@ -485,11 +485,11 @@ function renderSitePopup(){
             }
         }
     
-        // if( getCookie('popup_viewed') != 'true'){
+        if( getCookie('popup_viewed') != 'true'){
             document.cookie = "popup_viewed=true";
             $(".hidden-popup-bg").show();
             $('body').addClass('no_scroll');
-        // }
+        }
         
         $(".hidden-popup-bg").click(function(event){
             if( !$( event.target).is('.hidden-popup-form') ) {
