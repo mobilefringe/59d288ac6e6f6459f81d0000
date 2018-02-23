@@ -453,28 +453,28 @@ function renderSitePopup(){
     console.log("popup",getPopups())
     if (pp != undefined){
         if (pp.contest.name != undefined && pp.contest.name.length > 0){
-            $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="//mallmaverick.cdn.speedyrails.net' + pp.photo_url + '" alt="pop up">');
-            $('.hidden-popup-form').css('height', '600px')
-            $('.popup-close-form').click(function(){
-                $('.popup-close').click();
-            });
-            $('#newsletter_form_pp').submit(function(e){
-                e.preventDefault();
-                $.getJSON(
-                    this.action + "?callback=?",
-                    $(this).serialize(),
-                    function (data) {
-                        if (data.Status === 400) {
-                            alert("Please try again later.");
-                        } else { // 200
-                            $("#success_subscribe").fadeIn();
-                            $('#newsletter_form_pp').trigger('reset')
-                            $(".hidden-popup-bg").delay(2000).fadeOut();
+            // $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="//mallmaverick.cdn.speedyrails.net' + pp.photo_url + '" alt="pop up">');
+            // $('.hidden-popup-form').css('height', '600px')
+            // $('.popup-close-form').click(function(){
+            //     $('.popup-close').click();
+            // });
+            // $('#newsletter_form_pp').submit(function(e){
+            //     e.preventDefault();
+            //     $.getJSON(
+            //         this.action + "?callback=?",
+            //         $(this).serialize(),
+            //         function (data) {
+            //             if (data.Status === 400) {
+            //                 alert("Please try again later.");
+            //             } else { // 200
+            //                 $("#success_subscribe").fadeIn();
+            //                 $('#newsletter_form_pp').trigger('reset')
+            //                 $(".hidden-popup-bg").delay(2000).fadeOut();
                             
-                        }
-                    }
-                );
-            });
+            //             }
+            //         }
+            //     );
+            // });
         }
         else{
             if (pp.photo_link.length > 0){
