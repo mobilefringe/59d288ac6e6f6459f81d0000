@@ -450,6 +450,7 @@ function add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name
 
 function renderSitePopup(){
     var pp = getPopups()[0];
+    console.log("popup",pp)
     if (pp != undefined){
         if (pp.contest.name != undefined && pp.contest.name.length > 0){
             $('.popup-body').append('<img id="pp_img" class="pp_img_bg" src="//mallmaverick.cdn.speedyrails.net' + pp.photo_url + '" alt="pop up">');
