@@ -202,10 +202,9 @@
         }
         loadMallData(renderAll); 
         
-        how_content();
+        show_content();
     });
     $(window).load(function(e){
-        s
         $('.flexslider').flexslider({
             animation: "slide",
             allowOneSlide: false,
