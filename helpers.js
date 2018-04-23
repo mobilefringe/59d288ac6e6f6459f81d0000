@@ -395,12 +395,12 @@ function site_search(){
 
 function submit_contest(data) {
     var propertyDetails = getPropertyDetails();
-    var host = propertyDetails.mm_host;
+    var host = propertyDetails.mm_host.replace("http:", "");
     var email = $("#email").val();
     var name = $("#first_name").val() + " " + $("#last_name").val();
     console.log(data);
     $.ajax({
-        url: host+"/newsletter_no_captcha",
+        url: host+"/newsletter_no_captcha",host_name + "/contests/" + vm.currentContest.slug + "/json_entry";
         type: "POST",
         data: data,
         success: function(data) {
