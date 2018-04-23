@@ -201,6 +201,8 @@
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
         loadMallData(renderAll); 
+        
+        how_content();
     });
     $(window).load(function(e){
         s
