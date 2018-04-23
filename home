@@ -203,7 +203,7 @@
         loadMallData(renderAll); 
     });
     $(window).load(function(e){
-        show_content();
+        s
         $('.flexslider').flexslider({
             animation: "slide",
             allowOneSlide: false,
