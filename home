@@ -141,7 +141,6 @@
         function renderAll(){
             loadSocialFeeds(render_social);
             var banners = getBanners();
-            console.log(banners);
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
             var feature_items = getFeatureList().splice(0, 3);
             var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
