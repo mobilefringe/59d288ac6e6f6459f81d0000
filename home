@@ -164,11 +164,6 @@
                 $(".promotions").hide();
                 $(".visit_us_header").css("margin-top","0px");
             }
-            // show_content();
-            // $('.flexslider').flexslider({
-            //     animation: "slide",
-            //     allowOneSlide: false,
-            // });
             
             $(".flex-direction-nav").hide();
             renderSitePopup();
