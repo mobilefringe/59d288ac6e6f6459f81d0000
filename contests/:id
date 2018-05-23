@@ -149,8 +149,9 @@
                 $("#events_empty_section").show();
                 $("#events_not_empty_section").hide();
             }
-            renderContest("#contest_container", '#contest_template', contest_details)
-
+            else {
+                renderContest("#contest_container", '#contest_template', contest_details)
+            }
             // show_content();
             
             $.validate();
