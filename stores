@@ -279,7 +279,7 @@
     			container: 'zoom_container_directory'
     		});
             $("#zoom_image").on('load',function(){
-                
+                $("#zoom_image").click();
             });
             $('.map_pin_a').click(function(e){
                 e.preventDefault();
