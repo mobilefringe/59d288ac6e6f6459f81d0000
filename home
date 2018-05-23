@@ -192,7 +192,7 @@
             var fb_date = new Date(latest_fb_post.created_at.split(',')[0])
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
-        loadMallData(renderAll); 
+        loadMallDataCached(renderAll); 
         setTimeout(function(){
             show_content();
         },500);
