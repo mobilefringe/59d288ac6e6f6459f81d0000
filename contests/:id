@@ -147,6 +147,7 @@
             console.log(contest_details);
             if(contest_details == null || contest_details == undefined) {
                 $("#events_empty_section").show();
+                $("#events_not_empty_section").hide();
             }
             renderContest("#contest_container", '#contest_template', contest_details)
 
