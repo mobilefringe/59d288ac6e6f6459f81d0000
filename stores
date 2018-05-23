@@ -295,7 +295,7 @@
                 add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name);
             });
             $(window).resize();
-            $("#zoom_image").click();
+            // $("#zoom_image").click();
         }
         
         loadMallDataCached(renderAll); 
