@@ -278,7 +278,7 @@
     			zoom_OUT_TO_FIT: "YES",
     			container: 'zoom_container_directory'
     		});
-    
+            
             $('.map_pin_a').click(function(e){
                 console.log("in map_pin_a");
                 e.preventDefault();
