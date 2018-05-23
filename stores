@@ -264,8 +264,7 @@
         }
         
         loadMallDataCached(renderAll); 
-        dd_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name);
-        });
+        
             
         show_content();
     });
