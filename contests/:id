@@ -146,7 +146,7 @@
             var contest_details = getContestBySlug(slug);
             console.log(contest_details);
             if(contest_details == null || contest_details == undefined) {
-                
+                $("#events_empty_section").show();
             }
             renderContest("#contest_container", '#contest_template', contest_details)
 
