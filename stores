@@ -305,8 +305,4 @@
             
         show_content();
     });
-    $(window).load(function(e){
-        
-        
-    });
 </script>
