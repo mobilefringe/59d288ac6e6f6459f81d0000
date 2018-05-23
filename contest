@@ -141,7 +141,7 @@
         init(e);
         function renderPageData(){
             
-            var contest_details = getContestBySlug('yubasutter-test-contest');
+            var contest_details = null;//getContestBySlug('yubasutter-test-contest');
             console.log(contest_details);
             if(contest_details == null || contest_details == undefined) {
                 $("#events_empty_section").show();
