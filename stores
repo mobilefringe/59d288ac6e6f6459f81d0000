@@ -302,7 +302,6 @@
         
         loadMallDataCached(renderAll); 
         
-            
         show_content();
     });
 </script>
