@@ -179,8 +179,11 @@
         }
 
         loadMallDataCached(renderPageData);
+        setTimeout(function(){
+            show_content();
+        },700);
     });
     $(window).load(function(e){
-        show_content();
+        
     });
 </script>
