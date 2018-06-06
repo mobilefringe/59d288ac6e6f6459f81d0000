@@ -194,6 +194,7 @@
                     $('#latest_fb').text(latest_fb_post.text.substr(0,60) + "...");
                     console.log("if",$('#latest_fb'));
                 }
+                else if(latest_fb_post.text.length === 0)
                 else{
                     $('#latest_fb').text(latest_fb_post.text);
                     console.log($("else",'#latest_fb'));
