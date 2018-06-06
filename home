@@ -192,7 +192,7 @@
                 if(latest_fb_post.text.length > 60){
                     
                     $('#latest_fb').text(latest_fb_post.text.substr(0,60) + "...");
-                    console.log($('#latest_fb if'));
+                    console.log("if",$('#latest_fb'));
                 }
                 else{
                     $('#latest_fb').text(latest_fb_post.text);
