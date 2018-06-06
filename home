@@ -167,8 +167,8 @@
             $(".flex-direction-nav").hide();
             renderSitePopup();
             setTimeout(function(){
-            show_content();
-        },500);
+                show_content();
+            },500);
         }
          function render_social(){
             var social_feed = getSocialFeed();
