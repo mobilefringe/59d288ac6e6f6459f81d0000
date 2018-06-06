@@ -173,7 +173,6 @@
          function render_social(){
             
             var social_feed = getSocialFeed();
-            console.log("social",social_feed );
             var latest_tweet = social_feed.twitter[0];
             var latest_fb_post = social_feed.facebook[0];
             if(latest_tweet !== null && latest_tweet !== undefined) {
@@ -188,7 +187,6 @@
                 $('#latest_tweet_date').text(get_month(tweet_date.getMonth()) + " " + tweet_date.getDate())
             }
             if(latest_fb_post !== null && latest_fb_post !== undefined) {
-                console.log("latest_fb_post",latest_fb_post );
                 if(latest_fb_post.text.length > 60){
                     
                     $('#latest_fb').text(latest_fb_post.text.substr(0,60) + "...");
