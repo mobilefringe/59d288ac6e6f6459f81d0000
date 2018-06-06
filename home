@@ -193,9 +193,7 @@
             $('#latest_fb_date').text(get_month(fb_date.getMonth()) + " " + fb_date.getDate())
         }
         loadMallDataCached(renderAll); 
-        setTimeout(function(){
-            show_content();
-        },500);
+        
     });
     $(window).load(function(e){
         $('.flexslider').flexslider({
