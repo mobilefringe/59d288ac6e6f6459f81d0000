@@ -194,7 +194,7 @@
                     $('#latest_fb').text(latest_fb_post.text.substr(0,60) + "...");
                 }
                 else if(latest_fb_post.text.length === 0) {
-                    $('#latest_fb').text(latest_fb_post. latest_fb_post.link);
+                    $('#latest_fb').text(latest_fb_post.link);
                 }
                 else{
                     $('#latest_fb').text(latest_fb_post.text);
