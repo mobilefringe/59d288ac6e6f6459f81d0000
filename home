@@ -199,7 +199,6 @@
                 }
                 else{
                     $('#latest_fb').text(latest_fb_post.text);
-                    console.log($("else",'#latest_fb'));
                 }
                 
                 $('#latest_fb_link').attr('href', latest_fb_post.link)
