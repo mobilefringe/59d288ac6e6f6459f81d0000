@@ -102,7 +102,7 @@
 						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
-                        <li><a href="/pages/yubasutter-gift-cards">Gift Cards</a></li>
+                        <!--<li><a href="/pages/yubasutter-gift-cards">Gift Cards</a></li>-->
                         <li><a href="/hours">Centre Hours</a></li>
                         <li><a href="/jobs">Employment</a></li>
                         <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
