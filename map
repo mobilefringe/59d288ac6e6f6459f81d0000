@@ -1,0 +1,226 @@
+<style>
+    #map2 {
+        max-width: 100%;
+        /*max-height: 586px;*/
+        position: relative;
+        top: 0;
+        left: 0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    #zoom_image{
+		width:3000px;
+		height: 2200px;
+		min-width:3000px;
+		min-height: 2200px;
+		max-width: none;
+		backface-visibility: initial!important;
+	}
+	#zoom_container_directory{
+	    /*height:700px;*/
+	    /*width:600px;//!important;*/
+	}
+    .zoom_container .landmarks{
+    	position:absolute;
+    	z-index:10;	
+    	top:0px;
+    	left:0px;
+    	font-family: Helvetica, Arial, Verdana;
+    	font-size:12px;
+    	color: #ffffff;
+    }	
+    .zoom_container .landmarks .item {
+    	position:absolute;		
+    	text-align:center;		
+    	display: none;
+    }	
+    .zoom_container .landmarks .lable div {
+    	width: 100px;
+    	padding: 4px;	
+    }	
+    .zoom_container .landmarks .mark .text{
+    	background-color:#000000;
+    	padding:2px 6px;
+    	min-width: 75px;	
+    }
+    .truncate {
+      width: 100%;
+      white-space: normal;
+    }
+    /*.map{max-width:100%;max-height:586px;position:relative;top:0;left:0;border-radius:4px;overflow:hidden}*/
+</style>
+
+<link href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1432640222000/smoothzoom.css" rel="stylesheet">
+<script src="//codecloud.cdn.speedyrails.net/sites/59035a6c6e6f645a5b420000/application/x-javascript/1503602727000/smoothZoomA24.js"></script> 
+
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Map
+        </div>
+        <div class="banner_header_location  ">
+            Home / Map
+        </div>
+    </div>
+</div>
+<div class="content_container main_container position_relative padding_top_40">
+    <a href="#" class="locate_store">Locate store <i class="fa fa-search"></i></a>
+    <div class="stores_table">
+        <ul id="store_list_container_map">
+            <script id="store_list_template_map" type="x-tmpl-mustache/text">
+                <li><a class="map_pin_a" href="#" store_id="{{id}}" store_name="{{name}}" store_x_coordinate="{{x_coordinate}}" store_y_coordinate="{{y_coordinate}}">{{name}}</a><li>
+            </script>
+        </ul>
+    </div>
+    <div class="map_container">
+        <div id="map2">
+            <!--<img alt="map" id="map_image" src="">-->
+            <div class="zoom_container" id="zoom_container_directory">
+    			    <img alt="Centre Map" id="zoom_image" src=""/>
+				    <div class="landmarks" data-show-at-zoom="0" data-allow-drag="true"></div>
+			</div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var categories = getStoreCategories();
+            var stores = getStoresList(); 
+            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
+            // $.each(stores, function(i, val){
+            //     x = val.x_coordinate - 19;
+            //     y = val.y_coordinate - 58;
+            //     $('#map_image').after('<div class="marker" id="store_' + val.id  + '" data-coords="' + x + ', ' + y + '" style="display:none"><a style="color:#fff" href=/stores/'+val.slug +'>' + val.name + '</a></div>')
+            // });  
+    //         show_content();
+            
+    //         $("#map_image").attr("src", getPNGMapURL());
+    //         $('#map2').craftmap({
+    // 			image: {
+    // 				width: 850,
+    // 				height: 850,
+    // 			},
+    // 			map: {
+    // 				position: 'center'
+    // 			}
+    // 		});
+        }
+        
+		loadMallDataCached(renderAll); 
+    });
+    var map_self = "";
+    var stores = [];
+    function renderMap(map_stores) {
+        var mall_json = {};
+        var landmarks = {};
+        mall_json.mapwidth = "818";
+        mall_json.mapheight = "600";
+        mall_json.categories = [];
+        mall_json.levels = [];
+        stores = map_stores;
+        // need to add the following for each floor we want to configure.
+        _.forEach(floorList(), function(value, key) {
+            var floor_1 = {};
+            floor_1.id = value.id;
+            floor_1.title = value.title;
+            console.log("value.map", value.map);
+            floor_1.map = value.map;
+    
+            floor_1.show = value.show;
+            floor_1.locations = [];
+            _.forEach(map_stores, function(val, key) {
+                //for testing limiting the store numbers to vm
+                var temp_val = {};
+                temp_val.id = val.id;
+                temp_val.title =  val.name;
+                temp_val.link = "/stores/" + val.slug;
+                // temp_val.action = "open-link-new-tab";
+                temp_val.pin = "hidden";
+                temp_val.zoom = 3;
+                //use png's width/height to get x and y coord
+                if(val.x_coordinate) {
+                    temp_val.x = val.x_coordinate / 3000;
+                }
+                else {
+                    temp_val.x = 0.5;
+                }
+                if(val.y_coordinate) {
+                    temp_val.y = val.y_coordinate / 2200;
+                }
+                else {
+                    temp_val.y = 0.5;
+                }
+                floor_1.locations.push(temp_val);
+            });
+            // add a init to feed intial zoom
+            var temp_val =  {};
+            temp_val.id = "init";
+            temp_val.pin = "hidden";
+            temp_val.zoom = 1;
+            // temp_val.x = 0.5;
+            // temp_val.x = 0.5;
+            floor_1.locations.push(temp_val);
+            
+            mall_json.levels.push(floor_1);
+        });
+        
+        //map height 
+        var map_height = 600;
+        if($(document).width() <= 768) {
+           map_height = 400;
+        }
+        map = $('#mapplic').mapplic({
+            source: mall_json,
+            height: map_height,
+            landmark: true,
+            mapfill: true,
+            minimap: false,
+            sidebar: false,
+            hovertip: true,
+            developer: false,
+            fullscreen: false,
+            clearbutton: false,
+            deeplinking: false,
+            fillcolor: "none",
+            maxscale: 5,
+            skin: 'mapplic-dark',
+            action:'tooltip',
+            tooltiplabel: 'More'
+        });
+    
+        map.on('mapready', function(e, self) {
+            console.log("Map Loaded", self);
+            map_self = self;
+            //remove loader when map has loaded
+            $(".modal-backdrop").remove();
+        });
+    
+    }
+    function floorList() {
+        var floor_list = [];
+    
+        var floor_1 = {};
+        floor_1.id = "first-floor";
+        floor_1.title = "Level One";
+        console.log(getPNGMapURL().split("?")[0])
+        floor_1.map = getPNGMapURL().split("?")[0];
+        floor_1.z_index = 1;
+        floor_1.show = true;
+        floor_list.push(floor_1);
+        return floor_list;
+    }
+    function dropPin(store_id, e) {
+        
+        $('#store_table').hide()
+        map_self.showLocation(store_id);
+        $('.stores_table').hide();
+        return false;
+    }
+</script>
