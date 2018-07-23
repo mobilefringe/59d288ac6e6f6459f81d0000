@@ -44,6 +44,20 @@
  /*   	padding:2px 6px;*/
  /*   	min-width: 75px;	*/
  /*   }*/
+ .mapplic-popup-link {
+        float: left!important;
+    }
+    .mapplic-tooltip-content {
+        overflow: hidden;
+        overflow-y: hidden !important;
+    }
+    .mapplic {
+        border: 1px solid #b2aaab;
+    }
+    .mapplic-container, .mapplic-sidebar {
+        width: 100% !important;
+        height: 100%!important;
+    }
     .truncate {
       width: 100%;
       white-space: normal;
