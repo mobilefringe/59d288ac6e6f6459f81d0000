@@ -164,9 +164,9 @@
                 $(".visit_us_header").css("margin-top","0px");
             }
             $('.flexslider').flexslider({
-            animation: "slide",
-            allowOneSlide: false,
-        });
+                animation: "slide",
+                allowOneSlide: false,
+            });
             $(".flex-direction-nav").hide();
             renderSitePopup();
             setTimeout(function(){
