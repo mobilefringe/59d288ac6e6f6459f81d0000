@@ -1873,7 +1873,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .social_box{
         height: 200px;
     }
-    
+    .break_now {
+        display:block;
+    }
 }
 /* Small devices (tablets, 1200px and up) */
 @media (min-width: 1200px) {
