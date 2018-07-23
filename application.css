@@ -1876,6 +1876,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .break_now {
         display:block;
     }
+    .hours_container span {
+        
+    }
 }
 /* Small devices (tablets, 1200px and up) */
 @media (min-width: 1200px) {
