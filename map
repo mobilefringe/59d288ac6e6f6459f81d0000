@@ -1,57 +1,28 @@
 <style>
-    #map2 {
-        max-width: 100%;
-        /*max-height: 586px;*/
-        position: relative;
-        top: 0;
-        left: 0;
-        border-radius: 4px;
-        overflow: hidden;
+    .mapplic-popup-link {
+        float: left!important;
     }
-    #zoom_image{
-		width:3000px;
-		height: 2200px;
-		min-width:3000px;
-		min-height: 2200px;
-		max-width: none;
-		backface-visibility: initial!important;
-	}
-	#zoom_container_directory{
-	    /*height:700px;*/
-	    /*width:600px;//!important;*/
-	}
-    .zoom_container .landmarks{
-    	position:absolute;
-    	z-index:10;	
-    	top:0px;
-    	left:0px;
-    	font-family: Helvetica, Arial, Verdana;
-    	font-size:12px;
-    	color: #ffffff;
-    }	
-    .zoom_container .landmarks .item {
-    	position:absolute;		
-    	text-align:center;		
-    	display: none;
-    }	
-    .zoom_container .landmarks .lable div {
-    	width: 100px;
-    	padding: 4px;	
-    }	
-    .zoom_container .landmarks .mark .text{
-    	background-color:#000000;
-    	padding:2px 6px;
-    	min-width: 75px;	
+    .mapplic-tooltip-content {
+        overflow: hidden;
+        overflow-y: hidden !important;
+    }
+    
+    .mapplic-container, .mapplic-sidebar {
+        width: 100% !important;
+        height: 100%!important;
     }
     .truncate {
       width: 100%;
       white-space: normal;
     }
-    /*.map{max-width:100%;max-height:586px;position:relative;top:0;left:0;border-radius:4px;overflow:hidden}*/
 </style>
 
-<link href="//codecloud.cdn.speedyrails.net/sites/582e04fa6e6f644b9c000000/text/css/1432640222000/smoothzoom.css" rel="stylesheet">
-<script src="//codecloud.cdn.speedyrails.net/sites/59035a6c6e6f645a5b420000/application/x-javascript/1503602727000/smoothZoomA24.js"></script> 
+<link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1522163605908/mapplic.css" rel="stylesheet">
+<link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1485967426000/map.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/application/javascript/1520366143656/mapplic_mmsdk.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/application/javascript/1484859750000/hammer.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
 
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
