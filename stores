@@ -305,7 +305,7 @@
         }
         
         loadMallDataCached(renderAll); 
-        
+        renderMap(getStoresList());
         show_content();
     });
 </script>
