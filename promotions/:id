@@ -1,0 +1,73 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div id="store_header_container">
+            <script id="store_header_template" type="x-tmpl-mustache/text">
+                <div >
+                    <a class="banner_header_title " href="/stores/{{store_slug}}">
+                        {{store_name}}
+                    </a>
+                </div>
+            </script>
+        </div>
+    </div>
+</div>
+
+
+<div class="content_container main_container padding_bottom_50">
+    <h4 class="promo_main_header">
+        <a href="/promotions">&lt; back</a>
+    </h4>
+    <div class="row" id="promo_details_container">
+        <script id="promo_details_template" type="x-tmpl-mustache/text">
+            <div class="col-md-8">
+                <img src="{{image_url}}" style="{{promo_image_show}}" alt="Store Logo" class="details_image" />
+                <h2 class="promo_list_name">{{name}}</h2>
+              
+                <p class="show_phone"><a href="/stores/{{store_slug}}" style="{{store_show}}" class="read_more">View Store Details</a></p>
+                <div class="store_details_desc">{{{rich_description}}}</div>
+            </div>
+            <div class="col-md-4 hidden_phone">
+                <div class="side_image">
+                    <img src="{{store_image}}" style="{{image_show}}" alt="Store Logo" class="details_image" />
+                </div>
+                <div class="side_stores">
+                    <div class="store_header_btns" style="{{phone_show}}">
+                        <a href="tel:{{phone}}" >{{phone}}</a>
+                    </div>
+                    <br style="{{phone_show}}" />
+                    <div class="padding_top_20"></div>
+                    <div class="store_header_btns" style="{{show}}">
+                        <a href="/stores/{{store_slug}}">View Store Info</a>
+                    </div>
+                    <div class="padding_top_20"></div>
+                   
+                    <div class="store_header_btns" style="{{show}}">
+                        <a href="//{{website}}" target="_blank" >Visit our Website</a>
+                    </div>
+                </div>
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e)
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            promo_details = getPromotionDetailsBySlug(slug);
+            console.log(promo_details);
+            renderPromoDetails('#promo_details_container', '#promo_details_template', promo_details);
+            renderPromoDetails("#store_header_container","#store_header_template", promo_details);
+            // show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
