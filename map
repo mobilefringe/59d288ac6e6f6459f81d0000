@@ -69,6 +69,7 @@
         }
         
 		loadMallDataCached(renderAll); 
+		show_content();
     });
     var map_self = "";
     var stores = [];
