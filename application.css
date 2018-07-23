@@ -1902,7 +1902,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         font-size: 36px!important;
     }
     .break_now {
-        dispaly:block;
+        display:block;
     }
 }
 /* Small devices (tablets, 1300px and up) */
