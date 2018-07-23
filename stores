@@ -402,7 +402,7 @@
         });
     
         map.on('mapready', function(e, self) {
-            console.log("Map Loaded");
+            console.log("Map Loaded", map);
             map_self = self;
             //remove loader when map has loaded
             $(".modal-backdrop").remove();
