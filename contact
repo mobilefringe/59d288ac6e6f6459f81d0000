@@ -5,8 +5,8 @@
     td{
         text-align:center;
     }
-    .contact_us_map_ifram{
-        border: 1px solid #555555;
+    .contact_us_map_ifram {
+        border: 1px solid #d0d0d0;
     }
 </style>
 
