@@ -1432,7 +1432,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .menu_links{
         position:absolute;
         text-align:center;
-        bottom: 100px;//bottom: 50px;
+        bottom: 20px;//bottom: 50px;
         left: 50%;
         -webkit-transform:translateX(-50%);
         -ms-transform:translateX(-50%);
