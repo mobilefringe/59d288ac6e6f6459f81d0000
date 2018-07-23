@@ -1910,7 +1910,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         font-size: 36px!important;
     }
     #holidays_hours_container span {
-        display:inline-block;
+        display:table-cell;
     }
 }
 /* Small devices (tablets, 1300px and up) */
