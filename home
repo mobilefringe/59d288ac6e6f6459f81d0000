@@ -171,6 +171,7 @@
             // renderSitePopup();
             setTimeout(function(){
                 show_content();
+                loadSocialFeeds(render_social);
             },500);
         }
         function render_social(){
