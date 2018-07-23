@@ -326,7 +326,7 @@
             temp_val.pin = "hidden";
             temp_val.zoom = 1;
             temp_val.x = 0.5;
-            temp_val.x =0.5;
+            temp_val.x = 0.5;
             floor_1.locations.push(temp_val);
             
             mall_json.levels.push(floor_1);
