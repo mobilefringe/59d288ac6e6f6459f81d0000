@@ -1,0 +1,105 @@
+<style>
+    @media(max-width: 768px){
+        .col-md-7{
+            padding-top:30px;
+        }
+        .padding_top_40{
+            padding-top:0;
+        }
+        .hours_container span {
+            font-size:16px;
+        }
+    }
+</style>
+
+
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Centre Hours
+        </div>
+        <div class="banner_header_location  ">
+            Home / Centre Hours
+        </div>
+    </div>
+</div>
+<!--<div class="store_list_head main_container padding_top_40 ">-->
+    
+<!--    <h5 class="text-center tap_here show_phone">-->
+<!--        <select id="option_selector" class="link_selector">-->
+<!--            <option value="" disabled selected>TAP FOR MORE OPTIONS</option>-->
+<!--            <option value="/hours">Hours</option>-->
+<!--            <option value="/tourist_info">Tourist Info</option>-->
+<!--            <option value="/news">News</option>-->
+<!--            <option value="//prettygreathsc.com/categories/redevelopment%20news">REDEVELOPMENT</option>-->
+<!--        </select>-->
+<!--    </h5>-->
+<!--</div>-->
+<div class="margin_20"></div>
+<div class="content_container main_container mobile_padding padding_bottom_50 ">
+    <div class="promo_main_header show_phone">
+        Hours
+    </div>
+    <div class="margin_25_across padding_top_40">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-5"> 
+                        <h3 class="hours_heading" >Regular Hours</h3>
+                        <div id="hours_container" class="hours_container">
+                            <script id="hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{day}}:</span>
+                                    <span>{{h}}</span>
+                                </div>
+                            </script>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <h3 class="hours_heading">Reduced Holiday Hours of Operation</h3>
+                        <div id="holidays_hours_container" class="hours_container">
+                            <script id="holidays_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{holiday_name}} ({{formatted_date}})</span>
+                                    <br class="break_now hidden_now">
+                                    <span>{{h}}</span>
+                                </div>
+                            </script>
+                        </div>
+                        <div class="padding_top_20"></div>
+                        <h3 class="hours_heading">Holiday Closures</h3>
+                        <div id="closed_hours_container" class="hours_container">
+                            <script id="closed_hours_template" type="x-tmpl-mustache/text">
+                                <div class="hours_div">
+                                    <span>{{holiday_name}} ({{formatted_date}})</span>
+                                </div>
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var hours = getPropertyRegularHours();
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours')
+            var holiday_hours = getPropertyHolidayHours();
+            renderHours('#holidays_hours_container','#holidays_hours_template', holiday_hours, 'holiday_hours')
+            renderHours('#closed_hours_container','#closed_hours_template', holiday_hours, 'closed_hours')
+            // show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
