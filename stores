@@ -1,0 +1,311 @@
+<style>
+    #map {
+        max-width: 100%;
+        /*max-height: 586px;*/
+        position: relative;
+        top: 0;
+        left: 0;
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    #zoom_image{
+		width:3000px;
+		height: 2200px;
+		min-width:3000px;
+		min-height: 2200px;
+		max-width: none;
+		backface-visibility: initial!important;
+		
+	}
+	#zoom_container_directory{
+	    /*height:700px;*/
+	    /*width:600px;//!important;*/
+	}
+    .zoom_container .landmarks{
+    	position:absolute;
+    	z-index:10;	
+    	top:0px;
+    	left:0px;
+    	font-family: Helvetica, Arial, Verdana;
+    	font-size:12px;
+    	color: #ffffff;
+    }	
+    .zoom_container .landmarks .item {
+    	position:absolute;		
+    	text-align:center;		
+    	display: none;
+    }	
+    .zoom_container .landmarks .lable div {
+    	width: 100px;
+    	padding: 4px;	
+    }	
+    .zoom_container .landmarks .mark .text{
+    	background-color:#000000;
+    	padding:2px 6px;
+    	min-width: 75px;	
+    }
+    .truncate {
+      width: 100%;
+      white-space: normal;
+    }
+    /*.map{max-width:100%;max-height:586px;position:relative;top:0;left:0;border-radius:4px;overflow:hidden}*/
+</style>
+<link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1522163605908/mapplic.css" rel="stylesheet">
+<link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1485967426000/map.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/application/javascript/1520366143656/mapplic_mmsdk.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/application/javascript/1484859750000/hammer.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Directory
+        </div>
+        <div class="banner_header_location  ">
+            Home / Directory
+        </div>
+    </div>
+</div>
+<div class="content_container main_container position_relative padding_top_40">
+    <a href="#" class="locate_store hidden_phone">Locate store <i class="fa fa-search"></i></a>
+    <div class="stores_table">
+        <ul id="store_list_container_map">
+            <script id="store_list_template_map" type="x-tmpl-mustache/text">
+                <li><a class="map_pin_a" href="#" store_id="{{id}}" store_name="{{name}}" store_x_coordinate="{{x_coordinate}}" store_y_coordinate="{{y_coordinate}}">{{name}}</a><li>
+                
+            </script>
+        </ul>
+    </div>
+    <div class="map_container">
+        <div id="map" class="hidden_phone map">
+            <!--<img alt="map" id="map_image" src="">-->
+            <div class="zoom_container" id="zoom_container_directory">
+    			    <img alt="Centre Map" id="zoom_image" src=""/>
+				    <div class="landmarks" data-show-at-zoom="0" data-allow-drag="true"></div>
+			</div>
+        </div>
+    </div>
+    <h2 class="stores_main_heading">Directory</h2>
+    <p class="store_main_desc">explore • enjoy • shop</p>
+    <div class="mobile_padding show_phone">
+        <a href="/map" class="mobile_dd">Open Center Map</a>
+        <select id="mobile_cat_list" class="form-control custom_form_control">
+            <script id="category_template2" type="x-tmpl-mustache/text">
+                <option value="{{id}}">{{name}}</option>
+            </script>
+        </select>
+        <select id="mobile_alpha_list" class="form-control custom_form_control">
+            <option disabled="disabled" selected>Index</option>
+            <option value="7">top</option>
+            <option value="7">#</option>
+            <option value="a">a</option>
+            <option value="b">b</option>
+            <option value="c">c</option>
+            <option value="d">d</option>
+            <option value="e">e</option>
+            <option value="f">f</option>
+            <option value="g">g</option>
+            <option value="h">h</option>
+            <option value="i">i</option>
+            <option value="j">j</option>
+            <option value="k">k</option>
+            <option value="l">l</option>
+            <option value="m">m</option>
+            <option value="n">n</option>
+            <option value="o">o</option>
+            <option value="p">p</option>
+            <option value="q">q</option>
+            <option value="r">r</option>
+            <option value="s">s</option>
+            <option value="t">t</option>
+            <option value="u">u</option>
+            <option value="v">v</option>
+            <option value="w">w</option>
+            <option value="x">x</option>
+            <option value="y">y</option>
+            <option value="z">z</option>
+        </select>
+        
+    </div>
+    <div class="row padding_bottom_50">
+        <div class="col-md-12">
+            <div class="alpha_list">
+                <a href="#7" id="all_stores_a">all</a>
+                <a href="#7">#</a>
+                <a href="#A">A</a>
+                <a href="#B">B</a>
+                <a href="#C">C</a>
+                <a href="#D">D</a>
+                <a href="#E">E</a>
+                <a href="#F">F</a>
+                <a href="#G">G</a>
+                <a href="#H">H</a>
+                <a href="#I">I</a>
+                <a href="#J">J</a>
+                <a href="#K">K</a>
+                <a href="#L">L</a>
+                <a href="#M">M</a>
+                <a href="#N">N</a>
+                <a href="#O">O</a>
+                <a href="#P">P</a>
+                <a href="#Q">Q</a>
+                <a href="#R">R</a>
+                <a href="#S">S</a>
+                <a href="#T">T</a>
+                <a href="#U">U</a>
+                <a href="#V">V</a>
+                <a href="#W">W</a>
+                <a href="#X">X</a>
+                <a href="#Y">Y</a>
+                <a href="#Z">Z</a>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h5 class="category_header" style="display:none" id="cat_name_header">All</h5>
+            <div class="row">
+                <div class="col-md-6 store_col_1">
+                    <span class="store_initial open_stores numbers_exist" data-initial="number">#</span>
+                    <div id="numbered_store_list_container" class="numbers_exist">
+                        <script id="numbered_store_list_template" type="x-tmpl-mustache/text">
+                            <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+                                <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                            </div>
+                        </script>
+                    </div>
+                    <div class="store_list" id="store_list_container"></div>        
+                </div>
+                <div class="col-md-6 store_col_2">
+                    <div class="store_list" id="store_list_container2"></div>
+                </div>
+            </div>
+            <div id="cat_store_container">
+                <script id="cat_store_template" type="x-tmpl-mustache/text">
+                    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+                        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+        <div class="col-md-4 hidden_phone">
+            <div id="new_stores">
+                <p class="category_header">Now Open</p>
+                <div id="new_store_container">
+                    <script id="new_store_template" type="x-tmpl-mustache/text">
+                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
+                    </script>
+                </div>
+            </div>
+            <div id="coming_soon_stores">
+                <p class="category_header">Opening Soon</p>
+                <div id="coming_soon_container">
+                    <script id="coming_soon_template" type="x-tmpl-mustache/text">
+                        <h5 class="category_name"><a href="/stores/{{slug}}">{{name}}</a></h5>    
+                    </script>
+                </div>
+            </div>
+            <p class="category_header">Categories</p>
+            <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
+            <div id="category_container" class="hidden_phone">
+                <script id="category_template" type="x-tmpl-mustache/text">
+                    <h5 class="category_name"><a href="#" class="show_cat_stores" data-id="{{id}}">{{name}}</a></h5>    
+                </script>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+<script id="store_list_template" type="x-tmpl-mustache/text">
+    <div class="store_list_content cats_row" data-cat="{{cat_list}}">
+        <p class="store_initial" style="{{show}}" id="{{initial}}">{{initial}}</p>
+        <p class="store_name"><a href="/stores/{{slug}}">{{name}}</a></p>
+    </div>
+</script>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var stores = getStoresList(); 
+            renderStoreList('#store_list_container','#store_list_template', stores, "A", "L");
+            renderStoreList('#store_list_container2','#store_list_template', stores, "M", "Z");
+            renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
+            renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
+            renderStoreList('#cat_store_container','#cat_store_template', stores,"#", "Z" );
+            $('#cat_store_container').children().hide();
+            if(!$("#numbered_store_list_container").is(":visible")){
+                $(".numbers_exist").html("");
+                $(".numbers_exist").css("display","none!important");
+            }
+            var categories = getStoreCategories();
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            renderGeneral('#mobile_cat_list', '#category_template2', category_list);
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
+            show_cat_stores();
+            
+            var coming_soon_stores = getComingSoonList();
+            var new_stores = getNewStoresList();
+            if (new_stores.length > 0){
+                renderGeneral("#new_store_container","#new_store_template", new_stores);
+            } else {
+                $('#new_stores').hide();
+            }
+            if (coming_soon_stores.length > 0){
+                renderGeneral("#coming_soon_container","#coming_soon_template", coming_soon_stores);
+            } else {
+                $('#coming_soon_stores').hide();
+            }
+            $("#zoom_image").attr("src", getPNGMapURL());
+    		$('#zoom_image').smoothZoom({
+    		    width: "100%",
+                height: "100%",
+    		    initial_ZOOM: 0,
+    			zoom_MIN: 0,
+    			zoom_MAX: 200,
+    			responsive: true,
+    		    responsive_maintain_ratio: true,
+    			zoom_BUTTONS_SHOW : 'YES',
+    			pan_BUTTONS_SHOW : 'NO',
+    			pan_LIMIT_BOUNDARY : 'NO',
+    			button_SIZE: 34,
+    			button_ALIGN: "top right",
+    			zoom_OUT_TO_FIT: "YES",
+    			container: 'zoom_container_directory'
+    		});
+            $("#zoom_image").on('load',function(){
+                $(window).resize();
+                $("#zoom_image").click();
+            });
+            $('.map_pin_a').click(function(e){
+                e.preventDefault();
+                var store_x_coordinate = $(this).attr('store_x_coordinate');
+        		var store_y_coordinate = $(this).attr('store_y_coordinate');
+                var pin_id = $(this).attr('store_id');
+                var store_name = $(this).attr('store_name');
+    
+                $('.show_pin').hide();
+                $('.no_pin').show();
+                $('#show_pin_store_' + pin_id).show();
+                $('#no_pin_store_' + pin_id).hide();
+                $('.stores_table').hide();
+                add_landmark(store_x_coordinate, store_y_coordinate, pin_id, store_name);
+            });
+            // $(window).resize();
+            // $("#zoom_image").click();
+        }
+        
+        loadMallDataCached(renderAll); 
+        
+        show_content();
+    });
+</script>
