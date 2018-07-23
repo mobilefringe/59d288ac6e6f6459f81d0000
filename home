@@ -173,7 +173,7 @@
                 show_content();
             },500);
         }
-         function render_social(){
+        function render_social(){
             
             var social_feed = getSocialFeed();
             var latest_tweet = social_feed.twitter[0];
