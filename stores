@@ -323,6 +323,7 @@
             // add a init to feed intial zoom
             var temp_val =  {};
             temp_val.id = "init";
+            temp_val.pin = "hidden";
             temp_val.zoom = 5;
             floor_1.locations.push(temp_val);
             
