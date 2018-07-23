@@ -320,7 +320,7 @@
                 }
                 floor_1.locations.push(temp_val);
             });
-            add a init to feed intial zoom
+            // add a init to feed intial zoom
             var temp_val =  {};
             temp_val.id = "init";
             temp_val.zoom = 6;
