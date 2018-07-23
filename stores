@@ -15,7 +15,6 @@
       width: 100%;
       white-space: normal;
     }
-    /*.map{max-width:100%;max-height:586px;position:relative;top:0;left:0;border-radius:4px;overflow:hidden}*/
 </style>
 <link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1522163605908/mapplic.css" rel="stylesheet">
 <link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1485967426000/map.css" rel="stylesheet">
