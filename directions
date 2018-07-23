@@ -4,7 +4,7 @@
         margin-right:0;
     }
     .input_div{
-        padding-left:10px;
+        padding-left:20px;
         padding-right:0;
     }
     .store_header_btns{
