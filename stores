@@ -309,4 +309,107 @@
         
         show_content();
     });
+    var map_self = "";
+    var stores = [];
+    function renderMap(map_stores) {
+        var mall_json = {};
+        var landmarks = {};
+        mall_json.mapwidth = "2000";
+        mall_json.mapheight = "2000";
+        mall_json.categories = [];
+        mall_json.levels = [];
+        stores = map_stores;
+        // need to add the following for each floor we want to configure.
+        _.forEach(floorList(), function(value, key) {
+            var floor_1 = {};
+            floor_1.id = value.id;
+            floor_1.title = value.title;
+            floor_1.map = value.map;
+    
+            floor_1.show = value.show;
+            floor_1.locations = [];
+            _.forEach(map_stores, function(val, key) {
+                //for testing limiting the store numbers to vm
+                var temp_val = {};
+                temp_val.id = val.id;
+                temp_val.title =  val.name;
+                temp_val.link = "/stores/" + val.slug;
+                // temp_val.action = "open-link-new-tab";
+                temp_val.pin = "hidden";
+                temp_val.zoom = 1;
+                //use png's width/height to get x and y coord
+                if(val.x_coordinate) {
+                    temp_val.x = val.x_coordinate / 2000;
+                }
+                else {
+                    temp_val.x = 0.5;
+                }
+                if(val.y_coordinate) {
+                    temp_val.y = val.y_coordinate / 2000;
+                }
+                else {
+                    temp_val.y = 0.5;
+                }
+                floor_1.locations.push(temp_val);
+            });
+            //add a init to feed intial zoom
+            // var temp_val =  {};
+            // temp_val.id = "init";
+            // temp_val.zoom = 6;
+            // floor_1.locations.push(temp_val);
+            
+            mall_json.levels.push(floor_1);
+        });
+        
+        //map height 
+        var map_height = 600;
+        if($(document).width() <= 768) {
+           map_height = 400;
+        }
+        map = $('#mapplic').mapplic({
+            source: mall_json,
+            height: map_height,
+            landmark: true,
+            mapfill: true,
+            minimap: false,
+            sidebar: false,
+            hovertip: true,
+            developer: false,
+            fullscreen: false,
+            clearbutton: false,
+            deeplinking: false,
+            fillcolor: "none",
+            maxscale: 5,
+            skin: 'mapplic-dark',
+            action:'tooltip',
+            tooltiplabel: 'More'
+        });
+    
+        map.on('mapready', function(e, self) {
+            console.log("Map Loaded");
+            map_self = self;
+            //remove loader when map has loaded
+            $(".modal-backdrop").remove();
+        });
+    
+    }
+    function floorList() {
+        var floor_list = [];
+    
+        var floor_1 = {};
+        floor_1.id = "first-floor";
+        floor_1.title = "Level One";
+        // console.log(getSVGMapURL().split("?")[0])
+        floor_1.map = getPNGMapURL().split("?")[0];
+        floor_1.z_index = 1;
+        floor_1.show = true;
+        floor_list.push(floor_1);
+        return floor_list;
+    }
+    function dropPin(store_id, e) {
+        
+        $('#store_table').hide()
+        map_self.showLocation(store_id);
+        return false;
+    }
 </script>
