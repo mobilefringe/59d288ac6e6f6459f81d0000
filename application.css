@@ -1877,7 +1877,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         display:block;
     }
     #holidays_hours_container .hours_container span {
-        
+        display:inline-block;
     }
 }
 /* Small devices (tablets, 1200px and up) */
