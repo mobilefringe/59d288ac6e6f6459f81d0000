@@ -324,6 +324,7 @@
             var floor_1 = {};
             floor_1.id = value.id;
             floor_1.title = value.title;
+            console.log("value.map", value.map);
             floor_1.map = value.map;
     
             floor_1.show = value.show;
