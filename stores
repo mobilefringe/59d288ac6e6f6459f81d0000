@@ -302,6 +302,7 @@
     //         });
             // $(window).resize();
             // $("#zoom_image").click();
+            renderMap(getStoresList());
         }
         
         loadMallDataCached(renderAll); 
