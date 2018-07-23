@@ -168,7 +168,7 @@
                 allowOneSlide: false,
             });
             $(".flex-direction-nav").hide();
-            renderSitePopup();
+            // renderSitePopup();
             setTimeout(function(){
                 show_content();
             },500);
