@@ -1447,6 +1447,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
             width:240px;
             margin: 15px auto;
             padding: 15px 0px;
+            border-radius: 100px;
         }
     }
     
