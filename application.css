@@ -945,6 +945,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     font-family: $font_family;//Georgia;;
     font-style:italic;
     font-size: 24px;
+        font-weight: 600;
     color: #424242;
     letter-spacing: 0.5px;
     margin-top:5px;
