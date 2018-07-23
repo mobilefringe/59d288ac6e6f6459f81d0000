@@ -1876,7 +1876,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .break_now {
         display:block;
     }
-    #holidays_hours_container .hours_container span {
+    #holidays_hours_container span {
         display:inline-block;
     }
 }
