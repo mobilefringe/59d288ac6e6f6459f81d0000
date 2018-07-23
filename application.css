@@ -1329,7 +1329,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         margin-left:0;
         margin-right:0;
     }
-    .col-md-4, .col-md-6, .col-md-8, .col-md-12{
+    .col-md-4, .col-md-6, .col-md-8, .col-md-12, .col-sm-4, .col-sm-6, .col-sm-8, .col-sm-12{
         padding:0;
     }
     .hidden_phone{
