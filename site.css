@@ -521,6 +521,10 @@ hr {
 .blogpost_img {
     text-align:center;
 }
+.blogpost_discription{
+    font-size: 20px;
+
+}
 
 /**** Sticky Menu *****/
 .sticky {
