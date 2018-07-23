@@ -326,7 +326,7 @@
                                 <li><a href="/pages/yubasutter-leasing-info">Leasing Info</a></li>
                                 <li><a href="/contact">Contact Us</a></li>
                                 <li><a href="/directions">Directions</a></li>
-                                <li><a href="http://yubasutter.mallmaverick.com/retail_users/sign_in">Tenant Login</a></li>
+                                <li><a href="//yubasutter.mallmaverick.com/retail_users/sign_in" taget="_blank>Tenant Login</a></li>
                             </ul>
                         </div>
                     </div>
