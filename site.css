@@ -521,7 +521,7 @@ hr {
 .blogpost_img {
     text-align:center;
 }
-.blogpost_discription {
+.blogpost_discription, .blogpost_date {
     font-size: 20px;
 }
 
