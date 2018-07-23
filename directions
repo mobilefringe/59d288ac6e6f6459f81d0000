@@ -38,7 +38,6 @@
 </div>
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
-        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
         <div class="banner_overlay"></div>
     </div>
     <div class="main_container position_relative">
