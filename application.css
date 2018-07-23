@@ -1533,7 +1533,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         min-width: 100%;
         // height: calc(100vh - );//420px;
     }
-     #holidays_hours_container span {
+    #holidays_hours_container span {
         display:inline-block;
     }
 }
@@ -1909,7 +1909,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     .hover_see_more_btn .hover_text{
         font-size: 36px!important;
     }
-    
+    #holidays_hours_container span {
+        display:inline-block;
+    }
 }
 /* Small devices (tablets, 1300px and up) */
 // @media (min-width: 1300px) {
