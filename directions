@@ -1,0 +1,120 @@
+<style>
+    .row{
+        margin-left:0;
+        margin-right:0;
+    }
+    .input_div{
+        padding-left:0;
+        padding-right:0;
+    }
+    .store_header_btns{
+        width:125px;
+        position: absolute;
+        bottom: 0;
+    }
+    @media(max-width: 768px){
+    
+        .store_header_btns{
+            width:125px;
+            position: relative;
+            bottom: initial;
+            margin-top:30px;
+        }
+    }
+</style>
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Directions
+        </div>
+        <div class="banner_header_location  ">
+            Home / Directions
+        </div>
+    </div>
+</div>
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Centre Hours
+        </div>
+        <div class="banner_header_location  ">
+            Home / Centre Hours
+        </div>
+    </div>
+</div>
+<div class="content_container main_container padding_bottom_50">
+    <h4 class="promo_main_header show_phone">Directions</h4>
+    <div class="direction_container">
+        <div class="row">
+            <div class="col-md-12">
+                <iframe  class=" visit_us_iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3094.378678236456!2d-121.63442908429614!3d39.1433679400122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8084acabb901865b%3A0xcc9ec91ebddc6b1c!2sYuba+Sutter+Mall!5e0!3m2!1sen!2sca!4v1506981114166"  width="100%" height="300" frameborder="0" style="border:0; margin-top:0;margin-bottom:10px;" allowfullscreen></iframe>
+                <div id="mm_page_content" class="promo_list_desc"></div>
+                
+                <div id="" class="promo_list_desc">
+                    <h2>Get Directions</h2>
+                    <p>Enter Your Starting address and click Go</p>
+                    
+                    <!--<div class="row">-->
+                        
+                    <!--</div>-->
+                    <div class="row position_relative">
+                        <div class="col-md-6 col-sm-6 input_div">
+                            <label for="starting_address">Starting Address</label>  
+                            <input class="form-control" id="starting_address" type="text" required data-validation="required"  tabindex="1"/>
+                        </div>
+                        <div class="col-md-6 col-sm-6 input_div" style="position: initial;">
+                            <button class="get_direction_btn store_header_btns" tabindex="2" style="margin-left:0">Go</button>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            <div class="col-md-4 hidden_phone">
+                
+            </div> 
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix+"/pages/yubasutter-directions.json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#mm_page_content").text("Sorry. We cant find the page you looking for.");
+            }
+        }); 
+        $(".get_direction_btn").click(function (){
+			starting = $("#starting_address").val();
+			if(starting.length) {
+				window.open(
+					'http://maps.google.com/maps?f=d&hl=en&saddr='+escape(starting)+'&daddr=1215%20Colusa%20Avenue%20Yuba%20City%2C%20CA&ie=UTF8',
+					'google_directions',
+					'height=600,width=800,menubar=no,resizable=yes,scrollbars=no,status=no,titlebar=no'
+				);
+			}
+		});
+
+        show_content();
+    }
+</script>
