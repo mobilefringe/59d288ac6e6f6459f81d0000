@@ -5,6 +5,9 @@
     td{
         text-align:center;
     }
+    .{
+        border: 1px solid #555555;
+    }
 </style>
 
 <div class="content_container hidden_phone position_relative">
