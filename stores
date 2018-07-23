@@ -51,9 +51,7 @@
         overflow: hidden;
         overflow-y: hidden !important;
     }
-    .mapplic {
-        border: 1px solid #b2aaab;
-    }
+    
     .mapplic-container, .mapplic-sidebar {
         width: 100% !important;
         height: 100%!important;
