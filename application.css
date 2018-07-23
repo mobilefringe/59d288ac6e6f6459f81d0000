@@ -1441,7 +1441,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         transform: translateX(-50%);
         a{
             display:block;
-            background: #9B9B9B;
+            background: #be1e2d;
             font-size: 18px;
             color: #FFFFFF;
             width:240px;
