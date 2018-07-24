@@ -296,7 +296,7 @@
         });
         
         //map height 
-        var map_height = 600;
+        var map_height = 800;
         if($(document).width() <= 768) {
            map_height = 400;
         }
