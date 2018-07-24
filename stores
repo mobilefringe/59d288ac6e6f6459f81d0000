@@ -324,7 +324,7 @@
             map_self = self;
             //remove loader when map has loaded
             $(".modal-backdrop").remove();
-            self.moveTo(0.5, 0.5, 0.75, 1) 
+            self.moveTo(0.5, 0.5, 0.75, 0) 
         });
         
     }
