@@ -286,11 +286,11 @@
                 floor_1.locations.push(temp_val);
             });
             // add a init to feed intial zoom
-            // var temp_val =  {};
-            // temp_val.id = "init";
-            // temp_val.pin = "hidden";
+            var temp_val =  {};
+            temp_val.id = "init";
+            temp_val.pin = "hidden";
             // temp_val.zoom = 1; 
-            // floor_1.locations.push(temp_val);
+            floor_1.locations.push(temp_val);
             
             mall_json.levels.push(floor_1);
         });
