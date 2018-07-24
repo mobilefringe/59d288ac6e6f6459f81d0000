@@ -1759,7 +1759,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
         border: 1px solid $description_color;
     }
     #map{
-        height: 600px;;//height:500px;
+        height: 800px;;//height:500px;
         max-width:100%;//850px;
         margin-bottom:15px;
         margin:0 auto;
