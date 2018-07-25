@@ -70,10 +70,11 @@
             var stores = getStoresList(); 
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderMap(stores);
+            show_content();
         }
         
 		loadMallDataCached(renderAll); 
-		show_content();
+		
     });
     var map_self = "";
     var stores = [];
