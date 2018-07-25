@@ -235,11 +235,12 @@
                 $('#coming_soon_stores').hide();
             }
             renderMap(getStoresList());
+            show_content();
         }
         
         loadMallDataCached(renderAll); 
         
-        show_content();
+        
     });
     var map_self = "";
     var stores = [];
