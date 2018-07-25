@@ -1768,7 +1768,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     
     #map2{
         height:600px;
-        max-width:850px;
+        // max-width:850px;
         margin:0 auto;
     }
     
