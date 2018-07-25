@@ -15,6 +15,9 @@
       width: 100%;
       white-space: normal;
     }
+    .map_container {
+        margin-bottom:20px;
+    }
 </style>
 
 <link href="//codecloud.cdn.speedyrails.net/sites/5b36586d6e6f645f90800000/text/css/1522163605908/mapplic.css" rel="stylesheet">
