@@ -34,7 +34,7 @@
                             </h2>
                             <div class="blogpost_content">
                                 <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span> <span class="regular">|</span>{{/author}} {{ published_on }}</p>
-                                <p class="blogpost_discription">{{ body }}</p>
+                                <p class="blogpost_discription">{{ html_body }}</p>
                             </div>
                             <div class="margin_20"></div>
                         </div>
