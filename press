@@ -1,0 +1,74 @@
+<style>
+    .col-md-12 {
+        padding: 0 15px;
+    }
+</style>
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5b55f49f6e6f64715f010000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title " id="mm_title">
+            Press Room
+        </div>
+        <div class="banner_header_location  ">
+            Home / Press Room
+        </div>
+    </div>
+</div>
+<div class="content_container main_container padding_bottom_50 padding_top_20">
+    <h4 class="promo_main_header  show_phone" id="mm_title_phone"> Press Room</h4>
+    <div class="margin_25_across">
+        <div class="row">
+            <div class="col-md-12" id="post_container">
+                <script id="post_template" type="x-tmpl-mustache">
+                    <div class="row hidden-xs" style="padding-bottom:20px">
+                        <div class="col-xs-3 blogpost_img">
+                           <img src="{{ image_url }}" />
+                           <div class="margin_20"></div>
+                        </div>
+                        <div class="col-xs-9 blogpost_txt">
+                            <h2 class="blogpost_title">
+                                <a href='/posts/{{slug}}'>{{ title }}</a>
+                            </h2>
+                            <div class="blogpost_content">
+                                <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span> <span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                                <p class="blogpost_discription">{{ body }}</p>
+                            </div>
+                            <div class="margin_20"></div>
+                        </div>
+                    </div>
+                    <div class="row visible-xs">
+                        <h2 class="blogpost_title">
+                            <a href='/posts/{{slug}}'>{{ title }}</a>
+                        </h2>
+                        <p class="blogpost_date">{{#author}}<span class="blog-author">by {{ author }}</span><span class="regular">|</span>{{/author}} {{ published_on }}</p>
+                        <img src="{{ image_url }}" />
+                        <p class="blogpost_discription">{{ html_body }}</p>
+                    </div>
+                    <hr/>
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        // var pathArray = window.location.pathname.split( '/' );
+        // var slug = pathArray[pathArray.length-1];
+        var blog_detail = getBlogDataBySlug('yubasutter-press').posts;
+        console.log(blog_detail);
+        renderPosts('#post_container', '#post_template', blog_detail);
+        // show_content();
+    };
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
