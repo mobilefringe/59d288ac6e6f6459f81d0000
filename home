@@ -130,7 +130,6 @@
             var mobile_banners = getRepoDetailsByName("Mobile Banners");
             if (mobile_banners != undefined) {
                 renderMobileBanner('#mobile_banner_template', '#mobile_banner', mobile_banners.images);
-                
             }
             
             var feature_items = getFeatureList().splice(0, 3);
