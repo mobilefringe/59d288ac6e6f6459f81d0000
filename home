@@ -156,10 +156,10 @@
                 loadSocialFeeds(render_social);
             }, 500);
             
-            $('.flexslider').flexslider({
-                animation: "slide",
-                allowOneSlide: false,
-            });
+            // $('.flexslider').flexslider({
+            //     animation: "slide",
+            //     allowOneSlide: false,
+            // });
         }
         
         function render_social() {
@@ -196,10 +196,10 @@
         loadMallDataCached(renderAll); 
         
     });
-    // $(window).load(function(e){
-    //     $('.flexslider').flexslider({
-    //         animation: "slide",
-    //         allowOneSlide: false,
-    //     });
-    // });
+    $(window).load(function(e){
+        $('.flexslider').flexslider({
+            animation: "slide",
+            allowOneSlide: false,
+        });
+    });
 </script>
