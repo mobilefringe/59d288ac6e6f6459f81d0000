@@ -151,10 +151,9 @@
             
             $(".flex-direction-nav").hide();
             // renderSitePopup();
-            // setTimeout(function(){
-                show_content();
-                loadSocialFeeds(render_social);
-            // }, 500);
+
+            show_content();
+            loadSocialFeeds(render_social);
             
             $('.flexslider').flexslider({
                 animation: "slide",
@@ -195,11 +194,4 @@
         
         loadMallDataCached(renderAll);
     });
-    
-    // $(window).load(function(e){
-    //     $('.flexslider').flexslider({
-    //         animation: "slide",
-    //         allowOneSlide: false,
-    //     });
-    // });
 </script>
