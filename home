@@ -193,9 +193,9 @@
             }
         }
         
-        loadMallDataCached(renderAll); 
-        
+        loadMallDataCached(renderAll);
     });
+    
     $(window).load(function(e){
         $('.flexslider').flexslider({
             animation: "slide",
