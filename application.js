@@ -135,14 +135,20 @@ function renderEvents(container, template, collection){
         } else {
             val.store_name = site_json.mall_name;
             val.image_url = site_json.default_image;
-            if(val.logo_url.indexOf('missing.png') > 0){
+            if (val.event_image_url_abs.indexOf('missing.png') > 0) {
                 val.logo_url = site_json.default_image;
+            } else {
+                val.logo_url = val.event_image_url_abs
             }
+            
+            // if(val.logo_url.indexOf('missing.png') > 0){
+            //     val.logo_url = site_json.default_image;
+            // }
         }
         
-        if (val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = site_json.default_image;
-        }
+        // if (val.image_url.indexOf('missing.png') > 0){
+        //     val.image_url  = site_json.default_image;
+        // }
         
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
@@ -150,9 +156,9 @@ function renderEvents(container, template, collection){
             val.description_short = val.description
         }
         
-        if (val.event_image_url_abs.indexOf('missing.png') > -1){
-            val.event_image_url_abs = site_json.default_image;
-        }
+        // if (val.event_image_url_abs.indexOf('missing.png') > -1){
+        //     val.event_image_url_abs = site_json.default_image;
+        // }
         
         var show_date = moment(val.show_on_web_date).tz(getPropertyTimeZone());
         var start = moment(val.start_date).tz(getPropertyTimeZone());
