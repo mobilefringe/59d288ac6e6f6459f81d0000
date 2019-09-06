@@ -133,7 +133,6 @@ function renderEvents(container, template, collection){
             val.cat_list = store_details.categories.join(',')
         } else {
             val.store_name = site_json.mall_name;
-            val.image_url = site_json.default_image;
             if (val.event_image_url_abs.indexOf('missing.png') > 0) {
                 val.logo_url = site_json.default_image;
             } else {
