@@ -47,11 +47,6 @@
         init(e);
         function renderAll (){
             var events = getEventsList().sortBy(function(o){ return o.start_date });
-            // var categories = getStoreCategories();
-            // renderGeneral('#category_container', '#category_template', categories);
-            // renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            // $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
-            // show_cat_stores()
             var published_events = [];
             $.each( events , function( key, val ){
                 var today = moment();
