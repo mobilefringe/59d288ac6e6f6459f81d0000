@@ -140,16 +140,8 @@ function renderEvents(container, template, collection){
             } else {
                 val.logo_url = val.event_image_url_abs
             }
-            
-            // if(val.logo_url.indexOf('missing.png') > 0){
-            //     val.logo_url = site_json.default_image;
-            // }
         }
-        
-        // if (val.image_url.indexOf('missing.png') > 0){
-        //     val.image_url  = site_json.default_image;
-        // }
-        
+
         if (val.description.length > 200){
             val.description_short = val.description.substring(0,200) + "...";
         } else {
