@@ -16,7 +16,7 @@
 
 <div class="content_container main_container padding_bottom_50">
     <div class="promo_main_header show_phone">
-        SPECIALS
+        <label for="mobile_cat_list">SPECIALS</label>
         <select id="mobile_cat_list" class="  form-control">
             <script id="category_template2" type="x-tmpl-mustache/text">
                 <option value="{{id}}">{{name}}</option>
@@ -102,7 +102,7 @@
             });
             renderGeneral('#category_container', '#category_template', categories);
             renderGeneral('#mobile_cat_list', '#category_template2', categories);
-            $('#mobile_cat_list').prepend('<label for="all_categories_dropdown" class="accessibility">All Categories</label><option value="all" id="all_categories_dropdown" title="Search in" selected >All Categories</option>');
+            $('#mobile_cat_list').prepend('<option value="all" selected >All Categories</option>');
             if(published_promos.length > 0){
                 renderPromotions("#promos_container","#promos_template", published_promos);
                 if(published_promos.length > 1) {
