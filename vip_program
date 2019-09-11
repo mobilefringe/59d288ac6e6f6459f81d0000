@@ -54,8 +54,8 @@
                         <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
                     </div>
                     <div class="col-md-4 col-sm-6">
-                        <label for="postal_code">State</label>  <span style="color: #b00a0a"> *</span>
-                        <select name="contest[province]" id="postal_code" class="form-control" tabindex="6">
+                        <label for="state">State</label>  <span style="color: #b00a0a"> *</span>
+                        <select name="contest[province]" id="state" class="form-control" tabindex="6">
                         	<option value="AL">AL</option>
                         	<option value="AK">AK</option>
                         	<option value="AZ">AZ</option>
