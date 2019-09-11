@@ -1,0 +1,125 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title ">
+            Specials
+        </div>
+        <div class="banner_header_location  ">
+            Home / Specials
+        </div>
+    </div>
+</div>
+
+
+<div class="content_container main_container padding_bottom_50">
+    <div class="promo_main_header show_phone">
+        SPECIALS
+        <select id="mobile_cat_list" class="  form-control">
+            <script id="category_template2" type="x-tmpl-mustache/text">
+                <option value="{{id}}">{{name}}</option>
+            </script>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <h5 class="category_header promo_main_header" style="display:none" id="cat_name_header">All</h5>
+            <div id="promos_container">
+                <script id="promos_template" type="x-tmpl-mustache/text">
+                    <div class="row promo_item cats_row" data-cat="{{cat_list}}">
+                        <div class="col-md-5">
+                            <img src="{{image_url}}" alt="{{name}}" />
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="promo_list_name"><a class="hover_underline" href="/promotions/{{slug}}">{{name}}</a></h2>
+                             <p>
+                                <span class="promo_dates">{{dates}}</span>
+                            </p>
+                            <div class="promo_list_desc">{{description_short}}</div>
+                            <a class="read_more" href="/promotions/{{slug}}">Read More</a>
+                        </div>
+                        <div class="col-md-12">
+                        <hr class="show_hr hidden_now" style="margin-top: 30px;"/>
+                        </div>
+                    </div>
+                    
+                </script>
+            </div>
+        </div>
+        
+        <div class="col-md-4 show_cats" style="margin-top: 20px;">
+            <p class="category_header hidden_phone">Categories</p>
+            <h5 class="category_name active_cat hidden_phone"><a href="#" class="show_all_stores">All</a></h5>
+            <div id="category_container" class="hidden_phone">
+                <script id="category_template" type="x-tmpl-mustache/text">
+                    <h5 class="category_name"><a href="#" class="show_cat_promos" data-id="{{id}}">{{name}}</a></h5>
+                </script>
+            </div>
+        </div>
+    </div>
+    <div class="">
+        <div class=" promo_item cats_row promo_list_desc hidden_now" id="no_promos">
+                No promotions available at this moment. Please check back later!
+        </div>
+        <br/><br/>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll (){
+            var promotions = getPromotionsList().sortBy(function(o){ return o.start_date });
+            
+            var published_promos = [];
+            var sorted_cat_ids = [];
+            $.each( promotions , function( key, val ){
+                var today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(site_json.time_zone) >= webDate.tz(site_json.time_zone)) {
+                    published_promos.push(val)
+                }
+                
+                var store_details = getStoreDetailsByID(val.promotionable_id);
+                if(store_details.categories !== null && store_details.categories !== undefined){
+                    $.each(store_details.categories, function(key, value){
+                        
+                        var is_inArray =$.inArray(value,sorted_cat_ids);
+                        // console.log(value, category_of_stores, is_inArray);
+                        if(is_inArray == -1){
+                            sorted_cat_ids.push(value);
+                        }
+                    });
+                    
+                    // category_of_stores =  val.categories.concat(category_of_stores);//$.merge( val.categories, category_of_stores);
+                    // console.log(val.name,val.categories);
+                }
+            });
+            var categories = $.grep(getStoreCategories(), function( n, i ) {
+                return ( $.inArray(parseInt(n.id),sorted_cat_ids) > -1 );
+            });
+            renderGeneral('#category_container', '#category_template', categories);
+            renderGeneral('#mobile_cat_list', '#category_template2', categories);
+            $('#mobile_cat_list').prepend('<option value="all" title="All Categories" selected >All Categories</option>');
+            if(published_promos.length > 0){
+                renderPromotions("#promos_container","#promos_template", published_promos);
+                if(published_promos.length > 1) {
+                    $(".show_hr").show();
+                }
+                show_cat_stores();
+            }
+            else{
+                $('#no_promos').show();
+                $(".show_cats").hide();
+            }
+            // show_content();
+        }
+        
+		loadMallDataCached(renderAll); 
+    });
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
