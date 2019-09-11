@@ -155,9 +155,7 @@
             action:'tooltip',
             tooltiplabel: 'More'
         });
-        
-        // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
-        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
+    
     
         map.on('mapready', function(e, self) {
             console.log("Map Loaded", self);
@@ -166,6 +164,9 @@
             $(".modal-backdrop").remove();
             self.moveTo(0.5, 0.5, 0.75, 0) 
         });
+        
+                // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
+        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
     
     }
     function floorList() {
