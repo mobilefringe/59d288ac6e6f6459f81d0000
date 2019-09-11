@@ -153,7 +153,7 @@
             <div class="col-md-6 col-sm-6 col-xs-1 hidden_phone social_icons_container">
                 <p class="hidden_phone" style="text-align: right;">Follow us on</p>
                 <div class="social_icons hidden_phone_inline pull-right">
-                    <a class="social_fb" href="https://www.facebook.com/yubasuttermall/" target="_blank"></a>
+                    <a class="social_fb" href="https://www.facebook.com/yubasuttermall/" target="_blank" aria-label="Visit our Facebook page."></a>
                     <a class="social_twitter" href="https://twitter.com/yubasutter_mall" target="_blank"></a>
                     <a class="social_insta" href="https://www.instagram.com/yubasuttermall/" target="_blank"></a>
                 </div>
