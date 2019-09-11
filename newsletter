@@ -1,0 +1,90 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title " id="mm_title">
+            Newsletter
+        </div>
+        <div class="banner_header_location  ">
+            Home / Newsletter
+        </div>
+    </div>
+</div>
+<div class="content_container main_container">
+    <h4 class="promo_main_header show_phone">Newsletter</h4>
+    <form action="//mobilefringe.createsend.com/t/d/s/bkhoy/" method="post" id="newsletter_form">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="//codecloud.cdn.speedyrails.net/sites/580f9dab6e6f643917000000/image/jpeg/1478198391000/FairfaxCorner_Newsletter.jpg" class="padding_20" />
+            </div>
+            <div class="col-md-8 text-center" style=" margin: 0 auto; ">
+                <p class="text-left">
+                    Sign up to get interesting news and updates delivered to your inbox.
+
+                </p>
+                <div class="row">
+                    <div class="col-md-6 text-left">
+                        <label class="text-left" for="fieldName">Name</label>
+                        <input id="fieldName" name="cm-name" type="text" class="form-control">
+                    </div>
+                
+                    <div class="col-md-6 text-left">
+                        <label class="text-left" for="fieldEmail">Email</label>
+                        <input id="fieldEmail" name="cm-bkhoy-bkhoy" type="email" required class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="float: none;">
+                        <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
+                        <br/><br/>
+                        <button class=" store_header_btns" tabindex="9">Submit</button>
+                        <br/><br/>
+                    </div>
+                    <div id="success_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-success fade in" style="margin-top:18px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Success!</strong> Thank you, your entry has been received.
+                        </div>
+                    </div>
+                    <div id="error_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-error fade in" style="margin-top:12px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
+                        </div>
+                    </div>
+                    <br/><br/>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<script>
+    $(document).ready(function(e){
+        init(e);
+        show_content()
+        $('#newsletter_form').submit(function(e){
+            e.preventDefault();
+            if ($("#newsletter_agree").prop("checked") != true){
+                alert("Please agree to receive newsletters from " + site_json.mall_name + "." );
+                $("#newsletter_agree").focus();
+                return false;
+            }
+            $.getJSON(
+                this.action + "?callback=?",
+                $(this).serialize(),
+                function (data) {
+                    if (data.Status === 400) {
+                        alert("Please try again later.");
+                    } else { // 200
+                        $("#success_subscribe").fadeIn()
+                        $('#success_subscribe').delay(2000).fadeOut();
+                        $('#newsletter_form').trigger('reset')
+                    }
+                }
+            );
+        });
+    })
+</script>
