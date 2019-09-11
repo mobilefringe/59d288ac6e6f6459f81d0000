@@ -59,7 +59,7 @@ function renderFeatureItems(container, template, collection){
     // $(container).html(item_rendered.join(''));
     // var items = getFeatureList();
     $.each(collection, function(i, val){
-        $('#feature_' + i).html('<div class="feature_item wow animated flipInX animated"><a href="'+ val.url +'"><img src='+ val.image_url+'" alt="val.name"> <div class="hover_see_more_btn"><h5 class="hover_text">'+ val.name +'</h5></div></a></div>');
+        $('#feature_' + i).html('<div class="feature_item wow animated flipInX animated"><a href="'+ val.url +'"><img src='+ val.image_url+'" alt="'val.name'"> <div class="hover_see_more_btn"><h5 class="hover_text">'+ val.name +'</h5></div></a></div>');
         // <a href="{{url}}">
                         // <figure style="background-image:url('{{image_url}}')"></figure>
                         // <div class="hover_see_more_btn">
