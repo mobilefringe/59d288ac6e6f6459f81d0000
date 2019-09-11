@@ -75,7 +75,7 @@
                 <img src= "//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1517940654349/fb-box.png" alt=""/>
                 
                 <div class="hover_see_more_btn">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="fb_feed_icon" alt="Facebook post.">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1472143423000/icon_facebook_white.png" class="fb_feed_icon" alt="Facebook logo.">
                     <a href="" id="latest_fb_link" target="_blank" aria-label="Visit our Facebook page."><p id="latest_fb" class=" latest_post "></p></a>
                 </div>
                 <p class="social_link_blank">
