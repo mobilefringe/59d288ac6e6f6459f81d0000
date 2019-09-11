@@ -24,6 +24,10 @@ $secondary_color: #BE1E2D;//#DCBB8D;
 $description_color: #4e4e4e;//#ABABAB;
 $font_family : Centuary Gothic;
 
+*:hover {
+    border: default;
+}
+
 .accessibility {
     visibility: hidden;
     height: 0;
