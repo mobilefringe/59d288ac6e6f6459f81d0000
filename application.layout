@@ -74,8 +74,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         PROGRAMS
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" alt="Expand Programs dropdown sub-menu." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" alt="Minimize Programs dropdown sub-menu." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/contest">Contest</a></li>
@@ -86,8 +86,8 @@
                 <li>
                     <a href="#"  class="submenu_expander">
                         INFORMATION
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" alt="Expand Information dropdown sub-menu." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" alt="Minimize Information dropdown sub-menu." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/hours">Center Hours</a></li>
@@ -98,8 +98,8 @@
                 <li>
                     <a href="#" class="submenu_expander">
                         CONTACT US
-                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" style="display: inline;">
-						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" style="display: none;">
+                        <img class="menu_icon plus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650035000/plus_2x_icon42.png" alt="Expand Contact Us dropdown sub-menu." style="display: inline;">
+						<img class="menu_icon minus_icon" src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1507650030000/minus_2x_icon42.png" alt="Minimize Contact Us dropdown sub-menu." style="display: none;">
                     </a>
                     <ul class="sub_menu hidden_now">
                         <li><a href="/contact">Contact Us</a></li>
