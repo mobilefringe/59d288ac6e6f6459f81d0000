@@ -386,6 +386,10 @@ body{
     background: #fff;
 }
 
+.flex-active {
+    background: #fff;
+}
+
 .flex-direction-nav a{
     width:28px;
     height:28px;
