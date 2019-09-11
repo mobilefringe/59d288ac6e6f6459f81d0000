@@ -73,7 +73,7 @@
             show_content();
             
                             // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
-        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
+        $('#mapplic > img:not([alt])').attr('alt', 'Yuba Sutter Mall interactive map.');
         }
         
 		loadMallDataCached(renderAll); 
