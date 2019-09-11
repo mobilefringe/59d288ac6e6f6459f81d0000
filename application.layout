@@ -154,8 +154,8 @@
                 <p class="hidden_phone" style="text-align: right;">Follow us on</p>
                 <div class="social_icons hidden_phone_inline pull-right">
                     <a class="social_fb" href="https://www.facebook.com/yubasuttermall/" target="_blank" aria-label="Visit our Facebook page."></a>
-                    <a class="social_twitter" href="https://twitter.com/yubasutter_mall" target="_blank"></a>
-                    <a class="social_insta" href="https://www.instagram.com/yubasuttermall/" target="_blank"></a>
+                    <a class="social_twitter" href="https://twitter.com/yubasutter_mall" target="_blank" aria-label="Visit our Twitter."></a>
+                    <a class="social_insta" href="https://www.instagram.com/yubasuttermall/" target="_blank" aria-label="Visit our Instagram."></a>
                 </div>
                 <img src="//codecloud.cdn.speedyrails.net/sites/56c740936e6f642d56000000/image/png/1455905827000/icon_menu.png" class="open_menu show_phone" alt="Menu">
             </div>
