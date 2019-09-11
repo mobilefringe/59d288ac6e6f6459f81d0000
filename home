@@ -71,7 +71,7 @@
     <div class="feature_row" id="feature_container">
         <div class="feature_item_container"  id="feature_0"></div>
         <div class="feature_item_container ">
-            <div class="hidden_phone social_box text-center feature_item wow animated flipInX animated" id="social_fb" style="background: black">
+            <div class="hidden_phone social_box text-center feature_item wow animated flipInX animated" id="social_fb">
                 <img src= "//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1517940654349/fb-box.png" alt="Facebook post."/>
                 
                 <div class="hover_see_more_btn">
