@@ -93,7 +93,7 @@
         _.forEach(floorList(), function(value, key) {
             var floor_1 = {};
             floor_1.id = value.id;
-            floor_1.title = value.title;
+            floor_1.h4 = value.title;
             console.log("value.map", value.map);
             floor_1.map = value.map;
     
