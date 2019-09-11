@@ -203,6 +203,7 @@
     </section>
     
     <section class="yield">
+        <h1 class="accessibility">Yuba Sutter Mall</h1>
         {{yield}}
     </section>
     
