@@ -111,7 +111,7 @@
             <div class="social_icons_menu show_phone text-center">
                 <p>Follow us on</p>
                 <a href="https://www.facebook.com/yubasuttermall/" target="_blank">
-                    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911898000/icon_facebook2.png" class="" alt="FB">
+                    <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911898000/icon_facebook2.png" class="" alt="FB" aria-label="Visit our Facebook page.">
                 </a>
                 <a href="https://twitter.com/yubasutter_mall" target="_blank">
                     <img src="//codecloud.cdn.speedyrails.net/sites/59d288ac6e6f6459f81d0000/image/png/1455911906000/icon_twitter2.png" class="" alt="Twitter">
