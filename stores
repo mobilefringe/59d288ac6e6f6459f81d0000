@@ -62,7 +62,8 @@
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="mobile_padding show_phone">
         <a href="/map" class="mobile_dd">Open Center Map</a>
-        <select id="mobile_cat_list" class="form-control custom_form_control" aria-labelledby="Filter dropdown by category.">
+        <label for="mobile_cat_list mobile_cat_list_all_categories" class="visuallyHidden"> All Categories</label>
+        <select id="mobile_cat_list mobile_cat_list_all_categories" class="form-control custom_form_control" aria-labelledby="Filter dropdown by category.">
             <script id="category_template2" type="x-tmpl-mustache/text">
                 <option value="{{id}}">{{name}}</option>
             </script>
