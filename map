@@ -71,6 +71,9 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderMap(stores);
             show_content();
+            
+                            // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
+        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
         }
         
 		loadMallDataCached(renderAll); 
@@ -165,8 +168,7 @@
             self.moveTo(0.5, 0.5, 0.75, 0) 
         });
         
-                // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
-        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
+
     
     }
     function floorList() {
