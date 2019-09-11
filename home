@@ -94,7 +94,7 @@
             <script id="promos_template" type="x-tmpl-mustache/text">
                 <div class="promotion_item wow animated flipInX animated text-center">
                     <a href="/promotions/{{slug}}">
-                        <img class="featured_promo_img full_border" src="{{image_url}}" alt="{{name}}'s current promotion." />
+                        <img class="featured_promo_img full_border" src="{{image_url}}" alt="{{store_name}}'s current promotion." />
                         <h3 class="promotion_header home_promos">{{name}}</h3>
                         <p class="promotion_dates">{{dates}}</p>
                     </a>
