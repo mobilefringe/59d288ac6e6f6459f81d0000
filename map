@@ -156,7 +156,8 @@
             tooltiplabel: 'More'
         });
         
-        $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
+        // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
+        $('#mapplic > img').attr('alt', 'Yuba Sutter Mall interactive map.');
     
         map.on('mapready', function(e, self) {
             console.log("Map Loaded", self);
