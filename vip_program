@@ -1,0 +1,189 @@
+<div class="content_container hidden_phone position_relative">
+    <div class="flexslider banner_header">
+        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
+        <div class="banner_overlay"></div>
+    </div>
+    <div class="main_container position_relative">
+        <div class="banner_header_title " id="mm_title">
+            VIP Program
+        </div>
+        <div class="banner_header_location  ">
+            Home / VIP Program
+        </div>
+    </div>
+</div>
+<div class="content_container main_container padding_bottom_50">
+    <h4 class="promo_main_header  show_phone" id="mm_title_phone">VIP Program</h4>
+    <div class="direction_container padding_top_20">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="mm_page_content" class="promo_list_desc">
+                    When you sign up for Email updates from Yuba Sutter Mall, you'll receive advance notice of exciting offers, new products and seasonal events. You can unsubscribe at any time, so give us a try! Simply fill out the form below. This information is for private use only and is used to support our commitment to keep content on this Web site relevant to you.
+                </div>
+            </div>
+            
+        </div>
+        <div class="row padding_top_20">
+            <form id="contest_form">
+                <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
+                <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
+                <input type="hidden" name="cm-name" id="cm-name" />
+                <div class="row ">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="first_name">First Name</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="first_name" name="contest[first_name]" type="text" required data-validation="required" tabindex="1"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="last_name">Last Name</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="last_name" name="contest[last_name]" type="text" required data-validation="required" tabindex="2"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="email">Email</label> <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="email" name="contest[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
+                    </div>
+                    
+                </div>
+                <br class="hidden_phone">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="address">Address</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="address" name="contest[mailing_address]" type="text" required data-validation="required" tabindex="4"/>    
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="city">City</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="city" name="contest[city]" type="text" required data-validation="required" tabindex="5"/>    
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <label for="postal_code">State</label>  <span style="color: #b00a0a"> *</span>
+                        <select name="contest[province]" class="form-control" tabindex="6">
+                        	<option value="AL">AL</option>
+                        	<option value="AK">AK</option>
+                        	<option value="AZ">AZ</option>
+                        	<option value="AR">AR</option>
+                        	<option value="CA" selected>CA</option>
+                        	<option value="CO">CO</option>
+                        	<option value="CT">CT</option>
+                        	<option value="DE">DE</option>
+                        	<option value="DC">DC</option>
+                        	<option value="FL">FL</option>
+                        	<option value="GA">GA</option>
+                        	<option value="HI">HI</option>
+                        	<option value="ID">ID</option>
+                        	<option value="IL">IL</option>
+                        	<option value="IN">IN</option>
+                        	<option value="IA">IA</option>
+                        	<option value="KS">KS</option>
+                        	<option value="KY">KY</option>
+                        	<option value="LA">LA</option>
+                        	<option value="ME">ME</option>
+                        	<option value="MD">MD</option>
+                        	<option value="MA">MA</option>
+                        	<option value="MI">MI</option>
+                        	<option value="MN">MN</option>
+                        	<option value="MS">MS</option>
+                        	<option value="MO">MO</option>
+                        	<option value="MT">MT</option>
+                        	<option value="NE">NE</option>
+                        	<option value="NV">NV</option>
+                        	<option value="NH">NH</option>
+                        	<option value="NJ">NJ</option>
+                        	<option value="NM">NM</option>
+                        	<option value="NY">NY</option>
+                        	<option value="NC">NC</option>
+                        	<option value="ND">ND</option>
+                        	<option value="OH">OH</option>
+                        	<option value="OK">OK</option>
+                        	<option value="OR">OR</option>
+                        	<option value="PA">PA</option>
+                        	<option value="RI">RI</option>
+                        	<option value="SC">SC</option>
+                        	<option value="SD">SD</option>
+                        	<option value="TN">TN</option>
+                        	<option value="TX">TX</option>
+                        	<option value="UT">UT</option>
+                        	<option value="VT">VT</option>
+                        	<option value="VA">VA</option>
+                        	<option value="WA">WA</option>
+                        	<option value="WV">WV</option>
+                        	<option value="WI">WI</option>
+                        	<option value="WY">WY</option>
+                        </select>
+                    </div>
+                    
+                </div>
+                <br class="hidden_phone">
+                <div class="row">
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="postal_code">Zip Code</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="postal_code" name="contest[postal_code]" type="text" required data-validation="required" tabindex="7"/>
+                    </div>
+                    <div class="col-md-4 col-sm-6 margin_30">
+                        <label for="phone">Phone Number</label>  <span style="color: #b00a0a"> *</span>
+                        <input class="form-control" id="phone" name="contest[phone]" type="text" required data-validation="required" tabindex="8"/>    
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="agree">
+                            <input id="agree_to_conditions" required type="checkbox" tabindex="9" /> 
+                            I agree to receive electronic messages from Yuba Sutter Mall.
+                        </label>
+                        
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" style="float: none;">
+                        <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="10">Click here</a> to view the rules and regulations.-->
+                        <br/><br/>
+                        <button class=" store_header_btns" tabindex="11">Submit</button>
+                        <br/><br/>
+                    </div>
+                    <div id="success_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-success fade in" style="margin-top:18px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Success!</strong> Thank you, your entry has been received.
+                        </div>
+                    </div>
+                    <div id="error_subscribe_popup" class="hidden_now">
+                        <div class="alert alert-error fade in" style="margin-top:12px;">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
+                        </div>
+                    </div>
+                    <br/><br/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        
+        prefix = get_prefix();
+        $.validate();
+         var contest_details = getContestBySlug('yubasutter-vip-program'); 
+         var property = getPropertyDetails ();
+         console.log(contest_details, property);
+         $('#contest_id').val(contest_details.id);
+         $('#property_id').val(property.id);
+        $('#contest_form').submit(function(e){
+            
+            e.preventDefault();
+            $('.contest_btn').prop('disabled', true);
+            // submit_contest(slug);
+            submit_contest($(this).serialize());
+            // $('html, body').animate({scrollBottom : 0},800);
+        });
+    };
+    $(window).load(function(e){
+        show_content();
+    });
+</script>
