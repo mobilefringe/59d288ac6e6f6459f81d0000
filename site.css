@@ -24,6 +24,11 @@ $secondary_color: #BE1E2D;//#DCBB8D;
 $description_color: #4e4e4e;//#ABABAB;
 $font_family : Centuary Gothic;
 
+.accessibility {
+    visibility: hidden;
+    height: 0;
+}
+
 .feature_item figure figcaption .view_button{
    background: #b9dcd2;
     color:black;
