@@ -71,7 +71,9 @@
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderMap(stores);
             show_content();
-            
+            $(".zoom-in").append('<p style="display: none;">Zoom In</p>');
+           	$(".zoom-out").append('<p style="display: none;">Zoom Out</p>');
+
                             // $('.mapplic-map-image').attr('alt', 'Yuba Sutter Mall interactive map.');
         $('#mapplic > img:not([alt])').attr('alt', 'Yuba Sutter Mall interactive map.');
         }
