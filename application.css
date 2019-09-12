@@ -17,7 +17,8 @@ body{
     a{
         cursor:pointer;
         &:hover {
-            border: default;
+            // border: default;
+            color: red;
         }
     }
 }
