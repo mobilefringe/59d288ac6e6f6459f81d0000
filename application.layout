@@ -161,7 +161,7 @@
             </div>
         </div>
         <hr/>
-        <div class="menu_container hidden_phone main_container menu_header_content" style="padding-bottom:5px;" id="naviagation_bar">
+        <nav class="menu_container hidden_phone main_container menu_header_content" style="padding-bottom:5px;" id="naviagation_bar">
             <ul class="stc_nav nav navbar-nav">
                 <li class="nav_li"> <a href="/stores">Directory</a></li>
                 <li class="nav_li"><a href="/promotions">Specials</a></li>
@@ -198,7 +198,7 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </nav>
         <hr/>
     </section>
     
@@ -253,7 +253,7 @@
                 </div>
                 <div class="col-md-4 right_border left_border bottom_border col-xs-12">
                     <h4 class="site_map_heading">Site Map</h4>
-                    <div class="row footer_site_map">
+                    <nav class="row footer_site_map">
                         <div class="col-md-6 col-xs-6">
                             <ul>
                                 <li><a href="/stores">Directory</a></li>
@@ -272,7 +272,7 @@
                                 <li><a href="//yubasutter.mallmaverick.com/retail_users/sign_in" target="_blank">Tenant Login</a></li>
                             </ul>
                         </div>
-                    </div>
+                    </nav>
                 </div>
                 <div class="col-md-4 col-xs-12 bottom_border">
                     <h4 class="site_map_heading"> &copy; <span id="current_year"></span> - Yuba Sutter Mall</h4>
