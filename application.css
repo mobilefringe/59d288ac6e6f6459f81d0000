@@ -966,7 +966,6 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     font-weight:lighter;
     font-size: 16px;
     color: $theme_color;//#FF3355;
-    text-decoration:underline;
 }
 
 .promo_store{
