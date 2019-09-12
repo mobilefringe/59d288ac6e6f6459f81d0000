@@ -177,7 +177,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">Information</a>
+                <li class="dropdown nav_li"> <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent" aria-haspopup="true" aria-expanded="false">Information</a>
                     <div class="dropdown-menu invisible_dropdown_div dd_info dropdown-menu-hover">
                         <ul class="dd_guest dropdown_list">
                             <div class="triangle-up"></div>
@@ -188,7 +188,7 @@
                         </ul>
                     </div>
                 </li>
-                <li class="dropdown nav_li"> <a href="" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent">About Us</a>
+                <li class="dropdown nav_li"> <a href="#" data-toggle="dropdown" class="menu_link dropdown-toggle menu_dropdown_parent" aria-haspopup="true" aria-expanded="false">About Us</a>
                     <div class="dropdown-menu invisible_dropdown_div dd_about dropdown-menu-hover">
                         <ul class="dd_guest dropdown_list">
                             <div class="triangle-up"></div>
