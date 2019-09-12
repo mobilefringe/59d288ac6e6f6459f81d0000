@@ -122,7 +122,6 @@ $font_family : Centuary Gothic;
 }
 .main_logo{
     height: 65px;	
-    // height: 100%;
     width: 100%;
     color: $theme_color;	
     font-family: $font_family;
@@ -154,8 +153,6 @@ $font_family : Centuary Gothic;
     width:100%;
     top: 0%;
     left: 0%;
-    // transform: translate(-50%, -50%);
-    // -ms-transform: translate(-50%, -50%);
     z-index:5;
 }
 .footer_hours {
@@ -175,7 +172,6 @@ $font_family : Centuary Gothic;
 
     }
     #footer_hours_container #hours_home {
-        // margin: 10px;
         margin: 10px auto 0;
         font-weight: 600;
     }
@@ -188,7 +184,6 @@ $font_family : Centuary Gothic;
     padding-right:0;
     
     padding-bottom: 16px;
-    // overflow: hidden;
     .col-md-3, .col-md-4, .col-md-5{
        padding-left:0;
        padding-right:0;
@@ -214,17 +209,13 @@ $font_family : Centuary Gothic;
     border-radius: 25px;
 }
 .hours_home{
-    // display: inline-block;
     font-family: $font_family;
     font-size: 14px;
     line-height: 23px;
-    // margin: 15px 0px;
-        margin: 10px 0px 15px;
+    margin: 10px 0px 15px;
 }
 
 .hover_see_more_btn {
-    // border-radius: 5px;
-    // border: 2px solid #fff;
     background : transparent;
     width:100%;
     padding:0px;
@@ -237,7 +228,6 @@ $font_family : Centuary Gothic;
     -o-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     z-index:5;
-    // opacity:0.8;
     .hover_text {
         position:relative;
         opacity: 1;
@@ -279,7 +269,6 @@ hr {
 }
 .banner_header_title {
 	height: 57px;
-// 	width: 209px;
 	color: $theme_color;
 	font-family: $font_family;//Georgia;
 	font-size: 40px;
@@ -292,7 +281,6 @@ hr {
 }
 .banner_header_location {
 	height: 21px;
-// 	width: 144px;
 	color:$theme_color;
 	font-family: $font_family;//Georgia;
 	font-size: 22px;
@@ -310,7 +298,6 @@ hr {
 }
 .store_header_title {
     height: 57px;
-// 	width: 209px;
 	color: $theme_color;
 	a{
 	    color: $theme_color;
@@ -334,8 +321,6 @@ hr {
 	right:0px;
 }
 .store_header_btns {
-//     height: 40px;
-// 	width: 165px;
 	height: 45px;
     width: 235px;
 	border-radius: 100px;
@@ -392,7 +377,6 @@ hr {
         color: #5e5e5e;//$description_color;//#4A4A4A;
         letter-spacing: 0px;
         line-height: 36px;
-        // padding-bottom: 15px;
         &:first-child{
             padding-right: 22px;
         }
@@ -407,7 +391,6 @@ hr {
 #contest_form label {
     color: #000;
     margin-top: 10px;
-    // #e7142a;
 }
 
 #contest_form .form-control {
@@ -418,15 +401,12 @@ hr {
 .contest_link {
     font-weight: bold;
     color: #000; 
-    // #e7142a;
     &:hover {
         color: #e7142a;
         text-decoration: underline;
     }
 }
 .banner_overlay {
-    // border-radius: 5px;
-    // border: 2px solid #fff;
     background : #fff;
     width:100%;
     height:100%;
@@ -443,7 +423,6 @@ hr {
     opacity: 0.7;
 }
 .social_icons_container {
-    // margin-top: 5px;
     margin-top: 22px;
 }
 .logo_hour_container{
@@ -473,12 +452,6 @@ hr {
     padding: 0 5px;
 }
 .social_box{
-    // padding:30px 30px;
-    // background: #17316F;
-    // height:300px;
-    // width:100%;
-    // display:inline-block;
-    // float: left;
     color:#FFFFFF;
     font-weight:bold;
     font-size: 16px;
@@ -582,13 +555,7 @@ hr {
         padding-left:0;
         padding-right:0;
     }
-    // .banner_header{
-    //     height: 260px;
-    // }
-    // .main_logo {
-    //     font-size: 43px;
-    //     max-width:450px;
-    // }
+
     .social_box{
         img.fb_feed_icon {
             width: 40px;
@@ -604,15 +571,10 @@ hr {
         background-color: rgba(255,255,255,1);
         position: relative;//absolute;
         width:100%;
-        // top: 0%;
-        // left: 0%;
-        // transform: translate(-50%, -50%);
-        // -ms-transform: translate(-50%, -50%);
         z-index:5;
     }
     .visit_us_header {
         /* VISIT US!: */
-        // font-family: "SFNSDisplay";
         font-size: 24px;
         color: #000000;
         letter-spacing: 1px;
