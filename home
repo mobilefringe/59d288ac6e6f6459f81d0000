@@ -41,7 +41,7 @@
                    <!--    <img src="{{image_url}}" alt="banner"/>-->
                     <!-- </a>-->
                     <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" aria-label="Go to homepage." >
+                        {{#url}}<a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" aria-label="Go to homepage." >{{/url}}
                         </a>
                     </div>
                 </li>
@@ -60,7 +60,7 @@
             <script id="banner_template" type="x-tmpl-mustache/text">
                 <li>
                     <div style="background-image:url({{image_url}})" class="banner_image_div">
-                        <a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" aria-label="Go to homepage."></a>
+                        {{#url}}<a class="banner_image_li" href="{{url}}" {{css}} onclick="{{noLink}}" aria-label="Go to homepage."></a>{{/url}}
                     </div>
                 </li>
             </script>
