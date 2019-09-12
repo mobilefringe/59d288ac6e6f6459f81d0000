@@ -1580,6 +1580,9 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     }
     .content_container{
         margin:0 auto;
+        a:focus {
+            outline: 5px auto -webkit-focus-ring-color;
+        }
         
     }
     .main_container{
