@@ -16,8 +16,8 @@ body{
     // padding-bottom: 50px;
     a{
         cursor:pointer;
-        &:hover {
-            // border: default;
+        &:focus {
+            border: 4px solid blue;
             color: red;
         }
     }
