@@ -872,7 +872,7 @@ ul.nav li.dropdown:hover > .dropdown-menu-hover {
     padding: 4px 0;
 }
 
-.dd_guest li a:hover{
+.dd_guest li a:hover, .dd_guest li a:focus {
     color: $theme_color;
 }
 
