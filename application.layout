@@ -230,7 +230,7 @@
                             <h4 class="site_map_heading"> Today's Hours</h4>
                             <span id="footer_hours_container">
                                 <script id="footer_hours_template" type="x-tmpl-mustache/text">
-                                    <div class="hours_today site_map_desc text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</div>
+                                    <div class="hours_today site_map_desc" id="hours_home">{%raw%}{{h}}{%endraw%}</div>
                                 </script>
                             </span>
                             <a href="/hours" class="" ><u>View all hours</u></a>
