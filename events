@@ -28,7 +28,7 @@
                             <h2 class="promo_list_name">{{name}}</h2>
                             <p class="promo_dates">{{dates}}</p>
                             <div class="promo_list_desc">{{description_short}}</div>
-                            <a class="read_more" href="/events/{{slug}}">View Event Details</a>
+                            <a class="read_more" href="/events/{{slug}}" aria-label="Event Details: {{name}}">View Event Details</a>
                         </div>
                     </div>
                     <hr class="show_hr hidden_now"/>
