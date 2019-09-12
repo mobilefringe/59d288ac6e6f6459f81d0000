@@ -305,7 +305,6 @@ hr {
 	z-index: 4;
 }
 .banner_image_li{
-    height: calc(100vh - 170px);//550px;
     display:block
     
 }
