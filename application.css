@@ -17,8 +17,8 @@ body{
     a{
         cursor:pointer;
         &:focus {
-            border: 4px solid blue;
-            color: red;
+            border: 2px solid blue;
+            z-index:10;
         }
     }
 }
