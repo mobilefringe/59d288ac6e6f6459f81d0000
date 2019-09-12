@@ -16,6 +16,9 @@ body{
     // padding-bottom: 50px;
     a{
         cursor:pointer;
+        &:hover {
+            border: default;
+        }
     }
 }
 
