@@ -58,7 +58,7 @@
 </head>
 
 <body class="">
-    <div class="mobile_menu_container">
+    <nav class="mobile_menu_container">
         <div class="opened_mobile_menu">
             <h3>MENU</h3>
             <ul>
@@ -121,7 +121,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </nav>
     <section class="content_container  position_relative menu_header">
         <div class="row header mobile_margin main_container menu_header_content">
             <div class="col-md-6 col-sm-6 col-xs-1 logo_hour_container">
