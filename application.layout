@@ -212,8 +212,9 @@
             <div class="row" style="margin:auto">
                 <div class="col-md-4 col-xs-12 bottom_border">
                     <div class="hidden_phone">
-                        <h4 class="site_map_heading">Visit Us</h4>
+                        <!--<h4 class="site_map_heading">Visit Us</h4>-->
                         <div class="col-md-5 col-xs-5" style="padding: 0;">
+                            <h4 class="site_map_heading">Visit Us</h4>
                             <p class="site_map_desc">
                                 1215 Colusa Ave
                                 <br />  
@@ -225,6 +226,7 @@
                             </p>
                         </div>
                         <!--<div class="col-md-7 col-xs-7 footer_hours text_center" style="padding: 0;">-->
+                        <div class="col-md-5 col-xs-5" style="padding: 0;">
                             <h4 class="site_map_heading"> Today's Hours</h4>
                             <span id="footer_hours_container">
                                 <script id="footer_hours_template" type="x-tmpl-mustache/text">
@@ -233,6 +235,7 @@
                             </span>
                             <a href="/hours" class="" ><u>View all hours</u></a>
                         <!--</div>-->
+                        </div>
                     </div>
                     <div class="show_phone">
                         <h4 class="site_map_heading">SOCIAL</h4>
