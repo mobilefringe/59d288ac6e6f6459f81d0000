@@ -225,7 +225,7 @@
                             </p>
                         </div>
                         <div class="col-md-7 col-xs-7 footer_hours text_center" style="padding: 0;">
-                            <div class="todays_hours"> Today's Hours</div>
+                            <div class="site_map_heading"> Today's Hours</div>
                             <span id="footer_hours_container">
                                 <script id="footer_hours_template" type="x-tmpl-mustache/text">
                                     <div class="hours_today site_map_desc text_center " id="hours_home">{%raw%}{{h}}{%endraw%}</div>
