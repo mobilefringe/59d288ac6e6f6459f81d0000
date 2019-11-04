@@ -233,7 +233,7 @@
                                     <div class="hours_today site_map_desc" id="hours_home">{%raw%}{{h}}{%endraw%}</div>
                                 </script>
                             </span>
-                            <a href="/hours" class="" ><u>View all hours</u></a>
+                            <a href="/hours">View all hours</a>
                         <!--</div>-->
                         </div>
                     </div>
