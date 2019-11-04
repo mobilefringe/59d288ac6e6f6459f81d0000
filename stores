@@ -171,7 +171,7 @@
             renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores,"#", "#" );
             renderStoreList('#cat_store_container','#cat_store_template', stores,"#", "Z" );
             
-                 var uniqLetters = getStoreAlphabets(shops);
+            var uniqLetters = getStoreAlphabets(stores);
             renderGeneral("#alpha_list", "#alpha-list-template", uniqLetters);
             
             $('#cat_store_container').children().hide();
