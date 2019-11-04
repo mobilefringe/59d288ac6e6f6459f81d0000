@@ -7,7 +7,7 @@
         <div class="banner_header_title " id="mm_title">
             VIP Program
         </div>
-        <div class="banner_header_location  ">
+        <div class="banner_header_location">
             Home / VIP Program
         </div>
     </div>
@@ -23,7 +23,6 @@
             </div>
             
         </div>
-
         <form id="contest_form" class="padding_top_20">
             <input id="property_id" name="contest[property_id]" type="hidden" value="{{property_id}}"/>
             <input id="contest_id" name="contest[contest_id]" type="hidden"  value="{{id}}" />
@@ -109,7 +108,6 @@
                     	<option value="WY">WY</option>
                     </select>
                 </div>
-                
             </div>
             <br class="hidden_phone">
             <div class="row">
@@ -129,12 +127,10 @@
                         <input id="agree_to_conditions" required type="checkbox" tabindex="9" /> 
                         I agree to receive electronic messages from Yuba Sutter Mall.
                     </label>
-                    
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12" style="float: none;">
-                    <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="10">Click here</a> to view the rules and regulations.-->
                     <br/><br/>
                     <button class=" store_header_btns" tabindex="11">Submit</button>
                     <br/><br/>
