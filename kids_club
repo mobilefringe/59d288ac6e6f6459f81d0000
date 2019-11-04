@@ -1,6 +1,5 @@
 <div class="content_container hidden_phone position_relative">
     <div class="flexslider banner_header">
-        <!--<img src="//codecloud.cdn.speedyrails.net/sites/5d78118e6e6f6462e7020000/image/png/1506979423000/banner_placeholder.png" class="" alt="">-->
         <div class="banner_overlay"></div>
     </div>
     <div class="main_container position_relative">
@@ -22,80 +21,78 @@
                     Explority Kids Club was designed to encourage exploration and creativity. Children or as we like to call them "Creationeers" are creative engineers that love to explore and learn best when given fun & educational experiences that build confidence and a positive self image. So come explore with us - we are just getting started!
                 </div>
             </div>
-            
         </div>
-        <div class="row padding_top_20">
-            <form id="contest_form">
-                <div class="row ">
-                    <div class="col-md-4 col-sm-6 margin_30">
-                        <label for="first_name">Guardian's First Name</label>  <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="first_name" name="json[parent_first_name]" type="text" required data-validation="required" tabindex="1"/>
-                    </div>
-                    <div class="col-md-4 col-sm-6 margin_30">
-                        <label for="last_name">Guardian's Last Name</label>  <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="last_name" name="json[parent_last_name]" type="text" required data-validation="required" tabindex="2"/>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <label for="email">Email</label> <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="email" name="json[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
-                    </div>
+        <!--<div class="row padding_top_20">-->
+        <form id="contest_form" class="padding_top_20">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 margin_30">
+                    <label for="first_name">Guardian's First Name</label>  <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="first_name" name="json[parent_first_name]" type="text" required data-validation="required" tabindex="1"/>
+                </div>
+                <div class="col-md-4 col-sm-6 margin_30">
+                    <label for="last_name">Guardian's Last Name</label>  <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="last_name" name="json[parent_last_name]" type="text" required data-validation="required" tabindex="2"/>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <label for="email">Email</label> <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="email" name="json[email]" type="email" required data-validation-regexp="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$" data-validation-error-msg="Please enter a valid email address" data-validation="custom" tabindex="3"/>
+                </div>
+                
+            </div>
+            <br class="hidden_phone">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <label for="notes">Child's Full Name</label> <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="notes" name="json[child_full_name]" type="text" required data-validation="required" tabindex="4"/>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <label for="birthday">Child's Birthday (yyyy-mm-dd) </label>  <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="birthday" name="json[child_birthday]" type="text" required data-validation="required" tabindex="5"/>    
+                </div>
+                <div class="col-md-4 col-sm-6 margin_30">
+                    <label for="phone">Phone Number</label>  <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="phone" name="json[phone]" type="text" required data-validation="required" tabindex="6"/>    
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <label for="zipcode">Zipcode</label> <span style="color: #b00a0a"> *</span>
+                    <input class="form-control" id="zipcode" name="json[zipcode]" type="text" required data-validation="required" tabindex="7"/>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-12">
+                    <label class="agree">
+                        <input id="agree_to_conditions" required type="checkbox" tabindex="7" /> 
+                            I agree to receive electronic messages from Yuba Sutter Mall.
+                    </label>
                     
                 </div>
-                <br class="hidden_phone">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <label for="notes">Child's Full Name</label> <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="notes" name="json[child_full_name]" type="text" required data-validation="required" tabindex="4"/>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <label for="birthday">Child's Birthday (yyyy-mm-dd) </label>  <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="birthday" name="json[child_birthday]" type="text" required data-validation="required" tabindex="5"/>    
-                    </div>
-                    <div class="col-md-4 col-sm-6 margin_30">
-                        <label for="phone">Phone Number</label>  <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="phone" name="json[phone]" type="text" required data-validation="required" tabindex="6"/>    
-                    </div>
-                    
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <label for="zipcode">Zipcode</label> <span style="color: #b00a0a"> *</span>
-                        <input class="form-control" id="zipcode" name="json[zipcode]" type="text" required data-validation="required" tabindex="7"/>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-12">
-                        <label class="agree">
-                            <input id="agree_to_conditions" required type="checkbox" tabindex="7" /> 
-                                I agree to receive electronic messages from Yuba Sutter Mall.
-                        </label>
-                        
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12" style="float: none;">
-                        <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
-                        <br/><br/>
-                        <button class=" store_header_btns" tabindex="9">Submit</button>
-                        <br/><br/>
-                    </div>
-                    <div id="success_subscribe_popup" class="hidden_now">
-                        <div class="alert alert-success fade in" style="margin-top:18px;">
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                            <strong>Success!</strong> Thank you, your entry has been received.
-                        </div>
-                    </div>
-                    <div id="error_subscribe_popup" class="hidden_now">
-                        <div class="alert alert-error fade in" style="margin-top:12px;">
-                            <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
-                            <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
-                        </div>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style="float: none;">
+                    <!--<a class="contest_link" href="/pages/yubasutter-rules-regulations" target="_blank" tabindex="8">Click here</a> to view the rules and regulations.-->
+                    <br/><br/>
+                    <button class=" store_header_btns" tabindex="9">Submit</button>
                     <br/><br/>
                 </div>
-            </form>
-        </div>
+                <div id="success_subscribe_popup" class="hidden_now">
+                    <div class="alert alert-success fade in" style="margin-top:18px;">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                        <strong>Success!</strong> Thank you, your entry has been received.
+                    </div>
+                </div>
+                <div id="error_subscribe_popup" class="hidden_now">
+                    <div class="alert alert-error fade in" style="margin-top:12px;">
+                        <a href="#" class="close" data-dismiss="alert" aria-label="close" title="close">×</a>
+                        <strong>Sorry!</strong> There was a problem submiting your request. Please try again later!
+                    </div>
+                </div>
+                <br/><br/>
+            </div>
+        </form>
     </div>
 </div>
 <script>
