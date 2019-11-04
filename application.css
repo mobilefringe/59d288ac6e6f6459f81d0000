@@ -330,7 +330,7 @@ body{
 .banner_image_div{
     background-size: cover;
     background-repeat: no-repeat;  
-    background-position: 50%;
+    background-position: top center;
     height: calc(100vh - 170px);//550px;
 }
 
