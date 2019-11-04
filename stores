@@ -200,6 +200,11 @@
                 $('#coming_soon_stores').hide();
             }
             renderMap(getStoresList());
+            
+            
+            var uniqLetters = getStoreAlphabets(shops);
+            renderGeneral("#alpha_list", "#alpha-list-template", uniqLetters);
+            
             show_content();
         }
         
