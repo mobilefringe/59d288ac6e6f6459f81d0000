@@ -188,4 +188,8 @@
         $('.stores_table').hide();
         return false;
     }
+    
+    function giveAltToMap () {
+        $('.mapplic-map-image').attr('alt', 'Interactive map.')
+    }
 </script>
