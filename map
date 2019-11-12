@@ -70,7 +70,7 @@
             var stores = getStoresList(); 
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderMap(stores);
-            giveAltToMap ();
+            mapAccessibilityFeatures();
             show_content();
         }
         
@@ -190,7 +190,7 @@
         return false;
     }
     
-    function giveAltToMap () {
+    function mapAccessibilityFeatures () {
         $('.mapplic-map-image').attr('alt', 'Interactive map.')
         $('.mapplic-tooltip-thumbnail').attr('alt', '')
         $('.mapplic-tooltip-title').html('Map')
