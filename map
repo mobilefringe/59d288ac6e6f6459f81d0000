@@ -70,6 +70,7 @@
             var stores = getStoresList(); 
             renderStoreList('#store_list_container_map','#store_list_template_map', stores, "A", "Z");
             renderMap(stores);
+            giveAltToMap ();
             show_content();
         }
         
