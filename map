@@ -193,5 +193,6 @@
     function giveAltToMap () {
         $('.mapplic-map-image').attr('alt', 'Interactive map.')
         $('.mapplic-tooltip-thumbnail').attr('alt', '')
+        $('.mapplic-tooltip-title').html('Map')
     }
 </script>
