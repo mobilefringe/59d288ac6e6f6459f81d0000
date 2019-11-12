@@ -204,6 +204,8 @@
                 $('#coming_soon_stores').hide();
             }
             renderMap(getStoresList());
+            
+             mapAccessibilityFeatures () 
             show_content();
         }
         
@@ -317,5 +319,16 @@
         map_self.showLocation(store_id);
         $('.stores_table').hide();
         return false;
+    }
+    
+    function mapAccessibilityFeatures () {
+        $('.mapplic-map-image').attr('alt', 'Interactive map.')
+        $('.mapplic-tooltip-thumbnail').attr('alt', '')
+        $('.mapplic-tooltip-title').html('Map')
+        
+        $('.mapplic-tooltip-close').append('<p class="accessibility">Close map pop-up.</p>')
+        $('.mapplic-popup-link').text('View store details.')
+        $('.mapplic-zoomin-button').attr('aria-label', 'Zoom-In button.')
+        $('.mapplic-zoomout-button').attr('aria-label', 'Zoom-Out button.')
     }
 </script>
