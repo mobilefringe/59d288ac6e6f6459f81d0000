@@ -195,7 +195,7 @@
         $('.mapplic-tooltip-thumbnail').attr('alt', '')
         $('.mapplic-tooltip-title').html('Map')
         
-        $('.mapplic-tooltip-close').append('<p class="accessibility">Click to close map pop-up.</p>')
+        $('.mapplic-tooltip-close').append('<p class="accessibility">Close map pop-up.</p>')
         $('.mapplic-zoomin-button').attr('aria-label', 'Zoom-In button.')
         $('.mapplic-zoomout-button').attr('aria-label', 'Zoom-Out button.')
     }
