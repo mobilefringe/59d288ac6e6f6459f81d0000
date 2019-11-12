@@ -55,12 +55,12 @@
     <p class="store_main_desc">explore • enjoy • shop</p>
     <div class="mobile_padding show_phone">
         <a href="/map" class="mobile_dd">Open Center Map</a>
-        <select id="mobile_cat_list" class="form-control custom_form_control" aria-labelledby="Filter dropdown by category.">
+        <select id="mobile_cat_list" class="form-control custom_form_control" aria-labelledby="mobile_dd">
             <script id="category_template2" type="x-tmpl-mustache/text">
                 <option value="{{id}}">{{name}}</option>
             </script>
         </select>
-        <select id="mobile_alpha_list" class="form-control custom_form_control" aria-labelledby="Filter dropdown by Index.">
+        <select id="mobile_alpha_list" class="form-control custom_form_control" aria-labelledby="mobile_dd">
             <option disabled="disabled" selected>Index</option>
             <option value="7">top</option>
             <option value="7">#</option>
